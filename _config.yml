@@ -93,7 +93,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 # Includes & excludes
 include: ['_pages', ".htaccess"]
-exclude: [vendor]
+exclude: [vendor,"deploy.sh"]
 
 # Plug-ins
 plugins:
