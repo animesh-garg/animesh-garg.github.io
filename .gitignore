@@ -5,8 +5,8 @@ todo.txt
 *~
 
 # do not commit data (pdf, images and such to source)
-assets/pdf/*
-assets/img/*
+# assets/pdf/*
+# assets/img/*
 
 ## jekyll
 .jekll_cache/
