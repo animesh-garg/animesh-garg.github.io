@@ -1,0 +1,5 @@
+// only for redirecting from old to new sites
+// RedirectMatch 301 /(.*) https://www.cs.toronto.edu/$1
+
+Options -Indexes
+
