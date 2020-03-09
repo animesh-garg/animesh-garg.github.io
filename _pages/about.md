@@ -12,7 +12,7 @@ news: true
 social: true
 ---
 
-I am an Assistant Professor of [Computer Science](https://web.cs.toronto.edu/) at [University of Toronto](https://www.utoronto.ca/) and a Faculty Member at the [Vector Institute](https://vectorinstitute.ai/). I direct the UofT [People, AI and Robotics (PAIR)](http://pair.toronto.edu/) group.
+I am an Assistant Professor of [Computer Science](https://web.cs.toronto.edu/) at [University of Toronto](https://www.utoronto.ca/) and a Faculty Member at the [Vector Institute](https://vectorinstitute.ai/). I direct the UofT [People, AI and Robotics (PAIR)](http://pairlab.github.io/) group.
 I am affiliated with [Mechanical and Industrial Engineering](https://mie.utoronto.ca) (courtesy) and UofT [Robotics Institute](https://robotics.utoronto.ca/).
 I am also a Sr. Research Scientist at [Nvidia](https://www.nvidia.com/en-us/research/).
 
@@ -26,7 +26,7 @@ Link to a reasonably recent <a href="{{ '/assets/pdf/garg-cv.pdf' | prepend: sit
 
 --- 
 
-#### **potential applicants**   
+#### **Potential Applicants**   
 
 I am accepting new students at all levels. Thanks for your interest in my group.   
 However, kindly *do not contact me directly* with regard to Graduate Admissions.  

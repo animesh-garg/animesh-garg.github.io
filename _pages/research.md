@@ -6,10 +6,10 @@ description:
 ---
 
 <div class="img_row" style="height: 150px;">
-    <a href="http://pair.toronto.edu" target="_blank"><img class="col three left" src="{{ site.baseurl }}/assets/img/pair-logo.png" style="object-fit: contain;" alt="" title="People, AI, and Robots"/></a>
+    <a href="http://pairlab.github.io" target="_blank"><img class="col three left" src="{{ site.baseurl }}/assets/img/pair-logo.png" style="object-fit: contain;" alt="" title="People, AI, and Robots"/></a>
 </div>
 
-## [People, AI, and Robots Group](http://pair.toronto.edu)
+## [People, AI, and Robots Group](http://pairlab.github.io)
 
 My group works on Generalizable Autonomy in Robotics. 
 My research vision is to enable robotic systems that: learn hierarchical control tasks by watching humans, seamlessly interact and collaborate with humans, and learn to improve performance and acquire new skills through self-practice. And my approach to these challenges develops algorithmic methods to enable efficient robot learning for long-term sequential tasks through Generalizable Autonomy.

@@ -4,7 +4,8 @@
         // border-bottom: 1px solid $theme-color;
         // border-top: 1px solid $theme-color;
         font-size: 24px;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
+        margin-top: 20px;
         // padding: 20px 0;
         text-align: left;
         border-top: 1px solid $lighter-gray;
@@ -29,7 +30,7 @@
     h2 {
         border-top: 1px solid $light-gray;
         color: $light-gray;
-        margin: 0 -3em -2.5ex -2em;
+        margin: 20px -3em 20px -2em;
         padding-top: 1ex;
         text-align: right;
     }
@@ -45,11 +46,11 @@
         border-left: 1px solid #ccc;
         padding-left: 10px;
         border-radius: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
         // margin: 10px 0;
         position: relative;
         color: $light-gray;
-        font-size: $small-font-size;
+        font-size: 0.9rem;
 
         span { display: block; }
         .title { 

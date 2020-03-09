@@ -26,7 +26,7 @@ git add .
 now=$(date)
 git commit -m "site updated at $now"
 echo "--------Commits staged------------"
-echo "commit message: site updated at $now"
+echo "--------commit message: site updated at $now--------"
 
 git push
 echo "--------Commits pushed------------"
