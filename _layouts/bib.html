@@ -1,0 +1,162 @@
+---
+---
+
+{% if entry.abbr %}
+  {% if site.data.venues[entry.abbr] %}
+    <abbr>[<a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a>]</abbr>
+  {% else %}
+    <abbr>[{{entry.abbr}}]</abbr>
+  {% endif %}
+{% endif %}
+
+<div id="{{entry.key}}">
+  <!-- thesis -->
+  {% if entry.type contains "thesis" %}
+    <span class="title">
+        {% if entry.url  %}
+          <a href="{{ entry.url }}" target="_blank">{{entry.title}}.</a>
+        {% else %}
+          {{entry.title}}.
+        {% endif %}        
+    </span>
+    <em>{{author.first}} {{author.last}}</em>
+    {{entry.degree}}, <em>{{entry.school}}</em>, {{entry.year}}
+
+  <!-- other types -->
+  {% else %}
+    <span class="title">
+        {% if entry.arxiv %}
+          <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">{{entry.title}}.</a>
+        {% elsif entry.pdf %}
+          {% if entry.pdf contains "://" %}
+            <a href="{{ entry.pdf }}" target="_blank">{{entry.title}}.</a>
+          {% elsif entry.pdf %}
+            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">{{entry.title}}.</a>
+          {% endif %}
+        {% elsif entry.url %}
+          <a href="{{ entry.url }}" target="_blank">{{entry.title}}.</a>
+        {% else %}
+          {{entry.title}}.
+        {% endif %}        
+    </span>        
+    <span class="author">
+      {% for author in entry.author_array %}      
+        {% if forloop.length == 1 %}
+          {% if author.last contains site.scholar.last_name %}
+            <em>{{author.first}} {{author.last}}</em>
+          {% else %}
+            {{author.first}} {{author.last}} 
+          {% endif %}
+        {% else %}
+          {% unless forloop.last %}
+            {% if author.last contains site.scholar.last_name %}
+              <em>{{author.first}} {{author.last}}</em>,
+            {% else %}
+              {% if site.data.coauthors[author.last] %}
+                <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>, 
+              {% else %}
+                {{author.first}} {{author.last}}, 
+              {% endif %}
+            {% endif %}
+          {% else %}
+            {% if author.last contains site.scholar.last_name %}
+              <em>{{author.first}} {{ author.prefix }} {{author.last}}</em>.
+            {% else %}
+              {% if site.data.coauthors[author.last] %}
+                <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{ author.prefix }} {{author.last}}</a>. 
+              {% else %}
+                {{author.first}} {{ author.prefix }} {{author.last}}.
+              {% endif %}
+            {% endif %}
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </span>
+
+    <span class="periodical">
+    <!-- journal -->
+    {% if entry.type == "article" %}
+      <em>{{entry.journal}}</em>
+    <!-- conference/woprkshops -->
+    {% elsif entry.type == "inproceedings" or entry.type == "workshop" %}
+      <em>{{entry.booktitle}}</em>
+    <!-- patent -->
+    {% elsif entry.type contains "patent" %}
+      {% if entry.month %}
+        <em>{{entry.number}}</em>, <em>{{entry.month}}</em>, <em>{{entry.yeargranted}}</em>
+      {% else %}
+        <em>{{entry.number}}</em>, <em>{{entry.monthfiled}}</em>, <em>{{entry.yearfiled}}</em>
+      {% endif %}
+    <!-- patent -->
+    {% elsif entry.type contains "preprint" %}
+      <em>preprint</em>
+    {% endif %}
+    {% if entry.year %}
+      {{entry.year}}
+    {% endif %}
+    </span>
+  {% endif %}
+
+  <span class="links">
+  {% if entry.award %}
+    <font color="red"><i class="fas fa-trophy"></i> {{entry.award}}</font><br> 
+  {% endif %}  
+  
+  {% if entry.abstract %}
+    [<a class="abstract">Abs</a>]
+  {% endif %}
+  
+  {% if entry.arxiv %}
+    [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
+  {% endif %}
+
+  {% if entry.pdf and entry.pdf contains "://" %}
+    [<a href="{{ entry.pdf }}" target="_blank">pdf</a>]
+  {% elsif entry.pdf %}
+    [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">pdf</a>]
+  {% endif %}
+
+  {% if entry.supp and entry.supp contains "://" %}
+    [<a href="{{ entry.supp }}" target="_blank">supp</a>]
+  {% elsif entry.supp %}
+    [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">supp</a>]
+  {% endif %}
+
+  {% if entry.poster and entry.poster contains "://" %}
+    [<a href="{{ entry.poster }}" target="_blank">poster</a>]
+  {% elsif entry.poster %}
+    [<a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">poster</a>]
+  {% endif %}
+
+  {% if entry.slides and entry.slides contains "://" %}
+    [<a href="{{ entry.slides }}" target="_blank">slides</a>]
+  {% elsif entry.slides %}
+    [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">slides</a>]
+  {% endif %}
+  
+  {% if entry.talk %}
+    [<a href="{{ entry.talk }}" target="_blank">talk</a>]
+  {% endif %}
+
+  {% if entry.url %}
+    [<a href="{{ entry.url }}" target="_blank">project</a>]
+  {% endif %}
+
+  {% if entry.code %}
+    [<a href="{{ entry.code }}" target="_blank">code</a>]
+  {% endif %}
+
+  {% if entry.blog %}
+    <a href="{{ entry.blog }}" target="_blank"><i class="fas fa-blog"></i> Blog</a>
+  {% endif %}
+
+  {% if entry.video %}
+    <a href="{{ entry.video }}" target="_blank"><i class="fas fa-video"></i> Video</a>
+  {% endif %}
+  </span>
+  {% if entry.abstract %} 
+  <span class="abstract hidden">
+    <p>{{ entry.abstract }}</p>
+  </span>
+  {% endif %}
+</div>

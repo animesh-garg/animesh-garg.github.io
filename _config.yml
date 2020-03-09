@@ -1,0 +1,141 @@
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
+name: Animesh Garg
+email: garg@cs.toronto.edu
+description: > # this means to ignore newlines until "url:"
+  Assistant Professor of Robotics and Machine Learning
+footer_text: >
+  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+
+url:  # the base hostname & protocol for your site
+baseurl:  # the subpath of your site, e.g. /blog/
+last_updated: # leave blank if you don't want to display last updated
+
+# -----------------------------------------------------------------------------
+# Open Graph
+# -----------------------------------------------------------------------------
+# Display links to the page with a preview object on social media.
+# To achieve this, change serve_og_meta to true and then provide the URL of the
+# preview image as the value of og_image.
+serve_og_meta: false # Include Open Graph meta tags in the HTML head
+og_image: # The site-wide (default for all links) Open Graph preview image
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+github_username: animesh-garg # your GitHub user name
+twitter_username: animesh_garg # your Twitter handle
+linkedin_username: animeshgarg # your LinkedIn user name
+scholar_userid: zp8V7ZMAAAAJ # your Google Scholar ID
+orcid_id: # your ORCID ID
+medium_username: animesh_garg # your Medium username
+quora_username: # your Quora username
+publons_id: # your ID on Publons
+research_gate_profile: # your profile on ResearchGate
+blogger_url: # your blogger URL
+
+# contact_note: Email me at <a href="mailto:%67%61%72%67@%63%73.%74%6F%72%6F%6E%74%6F.%65%64%75">garg@cs.toronto.edu</a>
+
+google_analytics: UA-37485716-1 # out your google-analytics code
+
+# -----------------------------------------------------------------------------
+# Blog
+# -----------------------------------------------------------------------------
+blog_name: 
+blog_description:  
+
+# Pagination
+paginate: 4
+permalink: /blog/:year/:title/
+paginate_path: /blog/page:num/
+
+text:
+  pagination:
+    newer: 'Newer'
+    older: 'Older'
+
+# Comments
+disqus_shortname: al-folio # put your disqus shortname
+
+# Optional features
+show_social_icons:  true
+enable_anchorjs:    false
+enable_katex:       true
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+news_limit: 10
+
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+
+# Handling Reading
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Includes & excludes
+include: ['_pages', ".htaccess"]
+exclude: [vendor]
+
+# Plug-ins
+plugins:
+    - jekyll-email-protect
+    - jekyll-paginate
+    - jekyll/scholar
+    - jemoji
+
+# -----------------------------------------------------------------------------
+# Jekyll-Scholar
+# -----------------------------------------------------------------------------
+scholar:
+
+  last_name: Garg
+
+  style: apa
+  locale: en
+
+  sort_by: year,month
+  order: descending
+  group_by: type
+  group_order: ascending
+  type_order: [preprint,article,workshop,thesis,patent,misc]
+  type_aliases: {inproceedings: article}
+  type_names: {preprint: Preprints,  article: Papers, workshop: Peer-Reviewed Workshops, thesis: Theses, patent: Patents}
+
+  source: /_bibliography/
+  bibliography: animesh.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+# -----------------------------------------------------------------------------
+# Other settings
+# -----------------------------------------------------------------------------
+jquery_version: "1.12.4"
+katex_version: "0.9.0"
+anchorjs_version: "3.2.2"
