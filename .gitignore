@@ -1,0 +1,17 @@
+
+# do not commit compiled files to source
+_site/
+todo.txt
+*~
+
+# do not commit data (pdf, images and such to source)
+assets/pdf/*
+assets/img/*
+
+## jekyll
+.jekll_cache/
+.jekyll-metadata
+
+
+# Mac crap
+.DS_Store
