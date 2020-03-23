@@ -401,7 +401,6 @@ footer a:hover { color: #0076df; }
 .project .thumbnail a:hover span { display: block; }
 
 .profile img { box-shadow: 0 0 5px #828282; border: 3px solid #FFF; width: 95%; -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */ filter: grayscale(100%); }
-.profile img:hover { filter: none; -webkit-filter: grayscale(0%); }
 
 .address { font-family: monospace; }
 .address p { margin: 0; }
