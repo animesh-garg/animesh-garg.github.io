@@ -2,7 +2,7 @@
 %  DOCS
 Fields (in addition to standard fields)
 pdf - can be url or filetype.pdf
-supp -- can be url or filetype.pdf
+supplement -- can be url or filetype.pdf
 poster -- can be url or filetype.pdf
 slides -- can be url or filetype.pdf
 video -- url
@@ -20,13 +20,13 @@ degree (for thesis type)
 % Patents
 % ==========
 @patent{pouliot2014patient,
-    title = {Patient-Specific Temporary Implants For Accurately Guiding Local Means of Tumor Control Along Patient-Specific Internal Channels to Treat Cancers.},
+    title = {Patient-Specific Temporary Implants For Accurately Guiding Local Means of Tumor Control Along Patient-Specific Internal Channels to Treat Cancers},
     author ={Pouliot,Jean and Ken Goldberg, Hsu,I-Chow  and Cunha,J. Adam and  Garg, Animesh and  Patil, Sachin and  Abbeel, Pieter and Siauw,  Timmy},
     number = {US Patent 10,286,197},
     nationality = {US},
     yearfiled = {2019},
     monthfiled = {{May}},
-    datefiled={28},
+    datefiled={14},
     url={https://patents.google.com/patent/US10286197B2/en}
 }
 
@@ -52,9 +52,9 @@ degree (for thesis type)
   author={McKinley, Stephen and Sen, Siddarth and Garg, Animesh and Jen, Yiming and Gealy, David and Abbeel, Pieter and Goldberg, Ken},
   booktitle={Hamlyn Surgical Robotics Conference, London},
   year={2015},
+  month={jun},
   award={Best Video Award},
   video={https://www.youtube.com/watch?v=YiPq9t0tR3U}
-
 }
 
 @workshop{mckinley2015automated,
@@ -62,6 +62,7 @@ degree (for thesis type)
   author={McKinley, Stephen and Garg, Animesh and Lim, Susan and Patil, Sachin and Goldberg, Ken},
   booktitle={Annual Meeting of the International Society for Stem Cell Research. Stockholm, Sweden.},
   year={2015},
+  month={jun},
   poster={Stem-Cell-Delivery-Instrument-Poster-06-2015.pdf}
 }
 
@@ -69,35 +70,57 @@ degree (for thesis type)
     title = {On Visual Feature Representations for Transition State Learning in Robotic Task Demonstrations},
     author = {Garg*, Animesh and Krishnan*, Sanjay and Murali, Adithyavairavan  and Darrell, Trevor and Abbeel, Pieter and Goldberg (* equal contribution), Ken},    
     booktitle = {{NIPS Workshop on Feature Extraction}},
-    year={2015}
+    year={2015},
+    month={dec},
+    pdf={http://berkeleyautomation.github.io/tsc-dl/files/gkm-wk_nips15-tsc.pdf},
+    url={http://berkeleyautomation.github.io/tsc-dl}
 }
 
 @workshop{krishnan2016hirl,
   title={{HIRL: Hierarchical inverse reinforcement learning for long-horizon tasks with delayed rewards}},
   author={Krishnan, Sanjay and Garg, Animesh and Liaw, Richard and Miller, Lauren and Pokorny, Florian T and Goldberg, Ken},
   journal={{R:SS 2016 Workshop on Bootstrapping Manipulation Skills}},
-  year={2016}
+  year={2016},
+  month={jul},
+  arxiv={1604.06508}
 }
 
 @workshop{mandlekar17rldm,
   title={{Adversarially Robust Policy Learning through Active Construction of Physically-Plausible Perturbations}},
   author={Mandlekar*,Ajay and Zhu*, Yuke and Garg*, Animesh and Fei-Fei, Li and Savarese (* equal contribution), Silvio}, 
   booktitle={Multidisciplinary Conference on Reinforcement Learning and Decision Making (RLDM)},
-  year={2017}
+  year={2017},
+  pdf={http://www.princeton.edu/~ndaw/RLDM17ExtendedAbstracts.pdf#section*.69},
+  month={jun}
 }
 
 @workshop{kuryenkov17corl,
   title={Towards Grasp Transfer using Shape Deformation.},
   author={Kuyenkov*, Andrey and Mehta*, Viraj and Ji, Jingwei and Garg, Animesh and Savarese (* equal contribution), Silvio},
   booktitle={Conference on Robot Learning (CoRL), workshop track},
-  year={2017}
+  year={2017},
+  month={nov},
+  pdf={https://deformnet-site.github.io/DeformNet-website/files/corl.pdf},
+  poster={corl17-deformnet_poster}
 }
 
 @workshop{xu17corl,
   title={Hierarchical Task Generalization with Neural Programs}, 
   author={Xu, Danfei and Zhu, Yuke and Gao, Julian and Garg, Animesh and Fei-Fei, Li and Savarese, Silvio},
   booktitle={Conference on Robot Learning (CoRL), workshop track},
-  year={2017}
+  year={2017},
+  month={nov},
+  talk={https://youtu.be/_9Ny2ghjwuY?t=7h54m}
+}
+
+
+@workshop{xu17rssw,
+  title={Hierarchical Task Generalization with Neural Programs}, 
+  author={Xu, Danfei and Zhu, Yuke and Gao, Julian and Garg, Animesh and Fei-Fei, Li and Savarese, Silvio},
+  booktitle={R:SS Workshop on New Frontiers for Deep Learning in Robotics},
+  year={2017},
+  month={jul},
+  poster={files/ntp-rss17-ws.pdf}
 }
   
 @workshop{lee2019combining,
@@ -105,7 +128,8 @@ degree (for thesis type)
   author={Lee, Michelle A. and Florensa, Carlos and Tremblay, Jonathan and Ratliff, Nathan and Garg, Animesh and Ramos, Fabio and Fox, Dieter},
   booktitle={Workshop on Robot Learning at NeurIPS},
   year={2019},
-  award={Best paper award},
+  month={dec},
+  award={Best paper award at the workshop},
   pdf={http://www.robot-learning.ml/2019/files/papers/Guided%20Uncertainty-Aware%20Policy%20Optimization:%20Combining%20Learning%20and%20Model-Based%20Strategies%20for%20Sample-Efficient%20Policy%20Learning.pdf}
 }
 
@@ -113,34 +137,41 @@ degree (for thesis type)
 % Conferences
 % ==========
 
-@article{garg2011object,
+@inproceedings{garg2011object,
   title={Object Identification and Mapping using Monocular Vision in an Autonomous Urban Driving System},
   author={Garg, Animesh and Toor, Anju and Thakkar, Sahil and Goel, Shiwangi and Maheshwari, Sachin and Chand, Satish},
-  booktitle={Int’l Conf. of Machine Vision},
+  booktitle={International Conference of Machine Vision},
   year={2010}
 }
-@article{garg2012autotrix,
-  title={The Autotrix: Design and Implementation of an Autonomous Urban Driving System},
-  author={Garg, Animesh and Toor, Anju and Thakkar, Sahil and Goel, Shiwangi and Maheshwari, Sachin and Chand, Satish},
-  journal={Advanced Materials Research},
-  volume={403},
-  pages={3884--3891},
-  year={2012},
-  publisher={Trans Tech Publ},
-  url={http://www.scientific.net/AMR.403-408.3884}
+
+@inproceedings{garg2012autotrix,
+author = {Garg, Animesh and Toor, Anju and Thakkar, Sahil and Goel, Shiwangi and Maheshwari, Sachin and Chand, Satish},
+title = {The Autotrix: Design and Implementation of an Autonomous Urban Driving System},
+year = {2012},
+month = {2feb},
+volume = {403},
+pages = {3884--3891},
+booktitle = {MEMS, NANO and Smart Systems},
+series = {Advanced Materials Research},
+publisher = {Trans Tech Publications Ltd},
+pdf = {10.4028/www.scientific.net/AMR.403-408.3884},
+keywords = {Path Planning, Obstacle Avoidance, Monocular Vision, Autonomous Driving, Global Positioning System in Urban Driving},
+abstract = {The Autotrix is an interactive, intelligent, Autonomous Guided Vehicle (AGV) designed to serve in urban environments. Autonomous ground vehicle navigation requires the integration of many technologies such as path planning, odometry, control, obstacle avoidance and situational awareness. The objective of this project is for this prototype to navigate autonomously in an urban environment and reach its destination while detecting and avoiding obstacles on the path .This will be achieved by extracting information from multiple sources of real-time data including digital camera, GPS &ultra sonic sensors, collecting data from this extracted information, processing this data and send controlling instructions to our platform (Autotrix). The significance of this work is in presenting the methods needed for real time navigation; GPS based continuous mapping and obstacle avoidance for intelligent autonomous driving systems.}
 }
 
-@article{thakkar2012low,
-  title={Low-Cost Teleoperation of Remotely Located Actuators Based on Dual Tone Multi-Frequency Data Transfer},
-  author={Thakkar, Sahil and Garg, Animesh and Midha, Adesh and Gaur, Prerna},
-  journal={Advanced Materials Research},
-  volume={403},
-  pages={4727--4734},
-  year={2012},
-  publisher={Trans Tech Publ},
-  url={http://www.scientific.net/AMR.403-408.4727}
+@inproceedings{thakkar2012dtmf,
+author = {Thakkar, Sahil and Garg, Animesh and Midha, Adesh and Gaur, Prerna},
+title = {Low-Cost Teleoperation of Remotely Located Actuators Based on Dual Tone Multi-Frequency Data Transfer},
+year = {2012},
+month = {feb},
+volume = {403},
+pages = {4727--4734},
+booktitle = {MEMS, NANO and Smart Systems},
+series = {Advanced Materials Research},
+publisher = {Trans Tech Publications Ltd},
+pdf = {10.4028/www.scientific.net/AMR.403-408.4727},
+abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used for telecommunications. DTMF uses two tones to represent each key on the touch pad. DTMF data transfer technique has advantages such as high reliability, constant speed, and high signal to noise ratio, low cost and optimal utilization of existing resources. These features make DTMF an attractive Data Transfer Technique. It finds application in home and car security systems, robot control, SMS and voice call controlled industrial applications. In this paper, we discuss the use of DTMF data transfer in a voice call to control a toy car. Cell phone 1(CP 1), which is at user end, makes a call to cell phone 2(CP 2) at the machine end and establishes a connection. A key is pressed at the user side. Two tones corresponding to one key are encoded and sent through the cell phone network. Both tones are tapped through the earphone jack of cell phone at machine end and are decoded. The output is fed to a Micro-controller. The Micro-controller is connected to the remote control unit of the toy car, which in turn controls the motion of the car. The car moves in various directions according to the key pressed user. The electronic circuit is divided into 2 parts. The transmitter side consisting of Cell phone 1 with an inbuilt encoder and the receiver side consisting of Cell Phone 2, 8870 DTMF decoder and Atmega 16 micro-controller. The programming has been carried out on AVR Bascom®.}
 }
-
 
 @article{cunha2012robot,
   title={Robot-guided Delivery of Brachytherapy Needles along Non-Parallel Paths to Avoid Penile Bulb Puncture},
@@ -149,8 +180,9 @@ degree (for thesis type)
   volume={103},
   pages={S45--S46},
   year={2012},
+  month={may},
   publisher={Elsevier},
-  url={https://www.thegreenjournal.com/article/S0167-8140(12)72081-9/abstract}
+  pdf={https://www.thegreenjournal.com/article/S0167-8140(12)72081-9/abstract}
 }
 
 @article{cunha2012robotic,
@@ -161,28 +193,36 @@ degree (for thesis type)
   number={6},
   pages={3931--3931},
   year={2012},
-  publisher={American Association of Physicists in Medicine}
+  month={jun},
+  publisher={American Association of Physicists in Medicine},
+  pdf={https://doi.org/10.1118/1.4736042}
 }
 
 @inproceedings{garg2012initial,
   title={Initial experiments toward automated robotic implantation of skew-line needle arrangements for HDR brachytherapy},
   shorttitle={automated needle implants},
   author={Garg, A. and Siauw, T. and Berenson, D. and Cunha, A. and Hsu, I-Chow and Pouliot, J. and Stoianovici, D. and Goldberg, K.},
-  booktitle={IEEE Int. Conf. Automation Science \& Engg. (CASE)},
+  booktitle={IEEE International Conference  on Automation Science \& Engg. (CASE)},
   IGNOREpages={26--33},
   month={aug},
   year={2012},
   video={https://youtu.be/Kk_wHiu8nGg},
   talk={https://youtu.be/TGEIRpbuS_I},
+  abstract={Automation seeks to improve the reliability and quality of processes. This study aims to automate high dose rate brachytherapy (HDR-BT), a radiation therapy that places radioactive sources at the site of the tumor using needles. Although HDR-BT has a high rate of clinical success in curing prostate cancer, it also has several side effects related to needle and dose trauma. A new planning algorithm from previous work optimizes needle arrangements using skew-lines (non-parallel, non-intersecting lines). This paper presents initial experiments towards an automated system for implanting skew-line needle arrangements computed from a planning system. We describe the interface, calibration and integration of the robotic hardware with the planning system, and present experiments using our robotic system to implant needles into anatomically-correct tissue phantoms. Results suggest that this system can achieve HDR-BT treatment objectives with reduced trauma to organs and low demands on operator skill, thus making the procedure more reliable and repeatable. In the future, we believe that robotic HDR-BT will improve overall treatment quality with reduced dependence on physician skill.},
+  url={https://doi.org/10.1109/CoASE.2012.6386483},
   award={IEEE CASE Best Application Paper Award}
 }
 
 @inproceedings{garg2013algorithm,
   title={An Algorithm for Computing Customized {3D} Printed Implants with Curvature Constrained Channels for Enhancing Intracavitary Brachytherapy Radiation Delivery},
   author={Garg, Animesh and Patil, Sachin and Siauw, Timmy and Cunha, J Adam M and Hsu, I and Abbeel, Pieter and Pouliot, Jean and Goldberg, Ken},
-  booktitle={IEEE Int. Conf. Automation Science \& Engg. (CASE)},
+  booktitle={IEEE International Conference on Automation Science \& Engg. (CASE)},
+  month={aug},
   IGNOREpages={466--473},
-  year={2013}
+  year={2013},
+  abstract={Brachytherapy is a widely-used treatment modality for cancer in many sites in the body. In brachytherapy, small radioactive sources are positioned proximal to cancerous tumors. An ongoing challenge is to accurately place sources on a set of dwell positions to sufficiently irradiate the tumors while limiting radiation damage to healthy organs and tissues. In current practice, standardized applicators with internal channels are inserted into body cavities to guide the sources. These standardized implants are one-size-fits-all and are prone to shifting inside the body, resulting in suboptimal dosages. We propose a new approach that builds on recent results in 3D printing and steerable needle motion planning to create customized implants containing customized curvature-constrained internal channels that fit securely, minimize air gaps, and precisely guide radioactive sources through printed channels. When compared with standardized implants, customized implants also have the potential to provide better coverage: more potential source dwell positions proximal to tumors. We present an algorithm for computing curvature-constrained channels based on rapidly-expanding randomized trees (RRT). We consider a prototypical case of OB/GYN cervical and vaginal cancer with three treatment options: standardized ring implant (current practice), customized implant with linear channels, and customized implant with curved channels. Results with a two-parameter coverage metric suggest that customized implants with curved channels can offer significant improvement over current practice.},
+  pdf={},
+  url={https://ieeexplore.ieee.org/document/6654002}
 }
 
 @article{siauw2014customized,
@@ -190,41 +230,50 @@ degree (for thesis type)
   author={Siauw, Timmy and Cunha, J. Adam M. and Garg, Animesh and Goldberg, Ken and Hsu, I and Pouliot, Jean},
   journal={Brachytherapy},
   year={2014},
+  month={mar},
   url={https://doi.org/10.1016/j.brachy.2014.02.439},
 }
 
 @inproceedings{garg2014exact,
   title={Exact Reachability Analysis for Planning Skew-Line Needle Arrangements for Automated Brachytherapy},
   author={Garg, Animesh and Siauw, Timmy and Yang, Guang and Patil, Sachin and Cunha, J Adam M and Hsu, I-Chow and Pouliot, Jean and Atamt{\"u}rk, Alper and Goldberg, Ken},
-  booktitle={Int. Conf. Automation Science \& Engg. (CASE)},
+  booktitle={IEEE International Conference on Automation Science \& Engg. (CASE)},
   month={aug},
-  year={2014}
+  year={2014},
+  url={https://ieeexplore.ieee.org/document/6899376},
+  abstract={When planning skew-line needle arrangements for automated brachytherapy, one objective is to identify a set of candidate needles that enter from a specified entry region, avoid specified organs-at-risk and sufficiently cover the target (tumor) volume. Existing methods use uniform or random sampling to generate a set of candidate needles, which may not adequately cover the target volume. In this paper we present an exact reachability analysis that can be used to guide the selection of candidate needles and to identify which subset of the target volume may not be reachable. Assuming linear needles, convex polyhedral representations of entry zone, organs-at-risk and target volume, we give an exact polynomial time algorithm for checking existence and calculation of the non-reachable set in the target volume. We perform experiments using patient data from 18 brachytherapy cases and found that 11 cases had non-empty occluded volume inside the target ranging from 0.01% to 4.3% of target volume. We also report a sensitivity study showing the change in the occluded volume with dilation of the avoidance volume and entry zone.}
 }
 
 @inproceedings{murali2015learning,
   title={Learning by Observation for Surgical Subtasks: Multilateral Cutting of {3D} Viscoelastic and {2D} Orthotropic Tissue Phantoms},
   author={Murali, Adithyavairavan and Sen, Siddarth and Kehoe, Ben and Garg, Animesh and McFarland, Seth and Patil, Sachin and Boyd, W Douglas and Lim, Susan and Abbeel, Pieter and Goldberg, Ken},
-  booktitle={IEEE Int. Conf. Robotics \& Automation (ICRA)},
+  booktitle={IEEE International Conference on Robotics \& Automation (ICRA)},
   month={may},
   year={2015},
   award={Finalist: Best Paper, Student Paper, and Medical Robotics Paper Award},
+  abstract={Automating repetitive surgical subtasks such as suturing, cutting and debridement can reduce surgeon fatigue and procedure times and facilitate supervised tele-surgery. Programming is difficult because human tissue is deformable and highly specular. Using the da Vinci Research Kit (DVRK) robotic surgical assistant, we explore a “Learning By Observation” (LBO) approach where we identify, segment, and parameterize motion sequences and sensor conditions to build a finite state machine (FSM) for each subtask. The robot then executes the FSM repeatedly to tune parameters and if necessary update the FSM structure. We evaluate the approach on two surgical subtasks: debridement of 3D Viscoelastic Tissue Phantoms (3d-DVTP), in which small target fragments are removed from a 3D viscoelastic tissue phantom; and Pattern Cutting of 2D Orthotropic Tissue Phantoms (2d-PCOTP), a step in the standard Fundamentals of Laparoscopic Surgery training suite, in which a specified circular area must be cut from a sheet of orthotropic tissue phantom. We describe the approach and physical experiments with repeatability of 96% for 50 trials of the 3d-DVTP subtask and 70% for 20 trials of the 2d-PCOTP subtask.},
+  url={https://ieeexplore.ieee.org/document/7139344},
   video={http://www.youtube.com/watch?v=beVWB6NtAaA}
 }
 
 @inproceedings{mckinley2015disposable,
   title={A Single-Use Haptic Palpation Probe for Locating Subcutaneous Blood Vessels in Robot-Assisted Minimally Invasive Surgery},
-  author={McKinley, Stephen and Garg, Animesh and Sen, Siddarth and Kapadia, Rishi and Murali, Adithyavairavan and Nichols, Kirk and Lim, Susan and Patil, Sachin and Abbeel, Pieter and Okamura, Allison M and Goldeber, Ken},
-  booktitle= {IEEE Int. Conf. Automation Science \& Engg. (CASE)},
+  author={McKinley, Stephen and Garg, Animesh and Sen, Siddarth and Kapadia, Rishi and Murali, Adithyavairavan and Nichols, Kirk and Lim, Susan and Patil, Sachin and Abbeel, Pieter and Okamura, Allison M. and Goldberg, Ken},
+  booktitle= {IEEE International Conference on Automation Science \& Engg. (CASE)},
   month={aug},
   year={2015},
-  award={Best Poster/Demo Award at ICRA 2015 Workshop on Shared Frameworks for Medical Robotics Research}
+  award={Best Poster/Demo Award at ICRA 2015 Workshop on Shared Frameworks for Medical Robotics},
+  pdf={http://berkeleyautomation.github.io/surgical-tools/files/mckinley-disposable-2015.pdf},
+  abstract={We present the design and evaluation of a novel low-cost palpation probe for Robot assisted Minimally Invasive Surgery (RMIS) for localizing subcutaneous blood vessels. It measures probe tip deflection using a Hall Effect sensor as the spherical tip is moved tangentially across a surface under automated control. The probe is intended to be single-use and disposable, built from 3D printed parts and commercially available electronics. The prototype has a cross-section of less than 15mm×10mm and fits on the end of an 8mm diameter needle driver in the Intuitive Surgical da Vinci ® Research Kit (dVRK). We report experiments for quasi-static sliding palpation with silicone based tissue phantoms with embedded cylinders as subcutaneous blood vessel phantoms. We analyzed signal-to-noise ratios with multiple diameters of silicone cylinders (1.58-4.75 mm) at varying subcutaneous depths (1-5 mm) with a range of indentation depths (0-8 mm) and sliding speeds (0.5-21 mm/s). Results suggest that the probe can detect subcutaneous structures in phantoms of diameter 2.25 mm at a depth of up to 5mm below the tissue surface.},
+  url={https://doi.org/10.1109/CoASE.2015.7294253}
   }
 
 @inproceedings{krishnan2015tsc,
   title={Transition State Clustering: Unsupervised Surgical Trajectory Segmentation For Robot Learning},
   author={Krishnan*, Sanjay and Garg*, Animesh and Patil, Sachin and Lea, Colin and Hager, Gregory and Abbeel, Pieter and Goldberg (* equal contribution), Ken},
-  booktitle={Int. Symp. on Robotics Research (ISRR)},
+  booktitle={International Symposium on Robotics Research (ISRR)},
   year={2015},
+  mon={sep},
   organization={Springer STAR},
   code={https://github.com/BerkeleyAutomation/tsc}
 }
@@ -232,7 +281,7 @@ degree (for thesis type)
 @inproceedings{murali2016tscdl,
   title={{TSC-DL:} Unsupervised Trajectory Segmentation of Multi-Modal Surgical Demonstrations with Deep Learning },
   author={Murali*, Adithyavairavan and Garg*, Animesh and Krishnan*, Sanjay and Pokorny, Florian and Abbeel, Pieter and Darrell, Trevor and Goldberg (* equal contribution), Ken},
-  booktitle={IEEE Int. Conf. Robotics \& Automation (ICRA)},
+  booktitle={IEEE International Conference on Robotics \& Automation (ICRA)},
   month={may},
   year={2016},
   url={http://berkeleyautomation.github.io/tsc-dl/},
@@ -243,7 +292,7 @@ degree (for thesis type)
 @inproceedings{sen2016suturing,
   title={Autonomous Multiple-Throw Multilateral Surgical Suturing with a Mechanical Needle Guide and Optimization based Needle Planning },
   author={Sen*, Siddarth and Garg*, Animesh and Gealy, David and McKinley, Stephen and Jen, Yiming and Goldberg (* equal contribution), Ken},
-  booktitle={IEEE Int. Conf. Robotics \& Automation (ICRA)},
+  booktitle={IEEE International Conference on Robotics \& Automation (ICRA)},
   month={may},
   year={2016},
   IGNOREorganization={IEEE},
@@ -251,23 +300,26 @@ degree (for thesis type)
   video={https://youtu.be/z1ehShXFToc}
 }
 
-
 @inproceedings{garg2016gpas,
-  title={{An Tumor Localization using Automated Palpation with Gaussian Process Adaptive Sampling}},
+  title={{Tumor localization using automated palpation with Gaussian Process Adaptive Sampling}},
   author={Garg, Animesh and Sen, Siddarth and Kapadia, Rishi and Jen, Yiming and McKinley, Stephen and Miller, Lauren and Goldberg, Ken},
-  booktitle={IEEE Int. Conf. Automation Science \& Engg. (CASE)},
+  booktitle={IEEE International Conference on Automation Science \& Engg. (CASE)},
   year={2016},
-  IGNOREorganization={IEEE}
+  mon={aug},
+  IGNOREorganization={IEEE},
+  url={http://berkeleyautomation.github.io/gpas/},
+  pdf={http://berkeleyautomation.github.io/gpas/files/garg-case16-gpas.pdf}
 }
 
 @inproceedings{mckinley2016pida,
   title={Interchangeable Surgical Instrument System with Application to Supervised Automation of Multilateral Tumor Resection. },
   author={McKinley, Stephen and Garg, Animesh and Sen, Siddarth and Gealy, David V. and McKinley, Jonathan and Jen, Yiming and Guo, Menglung and Boyd, Doug and Goldberg, Ken},
-  booktitle={IEEE Int. Conf. Automation Science \& Engg. (CASE)},
+  booktitle={IEEE International Conference on Automation Science \& Engg. (CASE)},
   year={2016},
   month={aug},
   award={Best Video Award at 2015 Hamlyn Symposium},
   video={https://www.youtube.com/watch?v=YiPq9t0tR3U},
+  url={http://berkeleyautomation.github.io/surgical-tools/}
 }
 
 
@@ -277,13 +329,15 @@ degree (for thesis type)
   booktitle={Workshop on Algorithmic Foundations of Robotics (WAFR)},
   organization={Springer STAR},
   month={dec},
-  year={2016}
+  year={2016},
+  talk={https://www.youtube.com/watch?v=r0RzS2DWb8M&index=4&list=PLYTiwx6hV33siv3qb--lW1Sw5BEMgGtR1},
+
 }
 
 @inproceedings{thananjeyan2017multilateral,
   title={Multilateral Surgical Pattern Cutting in 2D Orthotropic Gauze with Deep Reinforcement Learning Policies for Tensioning},
   author={Thananjeyan, Brijen and Garg, Animesh and Krishnan, Sanjay and Chen, Carolyn and Miller, Lauren and Goldberg, Ken},
-  booktitle={IEEE Int'l Conf. on Robotics and Automation (ICRA)},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   month={jun},
   year={2017}
 }
@@ -291,153 +345,196 @@ degree (for thesis type)
 @inproceedings{mandlekar2017arpl,
   title={{Adversarially Robust Policy Learning through Active Construction of Physically-Plausible Perturbations}},
   author={Mandlekar*,Ajay and Zhu*, Yuke and Garg*, Animesh and Fei-Fei, Li and  Savarese (* equal contribution), Silvio},
-  booktitle={IEEE Int'l Conf. on Intelligent Robots and Systems (IROS)},
+  booktitle={IEEE International Conference on Intelligent Robots and Systems (IROS)},
   month={sep},
   year={2017},
+  pdf={https://stanfordvl.github.io/ARPL/arpl_mzg_iros17.pdf},
+  url={https://stanfordvl.github.io/ARPL/},
+  video={https://www.youtube.com/watch?v=yZ-gSsbbzh0}
 }
-
 
 
 @inproceedings{gwak2017weakly,
   title={Weakly Supervised Generative Adversarial Networks for 3D Reconstruction},
   author={Gwak*, JunYoung and Choy*, Christopher B and Garg, Animesh and Chandraker, Manmohan and Savarese (* equal contribution), Silvio},
-  booktitle={IEEE 3D Vision (3DV), arXiv:1705.10904},
+  booktitle={IEEE Conference on 3D Vision (3DV)},
   year={2017},
   month={oct},
+  arxiv={1705.10904} 
 }
 
 
 @inproceedings{harrison2017adapt,
   title={{AdaPT: Zero-Shot Adaptive Policy Transfer for Stochastic Dynamical Systems}},
   author={Harrison*, James and Garg*, Animesh and Ivanovic, Boris and Zhu, Yuke and Savarese, Silvio and Fei-Fei, Li and Pavone (* equal contribution), Marco},
-  booktitle={Int. Symp. on Robotics Research (ISRR)},
+  booktitle={International Symposium on Robotics Research (ISRR)},
   organization={Springer STAR},
   month={dec},
   year={2017},
+  arxiv={1707.04674},
 }
 
 @inproceedings{xu2018neural,
-  title={{Neural Task Programming: Learning to generalize across hierarchical tasks}},
+  title={Neural Task Programming: Learning to generalize across hierarchical tasks},
   author={Xu, Danfei and Nair, Suraj and Zhu, Yuke and Gao, Julian and Garg, Animesh and Fei-Fei, Li and Savarese, Silvio},
-  booktitle={IEEE Int'l Conf. on Robotics and Automation (ICRA)},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   month={may},
-  year={2018}
+  year={2018},
+  arxiv={1710.01813},
+  video={https://www.youtube.com/watch?v=THq7I7C5rkk&feature=youtu.be},
+  url={https://stanfordvl.github.io/ntp/},
+  talk={https://youtu.be/_9Ny2ghjwuY?t=7h54m}
 }
 
 @inproceedings{huang18ramil,
   title={{Finding It: Weakly-Supervised Reference-Aware Visual Grounding in Instructional Video}},
   author={Huang, De-An and Buch, Shyamal and Dery, Lucio and Garg, Animesh and  Fei-Fei, Li and Niebles, Juan Carlos},
-  booktitle={IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   month={jun},
-  year={2018}
+  year={2018},
+  talk={https://youtu.be/GBo4sFNzhtU?t=23m30s},
+  award={Oral Presentation},
+  url={https://finding-it.github.io/},
+  poster={https://drive.google.com/file/d/1uvnw6VDn0r1nS3ePyFKaCbEx5GZw1ZEy/view},
+  pdf={http://openaccess.thecvf.com/content_cvpr_2018/papers/Huang_Finding_It_Weakly-Supervised_CVPR_2018_paper.pdf},
+  supplement={https://finding-it.github.io/finding-it-suppmat.pdf},
 }
 
 @inproceedings{kurenkov2018deformnet,
   title={{DeformNet: Free-Form Deformation Network for 3D Shape Reconstruction from a Single Image}},
   author={Kurenkov*, Andrey and Ji*, Jingwei and Garg, Animesh and Mehta, Viraj and Gwak, JunYoung and Choy, Christopher and Savarese (* equal contribution), Silvio},
-  booktitle={IEEE Winter Conf. on Applications of Computer Vision (WACV)},
-  number={arXiv preprint arXiv:1708.04672},
+  booktitle={IEEE Winter Conference on Applications of Computer Vision (WACV)},
+  arXiv={1708.04672},
   month={mar},
-  year={2018}
+  year={2018},
+  url={https://deformnet-site.github.io/DeformNet-website/},
+  talk={https://www.youtube.com/watch?v=cKzXVL6W--8}
 }
 
 
 @inproceedings{fang2018learning,
   title={Learning Task-Oriented Grasping for Tool Manipulation from Simulated Self-Supervision},
   author={Fang, Kuan and Zhu, Yuke and Garg, Animesh and Kurenkov, Andrey and Mehta, Viraj and Fei-Fei, Li and Savarese, Silvio},
-  booktitle={{Robotics: Systems and Science}},
+  booktitle={{Robotics: Systems and Science (RSS)}},
   month={july},
-  year={2018}
+  year={2018},
+  arxiv={1806.09266},
+  url={https://sites.google.com/view/task-oriented-grasp},
+  video={https://www.youtube.com/watch?v=YI-3sf067f8},
+  talk={https://youtu.be/v0ErAR8Dwy8?t=43s}
 }
 
 @inproceedings{mandlekar2018roboturk,
-  title={ROBOTURK: A Crowdsourcing Platform for Robotic Skill Learning through Imitation},
+  title={{ROBOTURK: A Crowdsourcing Platform for Robotic Skill Learning through Imitation}},
   author={Mandlekar, Ajay and Zhu, Yuke and Garg, Animesh and Booher, Jonathan and Spero, Max and Tung, Albert and Gao, Julian and Emmons, John and Gupta, Anchit and Orbay, Emre and  Savarese, Silvio and Fei-Fei, Li},
   booktitle={Conference on Robot Learning (CoRL)},
   month={oct},
-  year={2018}
+  year={2018},
+  arxiv={1811.02790},
+  pdf={http://proceedings.mlr.press/v87/mandlekar18a.html},
+  url={http://roboturk.stanford.edu/},
+  code={https://cvgl.stanford.edu/projects/roboturk/ccr-web/dataset_sim.html},
+  blog={http://ai.stanford.edu/blog/roboturk/},
+  talk={https://www.youtube.com/watch?v=ugCBLNLWDM8&t=24400s}
 }
 
 @inproceedings{lee2019making,
   title={Making Sense of Vision and Touch: Self-Supervised Learning of Multimodal Representations for Contact-Rich Tasks},
   author={Lee*, Michelle A and Zhu*, Yuke and Srinivasan, Krishnan and Shah, Parth and Savarese, Silvio and Fei-Fei, Li and Garg, Animesh and Bohg (* equal contribution), Jeannette},
-  booktitle={IEEE Int'l Conf. on Robotics and Automation (ICRA)},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   arxiv={1810.10191},
   month={may},
   year={2019},
-  award={ICRA Best Paper Award},
+  award={ICRA Best Paper Award and Finalist: Best Cognitive Robotics Paper},
   url={https://sites.google.com/view/visionandtouch},
   video={https://youtu.be/usFQ8hNtE8c}
 }
 
 @inproceedings{huang2018ntg,
-  title={Neural task graphs: Generalizing to unseen tasks from a single video demonstration},
+  title={Neural Task Graphs: Generalizing to unseen tasks from a single video demonstration},
   author={Huang, De-An and Nair, Suraj and Xu, Danfei and Zhu, Yuke and Garg, Animesh and Fei-Fei, Li and Savarese, Silvio and Niebles, Juan Carlos},
-  booktitle={IEEE Conf. on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={8565--8574},
   month={june},
   year={2019},
   arxiv={1807.03480},
-  video={https://www.youtube.com/watch?v=Rwog52mbMCI&feature=youtu.be},
-  code={https://github.com/StanfordVL/ntp},
-  award={Oral}
+  video={https://www.youtube.com/watch?v=Rwog52mbMCI&feature=youtu.be},  
+  award={Oral Presentation},
 }
 
 @inproceedings{danielczuk2019mech,
   title={Mechanical Search: Multi-Step Retrieval of a Target Object Occluded by Clutter},
   author={Danielczuk, Mike and Kurenkov, Andrey and Balakrishna, Ashwin and Matl, Matthew and Mart\'{i}n-Mart\'{i}n, Roberto and Garg, Animesh and Savarese, Silvio and Goldberg, Ken},
-  booktitle={IEEE Int'l Conf. on Robotics and Automation (ICRA)},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   month={may},
-  year={2019}
+  year={2019},
+  arxiv={1903.01588},
+  url={https://ai.stanford.edu/mech-search/},
+  video={https://youtu.be/lCwdGSDkbG4},
+  abstract={When operating in unstructured environments such as warehouses, homes, and retail centers, robots are frequently required to interactively search for and retrieve specific objects from cluttered bins, shelves, or tables. Mechanical Search describes the class of tasks where the goal is to locate and extract a known target object. In this paper, we formalize Mechanical Search and study a version where distractor objects are heaped over the target object in a bin. The robot uses an RGBD perception system and control policies to iteratively select, parameterize, and perform one of 3 actions -- push, suction, grasp -- until the target object is extracted, or either a time limit is exceeded, or no high confidence push or grasp is available. We present a study of 5 algorithmic policies for mechanical search, with 15,000 simulated trials and 300 physical trials for heaps ranging from 10 to 20 objects. Results suggest that success can be achieved in this long-horizon task with algorithmic policies in over 95% of instances and that the number of actions required scales approximately linearly with the size of the heap.}
 }
 
 @inproceedings{martin2019variable,
   title={Variable Impedance Control in End-Effector Space: An Action Space for Reinforcement Learning in Contact-Rich Tasks},
   author={Mart{\'\i}n-Mart{\'\i}n, Roberto and Lee, Michelle A and Gardner, Rachel and Savarese, Silvio and Bohg, Jeannette and Garg, Animesh},
-  booktitle={IEEE Int'l Conf. on Intelligent Robots and Systems (IROS)},
+  booktitle={IEEE International Conference on Intelligent Robots and Systems (IROS)},
   month={nov},
-  year={2019}
+  year={2019},
+  arxiv={1906.08880},
+  URL={https://stanfordvl.github.io/vices/}
 }
 
 @inproceedings{mandlekar2019roboturkreal,
   title={Scaling Robot Supervision to Hundreds of Hours with RoboTurk: Robotic Manipulation Dataset through Human Reasoning and Dexterity},
   author={Mandlekar, Ajay and Booher, Jonathan and Spero, Max and Tung, Albert and Gupta, Anchit and Zhu, Yuke and Garg, Animesh and Savarese, Silvio and Fei-Fei, Li},
-  booktitle={IEEE Int'l Conf. on Intelligent Robots and Systems (IROS)},
+  booktitle={IEEE International Conference on Intelligent Robots and Systems (IROS)},
   award={IROS Best Cognitive Robotics Paper Finalist},
   month={nov},
-  year={2019}
+  year={2019},
+  arxiv={1911.04052},
+  url={http://roboturk.stanford.edu/realrobotdataset},
+  code={https://cvgl.stanford.edu/projects/roboturk/ccr-web/dataset_real.html},
+  blog={http://ai.stanford.edu/blog/roboturk/}
 }
 
 @inproceedings{huang2019continuous,
   title={Continuous Relaxation of Symbolic Planner for One-Shot Imitation Learning},
   author={Huang, De-An and Xu, Danfei and Zhu, Yuke and Garg, Animesh and Savarese, Silvio and Fei-Fei, Li and Carlos, Juan Carlos},
-  booktitle={IEEE Int'l Conf. on Intelligent Robots and Systems (IROS)},
+  booktitle={IEEE International Conference on Intelligent Robots and Systems (IROS)},
   month={nov},
-  year={2019}
+  year={2019},
+  arxiv={1908.06769},
+  video={https://www.youtube.com/watch?v=emSbxWlOQBc}
 }
 
 @inproceedings{fang2019dynamics,
   title={Dynamics Learning with Cascaded Variational Inference for Multi-Step Manipulation},
   author={Fang, Kuan and Zhu, Yuke and Garg, Animesh and Savarese, Silvio and Fei-Fei, Li},
-  booktitle={Conference on Robot Learning},
+  booktitle={Conference on Robot Learning (CoRL)},
   month={oct},
   year={2019},
-  arxiv={1910.13395}
+  arxiv={1910.13395},
+  url={http://pair.stanford.edu/cavin/},
+  award={Oral Presentation}
 }
 
 
 @inproceedings{kurenkov2019ac,
   title={AC-Teach: A Bayesian Actor-Critic Method for Policy Learning with an Ensemble of Suboptimal Teachers},
   author={Kurenkov, Andrey and Mandlekar, Ajay and Martin-Martin, Roberto and Savarese, Silvio and Garg, Animesh},
-  booktitle={Conference on Robot Learning},
+  booktitle={Conference on Robot Learning (CoRL)},
   month={oct},
-  year={2019}
+  year={2019},
+  arxiv={1909.04121},
+  blog={http://ai.stanford.edu/blog/acteach/},
+  url={https://sites.google.com/view/acteach/},
+  code={https://github.com/StanfordVL/ac-teach}
 }
 
 @inproceedings{losey2020controlling,
  title={{Controlling Assistive Robots with Learned Latent Actions}},
  author={Losey, Dylan P. and Srinivasan, Krishnan and Mandlekar, Ajay and Garg, Animesh and Sadigh, Dorsa},
- booktitle={IEEE Int'l Conf. on Robotics and Automation (ICRA)},
+ booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
  year={2020},
  month={May},
  arxiv={1909.09674},
@@ -450,7 +547,7 @@ degree (for thesis type)
 @inproceedings{mandlekar2020iris,
     title={IRIS: Implicit Reinforcement without Interaction at Scale for Learning Control from Offline Robot Manipulation Data},
     author={Ajay Mandlekar and Fabio Ramos and Byron Boots and Silvio Savarese and Li Fei-Fei and Animesh Garg and Dieter Fox},
-    booktitle={IEEE Int'l Conf. on Robotics and Automation (ICRA)},
+    booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
     year={2020},
     month={May},
     arxiv={1911.05321},
@@ -461,7 +558,7 @@ degree (for thesis type)
 @inproceedings{huang2020motion,
     title={Motion Reasoning for Goal-Based Imitation Learning},
     author={De-An Huang and Yu-Wei Chao and Chris Paxton and Xinke Deng and Li Fei-Fei and Juan Carlos Niebles and Animesh Garg and Dieter Fox},
-    booktitle={IEEE Int'l Conf. on Robotics and Automation (ICRA)},
+    booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
     year={2020},
     month={May},
     arxiv={1911.05864},
@@ -472,7 +569,7 @@ degree (for thesis type)
 @inproceedings{lee2019combining,
   title={Combining Model-Free and Model-Based Strategies for Sample-Efficient Reinforcement Learning},
   author={Lee, Michelle A. and Florensa, Carlos and Tremblay, Jonathan and Ratliff, Nathan and Garg, Animesh and Ramos, Fabio and Fox, Dieter},
-  booktitle={IEEE Int'l Conf. on Robotics and Automation (ICRA)},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   year={2020},
   month={May},
   award={Best Paper Award at 2019 Neurips Workshop on Robot Learning}
@@ -484,51 +581,70 @@ s
 % ==========
 
 @article{garg2013robot,
-  title={Robot-guided open-loop insertion of skew-line needle arrangements for high dose rate brachytherapy},
-  author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M and Hsu, I-C and Pouliot, Jean and Stoianovici, Dan and Goldberg, Ken},
-  journal={Automation Science and Engineering, IEEE Transactions on  (Volume:10 ,  Issue: 4 )},
-  volume={10},
-  number={4},
-  ignore-pages={948--956},
-  year={2013},
-  publisher={IEEE}
-}
+author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M and Hsu, I-C and Pouliot, Jean and Stoianovici, Dan and Goldberg, Ken},
+journal={IEEE Transactions on Automation Science and Engineering (T-ASE)},
+title={Robot-Guided Open-Loop Insertion of Skew-Line Needle Arrangements for High Dose Rate Brachytherapy},
+year={2013},
+volume={10},
+number={4},
+pages={948-956},
+abstract={We present a study in human-centered automation that has potential to reduce patient side effects from high dose rate brachytherapy (HDR-BT). To efficiently deliver radiation to the prostate while minimizing trauma to sensitive structures such as the penile bulb, we modified the Acubot-RND 7-axis robot to guide insertion of diamond-tip needles into desired skew-line geometric arrangements. We extend and integrate two algorithms: Needle Planning with Integer Programming (NPIP) and Inverse Planning with Integer Programming (IPIP) to compute skew-line needle and dose plans. We performed three physical experiments with anatomically correct phantom models to study performance: two with the robot and one control experiment with an expert human physician (coauthor Hsu) without the robot. All were able to achieve needle arrangements that meet the RTOG-0321 clinical dose objectives with zero trauma to the penile bulb. We analyze systematic and random errors in needle placement; total RMS error for the robot system operating without feedback ranged from 2.6 to 4.3 mm, which is comparable to the RMS error of 2.7 mm obtained in an earlier study for PPI-BT treatment using a robot with 3D ultrasound feedback.},
+pdf={https://doi.org/10.1109/TASE.2013.2276940},
+month={Oct},}
 
-@article{mellis2014material,
+@article{mellis2015material,
   title={Material Evaluation of PC-ISO for Customized, {3D} Printed, Gynecologic 192Ir HDR Brachytherapy Applicators},
   author={Mellis, Katherine and Siauw, Timmy and Sudhyadhom, Atchar and Sethi, Rajni and Hsu, I-Chow and Pouliot, Jean and Garg, Animesh and Goldberg, Ken},
   journal={Journal of Applied Clinical Medical Physics (JACMP)},
-  year={2014},
+  year={2015},
+  mon={jan},
   url={https://www.ncbi.nlm.nih.gov/pubmed/25679174}
 }
 
 @article{tsc-ijrr17,
     author = {Krishnan*, Sanjay and Garg*, Animesh and Patil, Sachin and Lea, Colin and Hager, Gregory and Abbeel, Pieter and Goldberg (* equal contribution), Ken},
     title ={{Transition State Clustering: Unsupervised surgical trajectory segmentation for robot learning}},
-    journal = {Int'l J. of Robotics Research (IJRR)},
+    journal = {International Journal of Robotics Research (IJRR)},
     ign-volume = {36},
     ign-number = {13-14},
     ign-pages = {1595-1618},
     year = {2017},
-    ign-doi = {10.1177/0278364917743319}
+    month={dec},
+    pdf = {https://dl.acm.org/doi/abs/10.1177/0278364917743319},
+    code={https://github.com/BerkeleyAutomation/tsc}
 }
 
 @article{swirl-ijrr18,
   title={{SWIRL: A Sequential Windowed Inverse Reinforcement Learning Algorithm for Robot Tasks With Delayed Rewards}},
   author={Krishnan, Sanjay and Garg, Animesh and Liaw, Richard and Thananjeyan, Brijen and Miller, Lauren and Pokorny, Florian T and Goldberg, Ken},
-  journal={Int'l J. of Robotics Research},
-  year={2018}
+  journal={International Journal of Robotics Research},
+  year={2018},
+  month={jul},
+  pdf={garg_swirl_ijrr18.pdf},
+  url={https://doi.org/10.1177%2F0278364918784350}
 }
 
 
 @article{fang2018tog-ijrr,
   title={Learning Task-Oriented Grasping for Tool Manipulation from Simulated Self-Supervision},
   author={Fang, Kuan and Zhu, Yuke and Garg, Animesh and Kurenkov, Andrey and Mehta, Viraj and Fei-Fei, Li and Savarese, Silvio},
-  journal = {Int'l J. of Robotics Research (IJRR)},
+  journal = {International Journal of Robotics Research (IJRR)},
   month={aug},
-  year={2019}
+  year={2019},
+  video={https://www.youtube.com/watch?v=YI-3sf067f8},
+  url={https://sites.google.com/view/task-oriented-grasp},
+  pdf={https://doi.org/10.1177%2F0278364919872545},
 }
 
+@article{lee2019making,
+    title={Making Sense of Vision and Touch: Learning Multimodal Representations for Contact-Rich Tasks},
+    author={Michelle A. Lee and Yuke Zhu and Peter Zachares and Matthew Tan and Krishnan Srinivasan and Silvio Savarese and Li Fei-Fei and Animesh Garg and Jeannette Bohg},
+    year={2019},
+    month={jul},
+    arXiv={1907.13098},
+    url={https://sites.google.com/view/visionandtouch},
+    journal={IEEE Transactions on Robotics (T-RO)}
+}
 
 
 % ==========
@@ -561,10 +677,31 @@ s
 % ===========
 %  Preprints
 % ===========
+
+@preprint{sinha2020dibs,
+    title={DIBS: Diversity inducing Information Bottleneck in Model Ensembles},
+    author={Samarth Sinha and Homanga Bharadhwaj and Anirudh Goyal and Hugo Larochelle and Animesh Garg and Florian Shkurti},
+    year={2020},
+    arXiv={2003.04514},
+    month={mar},
+    primaryClass={cs.LG}
+}
+
+@preprint{nie2020semisupervised,
+    title={Semi-Supervised StyleGAN for Disentanglement Learning},
+    author={Weili Nie and Tero Karras and Animesh Garg and Shoubhik Debhath and Anjul Patney and Ankit B. Patel and Anima Anandkumar},
+    year={2020},
+    month={mar},
+    arXiv={2003.03461},
+    primaryClass={cs.CV}
+}
+
+
 @preprint{2003.01367,
 Author = {Samarth Sinha and Animesh Garg and Hugo Larochelle},
 Title = {Curriculum By Texture},
 Year = {2020},
+month={mar},
 arXiv = {2003.01367},
 }
 
@@ -572,13 +709,16 @@ arXiv = {2003.01367},
 Author = {Aysegul Dundar and Kevin J. Shih and Animesh Garg and Robert Pottorf and Andrew Tao and Bryan Catanzaro},
 Title = {Unsupervised Disentanglement of Pose, Appearance and Background from Images and Videos},
 Year = {2020},
+month={jan},
 arXiv = {2001.09518},
+code={https://github.com/NVIDIA/UnsupervisedLandmarkLearning}
 }
 
 @preprint{1912.03978,
 Author = {Tan M. Nguyen and Animesh Garg and Richard G. Baraniuk and Anima Anandkumar},
 Title = {InfoCNF: An Efficient Conditional Continuous Normalizing Flow with Adaptive Solvers},
 Year = {2019},
+month={dec},
 arXiv = {1912.03978},
 }
 
@@ -586,6 +726,7 @@ arXiv = {1912.03978},
 Author = {Beidi Chen and Weiyang Liu and Animesh Garg and Zhiding Yu and Anshumali Shrivastava and Jan Kautz and Anima Anandkumar},
 Title = {Angular Visual Hardness},
 Year = {2019},
+month={dec},
 arXiv = {1912.02279},
 }
 
@@ -593,14 +734,8 @@ arXiv = {1912.02279},
 Author = {Vinu Joseph and Saurav Muralidharan and Animesh Garg and Michael Garland and Ganesh Gopalakrishnan},
 Title = {A Programmable Approach to Model Compression},
 Year = {2019},
+month={nov},
 arXiv = {1911.02497},
-}
-
-@preprint{1909.02749,
-Author = {Kevin J. Shih and Aysegul Dundar and Animesh Garg and Robert Pottorf and Andrew Tao and Bryan Catanzaro},
-Title = {Video Interpolation and Prediction with Unsupervised Landmarks},
-Year = {2019},
-arXiv = {1909.02749},
 }
 
 
@@ -618,5 +753,14 @@ arXiv = {1909.02749},
   author={Liaw, Richard and Krishnan, Sanjay and Garg, Animesh and Crankshaw, Daniel and Gonzalez, Joseph E and Goldberg, Ken},
 Title = {Composing Meta-Policies for Autonomous Driving Using Hierarchical Deep Reinforcement Learning},
 Year = {2017},
+month={nov},
 arXiv = {1711.01503},
+}
+
+@misc{1909.02749,
+Author = {Kevin J. Shih and Aysegul Dundar and Animesh Garg and Robert Pottorf and Andrew Tao and Bryan Catanzaro},
+Title = {Video Interpolation and Prediction with Unsupervised Landmarks},
+Year = {2019},
+month={sept},
+arXiv = {1909.02749},
 }

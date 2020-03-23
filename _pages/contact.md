@@ -3,11 +3,9 @@ layout: page
 permalink: /contact/
 title: contact
 div_class: contact
-description: 
+description: email me (preferred) - <a href="mailto:{{ site.email | encode_email }})">garg@cs.toronto.edu</a>
 social: true
 ---
-
-Best way to reach me is over email: [garg@cs.toronto.edu](mailto:{{ site.email | encode_email }})
 
 ### Affiliations
 University of Toronto, [Department of Computer Science](https://web.cs.toronto.edu).  
@@ -15,7 +13,7 @@ University of Toronto, Mississauga, [Mathematical & Computational Sciences](http
 University of Toronto, [Mechanical & Industrial Engineering](https://mie.utoronto.ca) (courtesy).  
 Faculty Member, [Vector Institute](https://vectorinstitute.ai/).  
 Steering Committee, [Robotics Insitute](https://robotics.utoronto.ca/).  
-Senior Research Scientist [Nvidia Research](https://www.nvidia.com/en-us/research/).  
+Senior Research Scientist, [Nvidia Research](https://www.nvidia.com/en-us/research/).  
 
 
 ### Mailing Address
@@ -39,3 +37,5 @@ Deerfield Hall, Office 3068
 
 **UTM**  
 : Winter 2020 (Jan-April 2020): Wed 2-3, DH 3068, UTM
+
+<!-- Best way to reach me is over email: [garg@cs.toronto.edu](mailto:{{ site.email | encode_email }}) -->

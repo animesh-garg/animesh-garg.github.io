@@ -103,56 +103,57 @@
   {% endif %}  
   
   {% if entry.abstract %}
-    [<a class="abstract">Abs</a>]
+    <a class="abstract"><i class="fas fa-filter"></i> abstract</a>&emsp;
   {% endif %}
   
   {% if entry.arxiv %}
-    [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]&emsp;
+    <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank"><i class="far fa-bookmark"></i> arXiv</a>&emsp;
   {% endif %}
 
   {% if entry.pdf and entry.pdf contains "://" %}
-    [<a href="{{ entry.pdf }}" target="_blank">pdf</a>]&emsp;
+    <a href="{{ entry.pdf }}" target="_blank"><i class="far fa-file-alt"></i> pdf</a>&emsp;
   {% elsif entry.pdf %}
-    [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">pdf</a>]&emsp;
+    <a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="far fa-file-alt"></i> pdf</a>&emsp;
   {% endif %}
 
-  {% if entry.supp and entry.supp contains "://" %}
-    [<a href="{{ entry.supp }}" target="_blank">supp</a>]&emsp;
-  {% elsif entry.supp %}
-    [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">supp</a>]&emsp;
-  {% endif %}
-
-  {% if entry.poster and entry.poster contains "://" %}
-    [<a href="{{ entry.poster }}" target="_blank">poster</a>]&emsp;
-  {% elsif entry.poster %}
-    [<a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">poster</a>]&emsp;
-  {% endif %}
-
-  {% if entry.slides and entry.slides contains "://" %}
-    [<a href="{{ entry.slides }}" target="_blank">slides</a>]&emsp;
-  {% elsif entry.slides %}
-    [<a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">slides</a>]&emsp;
-  {% endif %}
-  
-  {% if entry.talk %}
-    [<a href="{{ entry.talk }}" target="_blank">talk</a>]&emsp;
+  {% if entry.supplement and entry.supplement contains "://" %}
+    <a href="{{ entry.supplement }}" target="_blank"><i class="far fa-file-alt"></i> supp</a>&emsp;
+  {% elsif entry.supplement %}
+    <a href="{{ entry.supplement | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="far fa-file-alt"></i> supp</a>&emsp;
   {% endif %}
 
   {% if entry.url %}
-    [<a href="{{ entry.url }}" target="_blank">project</a>]&emsp;
+    <a href="{{ entry.url }}" target="_blank"><i class="fas fa-link"></i> project</a>&emsp;
   {% endif %}
 
   {% if entry.code %}
-    [<a href="{{ entry.code }}" target="_blank">code</a>]&emsp;
+    <a href="{{ entry.code }}" target="_blank"><i class="fas fa-code"></i> code</a>&emsp;
   {% endif %}
 
   {% if entry.blog %}
-    <a href="{{ entry.blog }}" target="_blank"><i class="fas fa-blog"></i> Blog</a>&emsp;
+    <a href="{{ entry.blog }}" target="_blank"><i class="far fa-newspaper"></i> blog</a>&emsp;
   {% endif %}
 
   {% if entry.video %}
-    <a href="{{ entry.video }}" target="_blank"><i class="fas fa-video"></i> Video</a>&emsp;
+    <a href="{{ entry.video }}" target="_blank"><i class="fas fa-video"></i> video</a>&emsp;
   {% endif %}
+
+  {% if entry.poster and entry.poster contains "://" %}
+    <a href="{{ entry.poster }}" target="_blank"><i class="fas fa-tv"></i> poster</a>&emsp;
+  {% elsif entry.poster %}
+    <a href="{{ entry.poster | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fas fa-tv"></i> poster</a>&emsp;
+  {% endif %}
+
+  {% if entry.slides and entry.slides contains "://" %}
+    <a href="{{ entry.slides }}" target="_blank"><i class="fab fa-slideshare"></i> slides</a>&emsp;
+  {% elsif entry.slides %}
+    <a href="{{ entry.slides | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fab fa-slideshare"></i> slides</a>&emsp;
+  {% endif %}
+  
+  {% if entry.talk %}
+    <a href="{{ entry.talk }}" target="_blank"><i class="fas fa-microphone"></i> talk</a>&emsp;
+  {% endif %}
+
   </span>
   {% if entry.abstract %} 
   <span class="abstract hidden">

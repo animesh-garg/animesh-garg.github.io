@@ -3,7 +3,13 @@
         box-shadow: 0 0 5px $grey-color;
         border: 3px solid #FFF;
         width: 95%;
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);        
     }
+    // img:hover {
+    //         filter: none;
+    //         -webkit-filter: grayscale(0%);
+    //     }
 }
 .address {
     font-family: monospace;

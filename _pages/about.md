@@ -22,7 +22,9 @@ My current research focuses on machine learning algorithms for perception and co
 
 **Research Interests**: Robotics, Reinforcement Learning & Optimal Control, Computer Vision  
 **Current Applications**: Mobile-Manipulation in Retail/Warehouse, personal, and surgical robotics.  
-Link to a reasonably recent <a href="{{ '/assets/pdf/garg-cv.pdf' | prepend: site.baseurl | prepend: site.url }}">**CV**</a>.
+
+Link to (reasonably recent) <a href="{{ '/assets/pdf/garg-cv.pdf' | prepend: site.baseurl | prepend: site.url }}">CV</a>.  
+Contact me: [garg@cs.toronto.edu](mailto:{{ site.email | encode_email }})
 
 --- 
 

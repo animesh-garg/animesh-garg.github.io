@@ -19,17 +19,17 @@
 }
 
 footer {
-  background-color: $grey-color-dark;
+  background-color: $footer-bg-color;
   border-top: $footer-border-top;
   color: $footer-color;
   font-size: $footer-font-size;
   font-weight: $footer-font-weight;
   padding: $footer-padding;
-  position: fixed;
+  position: relative;
     left: 0px;
     bottom: 0px;
   width: 100%;
 
-  a { color: #fff; }
+  a { color: $footer-color; }
   a:hover { color: $theme-color; }
 }
