@@ -23,8 +23,20 @@ echo "--------Site Diffs------------"
 
 # add new commmit
 git add .
-now=$(date)
-git commit -m "site updated at $now"
+
+# now=$(date)
+# now : mmm dd hh:mm:ss
+now=$(echo $(date)| cut -d' ' -f 2,3,4)
+
+# if argument suppled use as commit message. 
+if [ -n "$1" ]
+  then
+    commit_msg="$1, site updated at $now"
+   else
+   	commit_msg="site updated at $now"
+fi
+
+git commit -m "$commit_msg"
 echo "--------Commits staged------------"
 echo "--------commit message: site updated at $now--------"
 

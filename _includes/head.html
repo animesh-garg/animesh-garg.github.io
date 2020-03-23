@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>{{ site.name }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
+  <title>{{ site.title }}{% if page.title and page.url != "/" %} | {{ page.title }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
 
   {% if site.serve_og_meta %}
@@ -20,4 +20,32 @@
 
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+
+<!--   
+{% if site.google_analytics %}
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', '{{ site.google_analytics }}');
+      -->
+
+      <!-- Note: plugin scripts must be included after the tracking snippet. -->
+      <!--
+      <script src="https://ipmeta.io/plugin.js"></script>
+      <script>
+         provideGtagPlugin({
+            apiKey: '4b2663bcfa81585f98c2c92f88994bb2de38e9149a3ea81a5922c4669f9d66d5',
+            serviceProvider: 'dimension1',
+            networkDomain: 'dimension2',
+            networkType: 'dimension3',
+         });
+      </script> 
+      
+    </script>-->
+  {% endif %}
+
 </head>

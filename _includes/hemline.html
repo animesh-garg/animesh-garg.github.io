@@ -35,4 +35,15 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', '{{ site.google_analytics }}', 'auto');
 ga('send', 'pageview');
 </script>
+
+<script src="https://ipmeta.io/plugin.js"></script>
+<script>
+ provideGtagPlugin({
+    apiKey: '4b2663bcfa81585f98c2c92f88994bb2de38e9149a3ea81a5922c4669f9d66d5',
+    serviceProvider: 'dimension1',
+    networkDomain: 'dimension2',
+    networkType: 'dimension3',
+ });
+</script>
+
 {% endif %}

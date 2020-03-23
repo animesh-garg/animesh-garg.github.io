@@ -1,12 +1,13 @@
 # -----------------------------------------------------------------------------
 # Site settings
 # -----------------------------------------------------------------------------
+title: Animesh Garg Home
 name: Animesh Garg
 email: garg@cs.toronto.edu
 description: > # this means to ignore newlines until "url:"
   Assistant Professor of Robotics and Machine Learning
-footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+footer_text: #>
+  #Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -121,6 +122,7 @@ scholar:
   type_names: {preprint: Preprints,  article: Papers, workshop: Peer-Reviewed Workshops, thesis: Theses, patent: Patents}
 
   source: /_bibliography/
+  # https://github.com/animesh-garg/animesh-garg.github.io/blob/source/_bibliography/
   bibliography: animesh.bib
   bibliography_template: bib
 

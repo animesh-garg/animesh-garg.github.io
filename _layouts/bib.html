@@ -116,10 +116,10 @@
     <a href="{{ entry.pdf | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="far fa-file-alt"></i> pdf</a>&emsp;
   {% endif %}
 
-  {% if entry.supp and entry.supp contains "://" %}
-    <a href="{{ entry.supp }}" target="_blank"><i class="fas fa-paperclip"> supp</a>&emsp;
-  {% elsif entry.supp %}
-    <a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="fas fa-paperclip"></i> supp</a>&emsp;
+  {% if entry.supplement and entry.supplement contains "://" %}
+    <a href="{{ entry.supplement }}" target="_blank"><i class="far fa-file-alt"></i> supp</a>&emsp;
+  {% elsif entry.supplement %}
+    <a href="{{ entry.supplement | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><i class="far fa-file-alt"></i> supp</a>&emsp;
   {% endif %}
 
   {% if entry.url %}
