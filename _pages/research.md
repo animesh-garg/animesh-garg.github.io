@@ -6,7 +6,7 @@ description:
 ---
 
 <div class="img_row" style="height: 150px;">
-    <a href="http://pairlab.github.io" target="_blank"><img class="col three left" src="{{ site.baseurl }}/assets/img/pair-logo.png" style="object-fit: contain;" alt="" title="People, AI, and Robots"/></a>
+    <a href="http://pairlab.github.io"><img class="col three left" src="{{ site.baseurl }}/assets/img/pair-logo.png" style="object-fit: contain;" alt="" title="People, AI, and Robots"/></a>
 </div>
 
 ## [People, AI, and Robots Group](http://pairlab.github.io)
