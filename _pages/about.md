@@ -32,7 +32,7 @@ Contact me: [garg@cs.toronto.edu](mailto:{{ site.email | encode_email }})
 
 I am accepting new students at all levels. Thanks for your interest in my group.   
 However, kindly *do not contact me directly* with regard to Graduate Admissions.  
-Please see the [opportunities on lab website]({{  "/contact/" | prepend: site.groupurl  }}) and contact me accordingly.
+Please see the [opportunities on lab website]({{  "/openings/" | prepend: site.groupurl  }}) and contact me accordingly.
 
 <!-- 
 UofT PhD and Postdocs: Please send me a brief [email](mailto:{{ site.email | encode_email }}) about collaboration or advising.  
