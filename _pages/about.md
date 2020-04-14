@@ -10,6 +10,7 @@ profile:
  
 news: true
 social: true
+youtubeId: 8Kn4Gi8iSYQ
 ---
 
 I am an Assistant Professor of [Computer Science](https://web.cs.toronto.edu/) at [University of Toronto](https://www.utoronto.ca/) and a Faculty Member at the [Vector Institute](https://vectorinstitute.ai/). I direct the UofT [People, AI and Robotics (PAIR)](http://pairlab.github.io/) group.
@@ -25,6 +26,13 @@ My current research focuses on machine learning algorithms for perception and co
 
 Link to (reasonably recent) <a href="{{ '/assets/pdf/garg-cv.pdf' | prepend: site.baseurl | prepend: site.url }}">CV</a>.  
 Contact me: [garg@cs.toronto.edu](mailto:{{ site.email | encode_email }})
+
+--- 
+
+#### **Recent Talk**    
+
+MIT Deep Learning Seminar highlighting recent work (January 2020)  
+{% include youtubePlayer.html id=page.youtubeId %}
 
 --- 
 
