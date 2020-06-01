@@ -10,6 +10,14 @@ For the up-to-date publication list, please see [Google Scholar](http://scholar.
 
 {% bibliography %}
 
+<!--  -->
+<script>
+function myFunction() {
+  var list = document.getElementsByClassName("post-content publications clearfix")[0];
+  list.getElementsByClassName("child")[0].innerHTML = "Milk";
+}
+</script>
+
 
 <!-- preprints -->
 
