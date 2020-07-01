@@ -34,6 +34,14 @@ Contact me: [garg@cs.toronto.edu](mailto:{{ site.email | encode_email }})
 MIT Deep Learning Seminar highlighting recent work (January 2020)  
 {% include youtubePlayer.html id=page.youtubeId %}
 
+<br>
+Other Recent Talks
+- [Structured Inductive Bias for Imitation from Videos](https://youtu.be/4Z99LbKM1b8)  
+CVPR [Workshop on Learning from Instructional Videos](https://sites.google.com/view/wliv20/home), (Jun 2020).   
+
+- [Unsupervised Representations towards Counterfactual Predictions](/assets/pdf/garg-composition-vision-cvprw20.pdf)  
+CVPR [Workshop on Compositionality in Computer Vision](http://ai.stanford.edu/~jingweij/cicv/), (Jun 2020).      
+
 --- 
 
 #### **Potential Applicants**   
