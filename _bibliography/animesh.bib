@@ -1,5 +1,11 @@
 % =========
 %  DOCS
+entry types
+patent
+workshop
+inproceedings
+article
+
 Fields (in addition to standard fields)
 pdf - can be url or filetype.pdf
 supplement -- can be url or filetype.pdf
@@ -634,6 +640,38 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   year={2020}
 }
 
+@inproceedings{pitis2020counterfactual,
+    title={Counterfactual Data Augmentation using Locally Factored Dynamics},
+    author={Silviu Pitis and Elliot Creager and Animesh Garg},
+    booktitle={Advances in Neural Information Processing Systems 33 (NeurIPS)},
+    year={2020},
+    month={dec},
+    arXiv={2007.02863},
+    talk={https://slideslive.com/38930712/counterfactual-data-augmentationi-using-locally-factored-dynamics},
+    code={https://github.com/spitis/mrl/tree/master/experiments/coda},
+    award={Outstanding Paper Award at Object-Oriented Learning (OOL) Workshop, ICML 2020},
+}
+
+@inproceedings{li2020vcdn,
+  Author = {Yunzhu Li and Antonio Torralba and Animashree Anandkumar and Dieter Fox and Animesh Garg},
+  Title = {{Causal Discovery in Physical Systems from Videos}},
+  booktitle={Advances in Neural Information Processing Systems 33 (NeurIPS)},
+  Year = {2020},
+  month={dec},
+  arXiv = {2007.00631},
+  url={https://yunzhuli.github.io/V-CDN/}
+}
+
+@inproceedings{2003.01367,
+  title = {Curriculum By Smoothing},
+  author = {Samarth Sinha and Animesh Garg and Hugo Larochelle},
+  booktitle={Advances in Neural Information Processing Systems 33 (NeurIPS)},
+  Year = {2020},
+  month={dec},
+  arXiv = {2003.01367},
+  award={NeurIPS 2020 (Spotlight)},
+}
+
 
 s
 % ==========
@@ -753,24 +791,22 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
 %  Preprints
 % ===========
 
-@preprint{pitis2020counterfactual,
-    title={Counterfactual Data Augmentation using Locally Factored Dynamics},
-    author={Silviu Pitis and Elliot Creager and Animesh Garg},
-    year={2020},
-    month={jul},
-    arXiv={2007.02863},
-    talk={https://slideslive.com/38930712/counterfactual-data-augmentationi-using-locally-factored-dynamics},
-    code={https://github.com/spitis/mrl/tree/master/experiments/coda},
-    award={Outstanding Paper Award at Object-Oriented Learning (OOL) Workshop, ICML 2020},
+
+@preprint{2009.10019,
+  Author = {Xingye Da and Zhaoming Xie and David Hoeller and Byron Boots and Animashree Anandkumar and Yuke Zhu and Buck Babich and Animesh Garg},
+  Title = {{Learning a Contact-Adaptive Controller for Robust, Efficient Legged Locomotion}},
+  Year = {2020},
+  month={sep},
+  arXiv = {2009.10019},
 }
 
-@preprint{2007.00631,
-  Author = {Yunzhu Li and Antonio Torralba and Animashree Anandkumar and Dieter Fox and Animesh Garg},
-  Title = {{Causal Discovery in Physical Systems from Videos}},
+@preprint{2009.08577,
+  Author = {Tim Barfoot and Jessica Burgner-Kahrs and Eric Diller and Animesh Garg and Andrew Goldenberg and Jonathan Kelly and Xinyu Liu and Hani E. Naguib and Goldie Nejat and Angela P. Schoellig and Florian Shkurti and Hallie Siegel and Yu Sun and Steven Waslander},
+  Title = {{Making Sense of the Robotized Pandemic Response: A Comparison of Global and Canadian Robot Deployments and Success Factors}},
   Year = {2020},
-  month={jul},
-  arXiv = {2007.00631},
-  url={https://yunzhuli.github.io/V-CDN/}
+  month={sep},
+  arXiv = {2009.08577},
+  blog={https://robotics.utoronto.ca/covid-19-white-paper/}
 }
 
 @preprint{2007.00177,
@@ -813,14 +849,6 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   arXiv={2003.04514},
   month={mar},
   primaryClass={cs.LG}
-}
-
-@preprint{2003.01367,
-  Author = {Samarth Sinha and Animesh Garg and Hugo Larochelle},
-  Title = {Curriculum By Texture},
-  Year = {2020},
-  month={mar},
-  arXiv = {2003.01367},
 }
 
 @preprint{2001.09518,

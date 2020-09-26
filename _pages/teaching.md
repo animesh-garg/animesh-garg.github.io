@@ -7,18 +7,23 @@ description: current and past courses
 
 #### Instructor
 
-[CSC 498]()
+[CSC 398]()
+:  **Topics in Computer Vision: Advances in 3D Vision**,(Planned Offering).  
+Instructor (*W-21*).  
+*University of Toronto*.   
+
+[CSC 398]()
 :  **Introduction to Reinforcement Learning**,(Planned Offering).  
 (Initially listed as a Topics in Computer Science Course)  
 Instructor (*W-21*).  
 *University of Toronto*.   
 
-[CSC 375]()
-:  **Algorithmic Intelligence in Robotics**,(Planned Offering)  
+[CSC 375](http://pair.toronto.edu/csc375-f20)
+:  **Algorithmic Intelligence in Robotics**,
 Instructor (*F-20*).  
 *University of Toronto*.   
 
-[CSC 2621](https://pairlab.github.io/csc2621-w20/#)
+[CSC 2621](http://pair.toronto.edu/csc2621-w20/#)
 :  **Topics in Robotics: Deep Reinforcement Learning**,  
 Instructor (*W-20*).  
 *University of Toronto*.   
