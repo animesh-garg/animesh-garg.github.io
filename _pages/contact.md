@@ -33,10 +33,13 @@ Deerfield Hall, Office 3068
 ### Office Hours
 
 Fall (Sept-Dec 2020): Wed 530-630 EST, Online at Zoom
-<!-- **St. George Campus**
+
+<!-- 
+**St. George Campus**
 : Fall (Jan-April 2020): Tues 330-430, Pratt 283E, St. George
 
 **UTM**  
 : Winter 2020 (Jan-April 2020): Wed 2-3, DH 3068, UTM
  -->
+
 <!-- Best way to reach me is over email: [garg@cs.toronto.edu](mailto:{{ site.email | encode_email }}) -->
