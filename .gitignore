@@ -9,7 +9,7 @@ todo.txt
 # assets/img/*
 
 ## jekyll
-.jekll_cache/
+.jekll-cache/
 .jekyll-metadata
 
 
