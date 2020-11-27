@@ -434,6 +434,7 @@ footer a:hover { color: #0076df; }
 .button-disabled:hover, .button-disabled:active, .button-disabled:focus { cursor: not-allowed; background-color: #999; }
 
 .publications h2 { color: #333; font-size: 24px; margin-bottom: 20px; margin-top: 20px; text-align: left; border-top: 1px solid #ddd; }
+.publications h3 { color: #333; font-size: 20px; margin-bottom: 5px; margin-top: 5px; text-align: left; }
 .publications ol, .publications ul { list-style: none inside; padding-left: 0.5rem; }
 
 .year { border-top: 1px solid #999; color: #999; margin: 0 -3em -2.5ex -2em; padding-top: 1ex; text-align: right; }
