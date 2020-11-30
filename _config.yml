@@ -117,9 +117,10 @@ scholar:
   order: descending
   group_by: type
   group_order: ascending
-  type_order: [preprint,article,workshop,thesis,patent,misc]
   type_aliases: {inproceedings: article}
-  type_names: {preprint: Preprints,  article: Papers (Journals & Conferences), workshop: Peer-Reviewed Workshops, thesis: Theses, patent: Patents}
+  type_names: {unpublished: Preprints,  article: Papers (Journals & Conferences), workshop: Peer-Reviewed Workshops, thesis: Theses, patent: Patents}
+  type_order: [unpublished,article,workshop,thesis,patent,misc]
+
 
   source: /_bibliography/
   # https://github.com/animesh-garg/animesh-garg.github.io/blob/source/_bibliography/
