@@ -25,7 +25,8 @@ My current research focuses on machine learning algorithms for perception and co
 **Current Applications**: Mobile-Manipulation in Retail/Warehouse, personal, and surgical robotics.  
 
 Link to (reasonably recent) <a href="{{ '/assets/pdf/garg-cv.pdf' | prepend: site.baseurl | prepend: site.url }}">CV</a>.  
-Contact me: [garg@cs.toronto.edu](mailto:{{ site.email | encode_email }})
+Contact me: [garg@cs.toronto.edu](mailto:{{ site.email | encode_email }})  
+Follow me: {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}  {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %} 
 
 --- 
 
