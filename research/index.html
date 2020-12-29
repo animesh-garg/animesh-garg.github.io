@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Animesh Garg Home | research</title>
+  <title>Animesh Garg Home | Research Projects</title>
   <meta name="description" content="Assistant Professor of Robotics and Machine Learning
 ">
 
@@ -80,14 +80,17 @@
         <a class="page-link" href="/publications/">publications</a>
         <!-- <a class="page-link" href="http://www.pair.toronto.edu/publications/">publications</a> -->
 
-        <!-- research -->
-        <!-- <a class="page-link" href="/research/">research</a> -->
+        <!-- research group -->
         <a class="page-link" href="http://www.pair.toronto.edu">PAIR group</a>
+
+        <!-- research -->
+        <!-- <a class="page-link" href="http://www.pair.toronto.edu/projects/">research</a> -->
+        <a class="page-link" href="/research/">research</a>
 
         <!-- teaching -->
         <a class="page-link" href="/teaching/">teaching</a>
 
-        <!-- teaching -->
+        <!-- contact -->
         <a class="page-link" href="/contact/">contact</a>
 
         <!-- Pages -->
@@ -116,7 +119,7 @@
         
           
             
-              <a class="page-link" href="/research/">research</a>
+              <a class="page-link" href="/research/">Research Projects</a>
               
           
         
@@ -148,16 +151,80 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <div class="img_row" style="height: 150px;">
-    <a href="http://pairlab.github.io"><img class="col three left" src="/assets/img/pair-logo.png" style="object-fit: contain;" alt="" title="People, AI, and Robots" /></a>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Research Projects</h1>
+    <h5 class="post-description"></h5>
+  </header>
+
+  <article class="post-content Research Projects clearfix">
+    <div class="img_row" style="width: 100%;">
+    <a href="http://pairlab.github.io" target="_blank"><img class="col three left" src="/assets/img/projects-teaser2021.png" style="object-fit: contain;" alt="" title="People, AI, and Robots" /></a>
 </div>
 
-<h2 id="people-ai-and-robots-group"><a href="http://pairlab.github.io">People, AI, and Robots Group</a></h2>
+<p>We aim to build algorithms for perceptual representations learned by and for interaction, causal understanding of mechanisms, and physically-grounded reasoning in practical settings. An emblematic north star is to enable an autonomous robot to watch an instructional video, or a set of these videos, and then learn a policy to execute the task in a new setting. This requires progress on several fronts as detailed below. 
+PAIR group blends ideas in <em>Causality</em>, <em>Perception</em>, and <em>Reinforcement Learning</em> towards this vision.</p>
 
-<p>My group works on Generalizable Autonomy in Robotics. 
-My research vision is to enable robotic systems that: learn hierarchical control tasks by watching humans, seamlessly interact and collaborate with humans, and learn to improve performance and acquire new skills through self-practice. And my approach to these challenges develops algorithmic methods to enable efficient robot learning for long-term sequential tasks through Generalizable Autonomy.</p>
+<h3 id="1-generalizable-representations-in-rl-for-robotics">1. Generalizable Representations in RL for Robotics</h3>
 
-<p>I bring together expertise from areas of Reinforcement Learning, Optimal Control and Computer Vision. The principal focus of my research is to understand representations and algorithms to enable the efficiency and generality of learning for interaction in autonomous agents. My research combines model-based control with data-driven policy learning under unstructured perceptual inputs. And my prior work also reflects on broad applications of my methods, ranging from personal to medical robotics. I am eager to continue researching fundamental questions in general-purpose intelligence for interactive robotic agents.</p>
+<p>A key focus of our work is to understand the role of representations in RL towards efficiency and generalization in skill acquisition. RL is mainly composed of State Space (Input), Action space (Output), a Learning Rule, and Policy (or value) model. 
+We work in all four:<br />
+States: <a href="https://sites.google.com/view/task-oriented-grasp">ToG</a>, <a href="https://sites.google.com/view/task-oriented-grasp">GIFT</a>, <a href="https://sites.google.com/view/visionandtouch">Making Sense of Touch and Vision</a><br />
+Actions: <a href="https://arxiv.org/abs/1906.08880">VICES</a>, <a href="https://www.pair.toronto.edu/laser">LASER</a><br />
+Algorithms: <a href="https://arxiv.org/abs/2011.12363">C-Learning</a><br />
+Architectures: <a href="https://sites.google.com/view/d2rl/home">D2RL</a></p>
+
+<p>Surprisingly, structured biases upend contemporary methods in all four dimensions, pointing to a need for deeper analysis of representations in RL.</p>
+
+<ul>
+  <li>3D Vision: Object and Scene representations for manipulation.</li>
+  <li>Perceptual Concept Learning</li>
+  <li>Geomteric Deep Learning for discovery of symmetries</li>
+</ul>
+
+<h3 id="2-causal-discovery-and-inference-in-robotics">2. Causal Discovery and Inference in Robotics</h3>
+
+<p>Causal understanding is one of key pillars of my current and future agenda. A simulator is a generative world model, and similarly follows a system of structural mechanisms. However, model learning focuses solely on statistical dependence, while Causal Models go beyond it to build representations that support intervention, planning, and modular reasoning. These methods provide a concrete step towards bridging vision and robotics through sub-goal inference and counterfactual imagination.</p>
+
+<ul>
+  <li>Disentangled Generative Models: <a href="https://sites.google.com/nvidia.com/semi-stylegan">Semi-Supervised StyleGAN</a>, <a href="https://github.com/NVIDIA/UnsupervisedLandmarkLearning">Unsupervised Keypoints</a></li>
+  <li>Causal Factor Graphs: <a href="https://yunzhuli.github.io/V-CDN/">V-CDN</a></li>
+  <li>Instruction Guided Counterfactual Generation: <a href="https://iclr-acgn.github.io/ACGN/">ACGN</a></li>
+</ul>
+
+<h3 id="3-crowd-scale-robot-learning-with-offlinebatch-rl">3. Crowd-Scale Robot Learning with Offline/Batch RL</h3>
+
+<p>Data-driven methods help RL in exploration and reward specification. Robot learning, however, is limited by modest-sized real data. 
+Access to data brings new algorithmic opportunities to robotics, as it did in vision and language. However, it also poses challenges due to static nature of data and covariate shifts.</p>
+
+<ul>
+  <li>Scalable Teleoperation with Roboturk: <a href="http://roboturk.stanford.edu/">Roboturk-v1</a>, <a href="https://roboturk.stanford.edu/realrobotdataset#tasks">Roboturk-v2</a></li>
+  <li>Offline/Batch Policy Learning and Causal Data Augmengation: <a href="https://sites.google.com/stanford.edu/iris/">IRIS</a>, <a href="https://arxiv.org/abs/2007.02863">CoDA</a></li>
+  <li>Safe Transfer to Real Systems: <a href="">ARPL</a>, <a href="https://arxiv.org/abs/1707.04674">AdaPT</a>, <a href="https://sites.google.com/view/conservative-safety-critics/home">CSC</a></li>
+</ul>
+
+<h3 id="4-structured-biases-for-hierarchical-planning">4. Structured Biases for Hierarchical Planning</h3>
+
+<p>Procedural reasoning, such as in robotics, needs both skills and their structured composition for interaction planning towards a higher-order objective. 
+However, manual composition of skills via a finite state-machine design is both tedious and unscalable. Thus the need for inductive bias is intensified for cognitive reasoning. I have developed imitation guided policy learning in abstract spaces for hierarchically structure tasks.</p>
+
+<ul>
+  <li>Neural Planning Modules for One-Shot Imitation: <a href="https://stanfordvl.github.io/ntp/">NTP</a>, <a href="https://arxiv.org/abs/1807.03480">NTG</a>, <a href="">Continuous Symbolic Planner</a></li>
+  <li>Task Structure Representations: <a href="https://www.youtube.com/watch?time_continue=2&amp;v=L561cJh7DLE">TSC</a>, <a href="">TSC-DL</a>, <a href="https://animesh.garg.tech/assets/pdf/garg_swirl_ijrr18.pdf">SWIRL</a></li>
+  <li>Learning from Videos: <a href="https://finding-it.github.io/">Finding-it</a></li>
+  <li>Dynamics with Latent Hierarchical Structure: <a href="http://pair.stanford.edu/cavin/">CAVIN</a></li>
+</ul>
+
+<h3 id="5-applications-to-real-robot-systems">5. Applications to Real Robot Systems</h3>
+
+<p>The algorithmic ideas have been motivated by problems in mobility and manipulation in robotics, and have been evaluated on various physical robot platforms.</p>
+
+<ul>
+  <li>Personal &amp; Service Robotics: <a href="https://sites.google.com/view/task-oriented-grasp">Tool Use</a>, <a href="https://www.youtube.com/watch?v=OdqJuvAHvGE">Task Planning</a>, <a href="https://www.youtube.com/watch?v=NwMukXa8kys&amp;feature=youtu.be">Assembly</a>, <a href="https://ai.stanford.edu/mech-search/multistep">Pick &amp; place</a>, <a href="https://roboturk.stanford.edu/realrobotdataset#tasks">Laundry Layout</a></li>
+  <li>Surgical &amp; Healthcare: <a href="https://youtu.be/beVWB6NtAaA">Debridement</a>, <a href="https://youtu.be/z1ehShXFToc">Suturing</a>, <a href="https://youtu.be/l6gQg2VbGcc">Cutting</a>, <a href="https://youtu.be/l6gQg2VbGcc">Extraction</a>, <a href="https://www.youtube.com/watch?v=Kk_wHiu8nGg&amp;feature=youtu.be">Radiotherapy</a></li>
+  <li>Legged Robotics: <a href="https://news.developer.nvidia.com/contact-adaptive-controller-locomotion">Contact Planning</a>, <a href="https://www.pair.toronto.edu/understanding-dr">Domain Randomization</a></li>
+</ul>
 
 <!-- 
 My work can broadly be divided into topics as follows:
@@ -289,6 +356,13 @@ My work can broadly be divided into topics as follows:
 
  -->
 
+  </article>
+
+  
+
+  
+
+</div>
       </div>
     </div>
 
@@ -304,7 +378,7 @@ My work can broadly be divided into topics as follows:
   
 
     <!-- Load jQuery -->
-<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="//code.jquery.com/jquery-.min.js"></script>
 
 <!-- Load Common JS -->
 <script src="/assets/js/common.js"></script>
@@ -316,8 +390,8 @@ My work can broadly be divided into topics as follows:
 
 
 <!-- Load KaTeX -->
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX//katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX//katex.min.js"></script>
 <script src="/assets/js/katex.js"></script>
 
 

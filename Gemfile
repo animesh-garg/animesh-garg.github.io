@@ -5,6 +5,7 @@ group :jekyll_plugins do
     gem 'jekyll-email-protect'
     gem 'jekyll-paginate'
     gem 'jekyll-scholar', ">=5.16.0"
+    gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'unicode_utils'
     gem "bibtex-ruby"
