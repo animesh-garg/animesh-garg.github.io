@@ -13,13 +13,13 @@
   blockquote { margin-left: 2rem; padding: 2rem; }
   .social-icons-left { text-align: left; }
   .social-icons-right { text-align: right; }
-  .img_row { height: 66.6666666667px; }
+  .img_row { height: 91.6666666667px; }
   .col { padding: 1.6666666667px; } }
 @media screen and (min-width: 48em) { html { font-size: 18px; }
-  .img_row { height: 133.3333333333px; }
+  .img_row { height: 183.3333333333px; }
   .col { padding: 3.3333333333px; } }
 @media screen and (min-width: 64em) { html { font-size: 20px; }
-  .img_row { height: 200px; }
+  .img_row { height: 275px; }
   .col { padding: 5px; } }
 @media screen and (min-width: 78em) { em img { max-width: 56rem; margin-left: -7em; } }
 /*!
