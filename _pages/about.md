@@ -22,7 +22,16 @@ I earned M.S. in [Computer Science](http://www.eecs.berkeley.edu/Research/Areas/
 My current research focuses on machine learning algorithms for perception and control in robotics. I develop algorithmic methods to enable efficient robot learning for long-term sequential tasks through Generalizable Autonomy. The principal focus of my research is to understand representations and algorithms to enable the efficiency and generality of learning for interaction in autonomous agents.
 
 **Research Interests**: Robotics, Reinforcement Learning & Optimal Control, Computer Vision  
-**Current Applications**: Mobile-Manipulation in Retail/Warehouse, personal, and surgical robotics.  
+**Current Applications**: Mobile-Manipulation in Retail/Warehouse, personal, and surgical robotics. 
+[Read more at PAIR Website](http://www.pair.toronto.edu)   
+<div class="img_row" style="margin: 0px;">
+	<a href="http://www.pair.toronto.edu">
+    	<img class="col one left" src="{{ site.baseurl }}/assets/img/pair-logo-sq.png" style="width: 23%; height: auto; object-fit: contain;" alt="" title="PAIR Lab"/>    	
+	</a>
+	<a href="http://www.pair.toronto.edu/projects">
+    	<img class="col two left" src="{{ site.baseurl }}/assets/img/real-robots-garg.png" style="width: 77%; height: auto; object-fit: contain;" alt="" title="Suturing"/>    
+	</a>	
+</div>
 
 Link to (reasonably recent) <a href="{{ '/assets/pdf/garg-cv.pdf' | prepend: site.baseurl | prepend: site.url }}">CV</a>.  
 Contact me: [garg@cs.toronto.edu](mailto:{{ site.email | encode_email }})  
