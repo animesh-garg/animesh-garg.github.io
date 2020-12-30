@@ -5,13 +5,37 @@ permalink: /research/
 description: 
 ---
 
+We aim to build algorithms for perceptual representations learned by and for interaction, causal understanding of mechanisms, and physically-grounded reasoning in practical settings. An emblematic north star is to enable an autonomous robot to watch an instructional video, or a set of these videos, and then learn a policy to execute the task in a new setting. We build both algorithms and systems that have a broad range of applications in different domains in robot autonomy.
+PAIR group blends ideas in *Causality*, *Perception*, and *Reinforcement Learning* towards this vision.
+
 
 <div class="img_row">
-    <img class="col three left" src="{{ site.baseurl }}/assets/img/projects-teaser2021.png" style="object-fit: contain;" alt="" title="Research Overview"/>
+    <!-- <img class="col one left" src="{{ site.baseurl }}/assets/img/res-ntp_robust.gif" alt="" title="NTP"/> -->
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-planning_robot1-small.gif" alt="" title="NTP"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-cavin.gif" alt="" title="CAVIN"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-multimodal-test.gif" alt="" title="example image"/>
+</div>
+<div class="col three caption">
+    Personal & Service Robotics
 </div>
 
-We aim to build algorithms for perceptual representations learned by and for interaction, causal understanding of mechanisms, and physically-grounded reasoning in practical settings. An emblematic north star is to enable an autonomous robot to watch an instructional video, or a set of these videos, and then learn a policy to execute the task in a new setting. This requires progress on several fronts as detailed below. 
-PAIR group blends ideas in *Causality*, *Perception*, and *Reinforcement Learning* towards this vision.
+<div class="img_row">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-cutting.gif" alt="" title="Cutting"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-suturing.gif" alt="" title="Suturing"/>    
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-acubot.gif" alt="" title="Acubot"/>
+</div>
+<div class="col three caption">
+    Surgical & Healthcare Robotics
+</div>
+
+<div class="img_row">
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-laikago-skateboard.gif" alt="" title="robot-skateboard"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-laikago-dr.gif" alt="" title="Domain Randomization"/>
+    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-laikago-kick.gif" alt="" title="example image"/>
+</div>
+<div class="col three caption">
+    Legged Locomotion
+</div>
 
 
 ### 1. Generalizable Representations in RL for Robotics
@@ -83,18 +107,13 @@ However, manual composition of skills via a finite state-machine design is both 
 ### 5. Applications to Real Robot Systems
 
 The algorithmic ideas have been motivated by problems in mobility and manipulation in robotics, and have been evaluated on various physical robot platforms. 
-
 <div class="img_row">
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-ntp_robust.gif" alt="" title="NTP"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-cavin.gif" alt="" title="CAVIN"/>
-    <img class="col one left" src="{{ site.baseurl }}/assets/img/res-multimodal-test.gif" alt="" title="example image"/>
-    <!-- <img class="col one left" src="{{ site.baseurl }}/assets/img/3.jpg" alt="" title="example image"/> -->
+    <img class="col three left" src="{{ site.baseurl }}/assets/img/real-robots-garg.png" style="object-fit: contain;" alt="" title="Research Overview"/>
 </div>
 
 - Personal & Service Robotics: [Tool Use](https://sites.google.com/view/task-oriented-grasp), [Task Planning](https://www.youtube.com/watch?v=OdqJuvAHvGE), [Assembly](https://www.youtube.com/watch?v=NwMukXa8kys&feature=youtu.be), [Pick & place](https://ai.stanford.edu/mech-search/multistep), [Laundry Layout](https://roboturk.stanford.edu/realrobotdataset#tasks)
-- Surgical & Healthcare: [Debridement](https://youtu.be/beVWB6NtAaA), [Suturing](https://youtu.be/z1ehShXFToc), [Cutting](https://youtu.be/l6gQg2VbGcc), [Extraction](https://youtu.be/l6gQg2VbGcc), [Radiotherapy](https://www.youtube.com/watch?v=Kk_wHiu8nGg&feature=youtu.be)
+- Surgical & Healthcare: [Debridement](https://youtu.be/beVWB6NtAaA), [Suturing](https://youtu.be/z1ehShXFToc), [Cutting](https://youtu.be/l6gQg2VbGcc), [Extraction](https://www.youtube.com/watch?v=YiPq9t0tR3U), [Radiotherapy](https://www.youtube.com/watch?v=Kk_wHiu8nGg&feature=youtu.be)
 - Legged Robotics: [Contact Planning](https://news.developer.nvidia.com/contact-adaptive-controller-locomotion), [Domain Randomization](https://www.pair.toronto.edu/understanding-dr)
-
 
 
 <!-- 
