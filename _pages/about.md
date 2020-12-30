@@ -24,7 +24,7 @@ My current research focuses on machine learning algorithms for perception and co
 **Research Interests**: Robotics, Reinforcement Learning & Optimal Control, Computer Vision  
 **Current Applications**: Mobile-Manipulation in Retail/Warehouse, personal, and surgical robotics. 
 [Read more at PAIR Website](http://www.pair.toronto.edu)   
-<div class="img_row" style="margin: 0px;">
+<div class="img_row" style="height: 200px;">
 	<a href="http://www.pair.toronto.edu">
     	<img class="col one left" src="{{ site.baseurl }}/assets/img/pair-logo-sq.png" style="width: 23%; height: auto; object-fit: contain;" alt="" title="PAIR Lab"/>    	
 	</a>
