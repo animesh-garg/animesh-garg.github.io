@@ -320,7 +320,7 @@ hr { border: 0; border-bottom-style: solid; border-bottom-width: 1px; border-bot
 
 html { margin-left: calc(100vw - 100%); margin-right: 0; }
 
-html, body { height: auto; min-height: 100%; -webkit-text-size-adjust: 100%; }
+html, body { height: auto; min-height: 100%; -webkit-text-size-adjust: 100%; scroll-padding-top: 56px; /* compensate for the navigation bar height */ }
 
 img { max-width: none; }
 
@@ -443,7 +443,7 @@ footer a:hover { color: #0076df; }
 .bibliography h2 { border-top: 1px solid #999; color: #999; margin: 20px -3em 20px -2em; padding-top: 1ex; text-align: right; }
 .bibliography ol { list-style: none inside; margin-left: -30px; }
 .bibliography ul { margin-left: -30px; list-style: none inside; }
-.bibliography li { border-left: 1px solid #ccc; padding-left: 10px; border-radius: 5px; margin-bottom: 20px; position: relative; color: #999; font-size: 0.9rem; }
+.bibliography li { border-left: 1px solid #ccc; padding-left: 10px; border-radius: 5px; margin-bottom: 20px; margin-left: 1em; position: relative; color: #999; font-size: 0.9rem; }
 .bibliography li span { display: block; }
 .bibliography li .title { font-size: 18px; font-weight: bolder; color: #333; }
 .bibliography li .title a { font-weight: 500; color: #333; }
@@ -458,6 +458,12 @@ footer a:hover { color: #0076df; }
 .bibliography li span.abstract.hidden { border: dashed 1px white; }
 .bibliography li span.abstract.hidden.open { border-color: #828282; }
 .bibliography abbr { position: absolute; left: -7em; }
+
+ol.bibliography { counter-reset: item; }
+
+ol.bibliography li { list-style-type: none; }
+
+ol.bibliography li:before { content: "[" counter(item) "] "; counter-increment: item; position: absolute; text-align: right; width: 2em; margin-left: -3em; }
 
 .star { color: #0076df; font-style: normal; }
 
