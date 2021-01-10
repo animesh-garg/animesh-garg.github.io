@@ -8,6 +8,7 @@ html, body {
   height: auto;
   min-height: 100%;
   -webkit-text-size-adjust: 100%;
+  scroll-padding-top: $nav-height; /* compensate for the navigation bar height */
 }
 
 img {
