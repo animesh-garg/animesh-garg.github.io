@@ -52,12 +52,13 @@
     ul {    
         margin-left: -30px;
         list-style: none inside;        
-    }    
+    }
     li {
         border-left: 1px solid #ccc;
         padding-left: 10px;
         border-radius: 5px;
         margin-bottom: 20px;
+        margin-left: 1em; // this is for haaving counter text
         // margin: 10px 0;
         position: relative;
         color: $light-gray;
@@ -128,6 +129,26 @@
             left: -7em;
     }
  }
+
+// this is for counters
+ol.bibliography {
+  counter-reset: item
+}
+
+ol.bibliography li {
+  list-style-type: none;
+  //margin: 30px 0;
+}
+
+ol.bibliography li:before {
+  content: "["counter(item)"] ";
+  counter-increment: item ;
+  position: absolute;
+  text-align: right;
+  width: 2em;
+  margin-left: -3em;
+}
+
 .star {
     color: $theme-color;
     font-style: normal;
