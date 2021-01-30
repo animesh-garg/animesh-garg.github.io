@@ -9,10 +9,12 @@
     </span>
     {% endif %} -->
 
-    <span class="site-title">
+    <a class="page-link" href="{{ site.groupurl }}/"><img alt="PAIR Logo" src="{{ 'pair-logo.png' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}" height="40" style="margin-top:5px"></a>
+
+<!--     <span class="site-title">
       {% assign name = site.name | split: ' ' %}
       <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/"><strong>{{ name | first }}</strong> {{ name | last }}</a>
-    </span>
+    </span> -->
 
     <nav class="site-nav">
       <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -35,12 +37,10 @@
         <!-- <a class="page-link" href="{{  "/publications/" | prepend: site.groupurl }}">papers</a> -->
 
         <!-- research group -->
-        <a class="page-link" href="{{  site.groupurl }}">PAIR-lab</a>
-
-        <!-- research -->
-        <!-- <a class="page-link" href="{{  "/projects/" | prepend: site.groupurl }}">research</a> -->
-        <!-- <a class="page-link" href="{{  "/research/" | prepend: site.baseurl | prepend: site.url }}">research</a> -->
-
+        <!-- <a class="page-link" href="{{  site.groupurl }}">PAIR-lab</a> -->
+        
+        <!-- PI -->
+        <a class="page-link" href="{{ site.baseurl | prepend: site.url }}/">Prof. Garg</a>
 
         <!-- Publications -->
         <a class="page-link" href="{{  "/publications/" | prepend: site.groupurl }}">papers</a>
@@ -50,9 +50,11 @@
 
         <!-- research -->
         <a class="page-link" href="{{  "/projects/" | prepend: site.groupurl }}">research</a>
+        <!-- <a class="page-link" href="{{  "/research/" | prepend: site.baseurl | prepend: site.url }}">research</a> -->
 
         <!-- teaching -->
-        <a class="page-link" href="{{  "/teaching/" | prepend: site.baseurl | prepend: site.url }}">teaching</a>
+        <!-- <a class="page-link" href="{{  "/teaching/" | prepend: site.baseurl | prepend: site.url }}">teaching</a> -->
+        <a class="page-link" href="{{  "/teaching/" | prepend: site.groupurl }}">courses</a>
 
         <!-- outreach -->
         <a class="page-link" href="{{  "/openings/" | prepend: site.groupurl }}">join us</a>
@@ -63,7 +65,6 @@
 
         <!-- contact -->
         <!-- <a class="page-link" href="{{  "/contact/" | prepend: site.baseurl | prepend: site.url }}">contact</a> -->
-
         <a class="page-link" href="{{  "/contact/" | prepend: site.baseurl | prepend: site.url }}"><i class="fas fa-paper-plane"></i></a>        
 
         <!-- Pages -->
