@@ -7,19 +7,20 @@ description: current and past courses
 
 #### Instructor
 
-[CSC 398]()
-:  **Topics in Computer Vision: Advances in 3D Vision**,(Planned Offering).  
-Instructor (*W-21*).  
+[CSC 2547](http://pair.toronto.edu/csc2547-w21)
+:  **Topics in Computer Vision: Advances in 3D Vision**  
+Instructor (*W-21*).   
 *University of Toronto*.   
 
-[CSC 398]()
-:  **Introduction to Reinforcement Learning**,(Planned Offering).  
-(Initially listed as a Topics in Computer Science Course)  
+[CSC 498](http://pair.toronto.edu/csc498-w21)
+:  **Introduction to Reinforcement Learning**,  
+(Initially listed as a Topics in Computer Science Course)   
 Instructor (*W-21*).  
 *University of Toronto*.   
 
 [CSC 375](http://pair.toronto.edu/csc375-f20)
-:  **Algorithmic Intelligence in Robotics**,
+:  **Algorithmic Intelligence in Robotics**,  
+(Initially listed as a Programming Mechatronics Course)   
 Instructor (*F-20*).  
 *University of Toronto*.   
 
@@ -40,7 +41,7 @@ Co-Instructor (*[F-17](http://web.stanford.edu/class/archive/cs/cs332/cs332.1182
 
 
 [IEOR 131](http://www.ieor.berkeley.edu/~ieor131/)
-: **Discrete Event Simulation**, TA (*Sp-16*)   
+: **Discrete Event Simulation**,  TA (*Sp-16*)   
   [Lee Schruben](http://www.ieor.berkeley.edu/~schruben/), *University of California, Berkeley*.   
 
 [IEOR 170](http://www.ieor.berkeley.edu/~ieor170/)
