@@ -138,6 +138,10 @@ scholar:
   bibliography: animesh.bib
   bibliography_template: bib
 
+  # add reversal order in bib page (but not working yet!)
+  bibliography_list_attributes:
+    reversed: true
+
   replace_strings: true
   join_strings: true
 
