@@ -459,11 +459,12 @@ footer a:hover { color: #0076df; }
 .bibliography li span.abstract.hidden.open { border-color: #828282; }
 .bibliography abbr { position: absolute; left: -7em; }
 
+/*this is for counters*/
 ol.bibliography { counter-reset: item; }
 
-ol.bibliography li { list-style-type: none; }
+ol.bibliography li { list-style-type: decimal; list-style-position: outside; /*margin: 30px 0;*/ }
 
-ol.bibliography li:before { content: "[" counter(item) "] "; counter-increment: item; position: absolute; text-align: right; width: 2em; margin-left: -3em; }
+ol.bibliography li:before { /*content: "["counter(item)"] ";*/ counter-increment: item; font-size: 0.875rem; position: absolute; text-align: right; width: 2em; margin-left: -2.75em; }
 
 .star { color: #0076df; font-style: normal; }
 
