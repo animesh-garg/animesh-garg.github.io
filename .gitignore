@@ -8,6 +8,9 @@ todo.txt
 # assets/pdf/*
 # assets/img/*
 
+#ruby
+.gems/
+
 ## jekyll
 .jekll-cache/
 .jekyll-metadata
