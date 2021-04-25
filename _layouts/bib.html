@@ -9,7 +9,20 @@
   {% endif %}
 {% endif %}
 
-<div id="{{entry.key}}">
+<!-- <div id="{{entry.key}}"> -->
+
+<div id="{{entry.key}}" class="grid.container">
+
+  <!-- if image exists then -->
+  {% if entry.teaser %}
+    <!-- <div style="clear: both;"> -->
+      <div class="bib-teaser">
+          <img src="{{ entry.teaser | prepend: '/assets/img/teaser/' | prepend: site.baseurl | prepend: site.url }}">
+      </div>
+    <!-- </div> -->
+    <div class="bib-entry">
+  {% endif %}
+
   <!-- thesis -->
   {% if entry.type contains "thesis" %}
     <span class="title">
@@ -97,6 +110,12 @@
     </span>
   {% endif %}
 
+  {% if entry.description %} 
+    <span class="description">
+      {{ entry.description }}
+    </span>
+  {% endif %}
+
   <span class="links">
   {% if entry.award %}
     <font color="red"><i class="fas fa-trophy"></i> {{entry.award}}</font><br> 
@@ -155,9 +174,16 @@
   {% endif %}
 
   </span>
+
   {% if entry.abstract %} 
   <span class="abstract hidden">
     <p>{{ entry.abstract }}</p>
   </span>
   {% endif %}
+
+
+{% if entry.teaser %}
+  </div>
+{% endif %}
+
 </div>

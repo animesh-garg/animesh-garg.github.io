@@ -44,7 +44,7 @@
         margin: 20px -3em 20px -2em;
         padding-top: 1ex;
         text-align: right;
-    }
+    }                 
     ol {
         list-style: none inside;        
         margin-left: -30px;
@@ -58,8 +58,8 @@
         padding-left: 10px;
         border-radius: 5px;
         margin-bottom: 20px;
-        margin-left: 1em; // this is for haaving counter text
-        // margin: 10px 0;
+        margin-left: 1em; /* this is for having counter text */
+        /*margin: 10px 0;*/
         position: relative;
         color: $light-gray;
         font-size: 0.9rem;
@@ -86,6 +86,10 @@
                 // border-bottom: 1px solid;
                 font-style: bolder;
             }
+        }
+        span.description{
+            /*font-size: $small-font-size;*/
+            color: $dark-gray;
         }
         a.abstract, a.bibtex { cursor: pointer; }
         .hidden {
@@ -123,11 +127,38 @@
         span.abstract.hidden.open {
             border-color: $grey-color;
         }
+        img{
+            /*width:15%; */
+            /*float:none; */
+            max-width: 150px; 
+            max-height:150px;
+            float:right;
+            vertical-align:middle;
+            margin: auto;
+            display: block;
+            object-fit: contain;
+            box-shadow: 0 0 7px 0px #AAA; 
+            border-radius: 8px;
+            /*border: 1px solid #0787E3;*/
+            border: 3px solid #FFF;  
+        }
+        .grid-containter{
+        display: grid;
+        grid-template-columns: auto 30%;
+        grid-gap: 15px;
+        padding: 10px;
+        }
+        .bib-entry {
+            grid-area: 1 / 1;
+        }        
+        .bib-teaser {
+            grid-area: 1 / 2;
+        }  
     }
     abbr {
         position: absolute;
             left: -7em;
-    }
+    }  
  }
 
 /*this is for counters*/
