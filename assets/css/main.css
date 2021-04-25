@@ -443,13 +443,14 @@ footer a:hover { color: #0076df; }
 .bibliography h2 { border-top: 1px solid #999; color: #999; margin: 20px -3em 20px -2em; padding-top: 1ex; text-align: right; }
 .bibliography ol { list-style: none inside; margin-left: -30px; }
 .bibliography ul { margin-left: -30px; list-style: none inside; }
-.bibliography li { border-left: 1px solid #ccc; padding-left: 10px; border-radius: 5px; margin-bottom: 20px; margin-left: 1em; position: relative; color: #999; font-size: 0.9rem; }
+.bibliography li { border-left: 1px solid #ccc; padding-left: 10px; border-radius: 5px; margin-bottom: 20px; margin-left: 1em; /* this is for having counter text */ /*margin: 10px 0;*/ position: relative; color: #999; font-size: 0.9rem; }
 .bibliography li span { display: block; }
 .bibliography li .title { font-size: 18px; font-weight: bolder; color: #333; }
 .bibliography li .title a { font-weight: 500; color: #333; }
 .bibliography li .author a { border-bottom: 1px dashed #0076df; }
 .bibliography li .author a:hover { border-bottom-style: solid; text-decoration: none; }
 .bibliography li .author > em { font-style: bolder; }
+.bibliography li span.description { /*font-size: $small-font-size;*/ color: #333; }
 .bibliography li a.abstract, .bibliography li a.bibtex { cursor: pointer; }
 .bibliography li .hidden { font-size: 0.875rem; max-height: 0px; overflow: hidden; text-align: justify; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
 .bibliography li .hidden p { line-height: 1.4em; margin: 10px; }
@@ -457,6 +458,10 @@ footer a:hover { color: #0076df; }
 .bibliography li .hidden.open { max-height: 100em; -webkit-transition: 0.15s ease; -moz-transition: 0.15s ease; -ms-transition: 0.15s ease; -o-transition: 0.15s ease; transition: all 0.15s ease; }
 .bibliography li span.abstract.hidden { border: dashed 1px white; }
 .bibliography li span.abstract.hidden.open { border-color: #828282; }
+.bibliography li img { /*width:15%; */ /*float:none; */ max-width: 150px; max-height: 150px; float: right; vertical-align: middle; margin: auto; display: block; object-fit: contain; box-shadow: 0 0 7px 0px #AAA; border-radius: 8px; /*border: 1px solid #0787E3;*/ border: 3px solid #FFF; }
+.bibliography li .grid-containter { display: grid; grid-template-columns: auto 30%; grid-gap: 15px; padding: 10px; }
+.bibliography li .bib-entry { grid-area: 1 / 1; }
+.bibliography li .bib-teaser { grid-area: 1 / 2; }
 .bibliography abbr { position: absolute; left: -7em; }
 
 /*this is for counters*/
