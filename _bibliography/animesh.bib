@@ -777,7 +777,7 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   arXiv = {2011.12363},
   url={https://sites.google.com/view/learning-cae/},
   teaser={clearning-iclr21.gif},
-  description={Horizon-Aware policies trade off safety and perforamce while encoding multimodal solutions. Insight is to learn cumulative accessibility C(s,a,h) with time horizon h instead of the usual Q-function Q(s,a).}
+  description={Horizon-Aware policies trade off safety and performance while encoding multimodal solutions. Insight is to learn cumulative accessibility C(s,a,h) with time horizon h instead of the usual Q-function Q(s,a).}
 }
 
 @inproceedings{bharadhwaj2021csc,
@@ -799,6 +799,7 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   year={2021},
   month={jun},
+  day={1},
   arXiv={2005.10934},
   url={https://sites.google.com/view/leaf-exploration},
   teaser={leaf-icra21.gif},
@@ -811,6 +812,7 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   year={2021},
   month={jun},
+  day={1},
   arXiv = {2012.12209},
   url={https://xinleipan.github.io/emergent_morphology/},
   teaser={labo-icra21.gif},
@@ -823,6 +825,7 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   year={2021},
   month={jun},
+  day={2},
   arXiv = {2103.15793},
   url={https://www.pair.toronto.edu/laser/},
   video={https://youtu.be/c3Vb-_2HSxk},
@@ -836,13 +839,91 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
   year={2021},
   month={jun},
+  day={2},
   arXiv = {2011.02404},
   url={https://www.pair.toronto.edu/understanding-dr/},
   teaser={dynrand-icra21.gif},
   description={Dynamics randomization is neither necessary nor sufficient for sim-to-real transfer of learning robust locomotion policies.}
 }
 
-s
+@inproceedings{mahajan2021tesseract,
+  title={{Tesseract: Tensorised Actors for Multi-Agent Reinforcement Learning}}, 
+  author={Anuj Mahajan and Mikayel Samvelyan and Lei Mao and Viktor Makoviychuk and Animesh Garg and Jean Kossaifi  and Shimon Whiteson and Yuke Zhu and Anima Anandkumar},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2021},
+  month={jul},
+  day={15},  
+  arXiv = {},
+  url={},
+  teaser={tesseract-icml21.jpg},
+  description={Tensorised formulation of the Bellman equation in Cooperative multi-agent RL is an effective solution to exponential blowup of the action space with the number of agents.}
+}
+
+@inproceedings{lutter2021cfvi,
+  title={{Value Iteration in Continuous Actions, States and Time}}, 
+  author={Michael Lutter and Shie Mannor and Jan Peters and and Dieter Fox and Animesh Garg},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2021},
+  month={jul},
+  day={16},  
+  arXiv = {},
+  url={https://sites.google.com/view/value-iteration},
+  teaser={cfvi-icml21.jpg},
+  description={RL in continuous states and actions can be solved with a closed-form extention of value iteration in cases of non-linear control-affine dynamics, resulting in a practical alternative to policy search.}
+}
+
+@inproceedings{bai2021exploration,
+  title={{Principled Exploration via Optimistic Bootstrapping and Backward Induction}}, 
+  author={Chenjia Bai and Lingxiao Wang and Zhaoran Wang and Lei Han and Jianye Hao and Animesh Garg and Peng Liu},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2021},
+  month={jul},
+  day={16},    
+  arXiv = {},
+  url={},
+  teaser={ob2i-icml21.jpg},
+  description={Improving exploration in RL through Optimistic Bootstrapping using UCB-bonus to capture epistemic uncertainty. Time-consistent uncertainty propagation through backward induction.}
+}
+
+@inproceedings{liu2021coach,
+  title={{Coach-Player Multi-agent Reinforcement Learning for Dynamic Team Composition}}, 
+  author={Bo Liu and Qiang Liu and Lei Han and Peter Stone and Animesh Garg and Yuke Zhu and Anima Anandkumar},
+  booktitle={International Conference on Machine Learning (ICML)},
+  year={2021},
+  month={jul}, 
+  day={15},   
+  arXiv = {},
+  url={},
+  teaser={coach-icml21.jpg},
+  description={Coordinating teams with time-varying composition and roles requires oversight from coach who can help with low-frequency updates to role assignments and team strategy.}
+}
+
+@inproceedings{heiden2021disect,
+  title={{DiSeCT: A Differentiable Simulation Engine for Autonomous Robotic Cutting}}, 
+  author={Eric Heiden and Fabio Ramos and Miles Macklin and Yashraj Narang and Animesh Garg and Dieter Fox},
+  booktitle={{Robotics: Systems and Science (RSS)}},
+  year={2021},
+  month={aug},
+  arXiv = {},
+  url = {https://diff-cutting-sim.github.io/},
+  video={https://youtu.be/JEMLGq7eRLc},
+  teaser={disect-rss21.gif},
+  description={Differenctiable Cutting made easy.}
+}
+
+@inproceedings{lutter2021rfvi,
+  title={{Robust Value Iteration for Continuous Control Tasks}}, 
+  author={Michael Lutter and Shie Mannor and Jan Peters and and Dieter Fox and Animesh Garg},
+  booktitle={{Robotics: Systems and Science (RSS)}},
+  year={2021},
+  month={aug},  
+  arXiv = {},
+  url={https://sites.google.com/view/rfvi},
+  teaser={rfvi-rss21.jpg},
+  description={Robustness to Sim2Real via Dynamic Programming based Value Iteration in Continuous time RL.}
+}
+
+
 % ==========
 % Journal
 % ==========
@@ -984,6 +1065,19 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   description={Model-Free RL in centroidal model for desired body accelerations with subsequent computation of ground reaction forces using a robot model.}
 }
 
+@unpublished{turpin2021gift,
+  title={{GIFT: Generalizable Interaction-aware Functional Tool Affordances without Labels}}, 
+  author={Dylan Turpin and Liquan Wang and Stavros Tsogkas and Sven Dickinson and Animesh Garg},
+  year={2021},
+  month={jul},
+  arXiv = {},
+  url = {https://sites.google.com/view/gift-tools/home},
+  teaser={gift-rss21.gif},
+  description={Interaction-aware affordance mapping to unsupervised keypoints for tool-use in different scenarios.}
+}
+
+
+
 @unpublished{articulated2021mittal,
   title={{Articulated Object Interaction in Unknown Scenes with Whole-Body Mobile Manipulation}}, 
   author={Mayank Mittal and David Hoeller and Farbod Farshidian and Marco Hutter and Animesh Garg},
@@ -1002,7 +1096,7 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   year={2021},
   month={mar},
   arXiv = {2103.06326},
-  teaser={s4rl-arxiv21.gif},
+  teaser={s4rl-offline-rl-arxiv21.jpg},
   description={Data-augmentation with simple perturbations improve robustness, generalization, and OOD performance in Offline RL}
 }
 

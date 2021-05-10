@@ -11,6 +11,7 @@ profile:
 news: true
 social: true
 youtubeId: 8Kn4Gi8iSYQ
+youtubeId-2: giQyKhmBzhc
 ---
 
 I am an Assistant Professor of [Computer Science](https://web.cs.toronto.edu/) at [University of Toronto](https://www.utoronto.ca/) and a Faculty Member at the [Vector Institute](https://vectorinstitute.ai/). I direct the UofT [People, AI and Robotics (PAIR)](http://pairlab.github.io/) group.
@@ -43,6 +44,12 @@ Follow me: {% if site.twitter_username %}<a href="https://twitter.com/{{ site.tw
 
 #### **Recent Talk**    
 
+The following two talks cover the progression of research over the last 3 years in my group. 
+
+University of Waterloo Artificial Intelligence Institute (April 2021)  
+{% include youtubePlayer.html id=page.youtubeId-2 %}
+
+<br>
 MIT Deep Learning Seminar highlighting recent work (January 2020)  
 {% include youtubePlayer.html id=page.youtubeId %}
 

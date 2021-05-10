@@ -124,7 +124,7 @@ scholar:
   style: apa
   locale: en
 
-  sort_by: year,month
+  sort_by: year,month,day
   order: descending
   group_by: type
   group_order: ascending
