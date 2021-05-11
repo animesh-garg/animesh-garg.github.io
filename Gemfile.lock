@@ -284,7 +284,7 @@ PLATFORMS
 DEPENDENCIES
   bibtex-ruby
   github-pages
-  jekyll (>= 3.8.5)
+  jekyll (= 3.9.0)
   jekyll-email-protect
   jekyll-paginate
   jekyll-scholar (>= 5.16.0)
