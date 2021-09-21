@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Remote Sim2Real for Dexterous In-Hand Manipulation
-date: 2021-09-22 11:12:00-0400
+date: 2021-09-21 06:12:00-0400
 description: "Transferring Dexterous Manipulation from GPU Simulation to a Remote Real-World TriFinger"
 # source: /_bibliography/
 # bibliography: giftturpin.bib
