@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Learning Tool Affordances without Labels 
+title: Learning Tool Affordances without Labels
 date: 2021-06-15 11:12:00-0400
 description: "GIFT: Generalizable Interaction-aware Functional Tool representations (at RSS 2021)"
 source: /_bibliography/
@@ -11,11 +11,11 @@ bibliography_template: bib
 
 ## **Generalizable Interaction-aware Functional Tool Affordances without Labels**  
 [Dylan Turpin](http://www.cs.toronto.edu/~dylanturpin/), [Liquan Wang](https://www.linkedin.com/in/liquan-wang-a37634196/?originalSubdomain=ca), [Stavros Tsogkas](https://tsogkas.github.io/), [Sven Dickinson](https://www.cs.toronto.edu/~sven/), [Animesh Garg](https://animesh.garg.tech/)  
-*[Robotics Systems & Science](http://www.roboticsproceedings.org/rss17/index.html), 2021.*   
-[paper](https://arxiv.org/abs/2106.14973), [video](https://streamable.com/eylzdj)
+*[Robotics Systems & Science](http://www.roboticsproceedings.org/rss17/p060.html), 2021.*   
+[paper](https://arxiv.org/abs/2106.14973), [video](https://youtu.be/7N1XiIzu9v4)
 
 
-![Teaser image for GIFT. Discover tool affordances by interacting with procedurally-generated tools across three manipulation tasks: hooking, reaching and hammering. Train an affordance model to detect sparse keypoints representing tool geometry and predict distributions over pairs of keypoints to grasp and interact with for each task by learning from the contact data of sampled trajectories. Affordance predictions from RGBD observations of unknown objects match expected task semantics across hooking, reaching and hammering and are similar to those of a human labeller, e.g. for hammering.]({{ 'gift-teaser.svg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}){: width="120%"}
+![Teaser image for GIFT. Discover tool affordances by interacting with procedurally-generated tools across three manipulation tasks: hooking, reaching and hammering. Train an affordance model to detect sparse keypoints representing tool geometry and predict distributions over pairs of keypoints to grasp and interact with for each task by learning from the contact data of sampled trajectories. Affordance predictions from RGBD observations of unknown objects match expected task semantics across hooking, reaching and hammering and are similar to those of a human labeller, e.g. for hammering.]({{ 'gift-teaser.svg' | prepend: '/assets/img/blog/gift-jul21/' | prepend: site.baseurl | prepend: site.url }}){: width="120%"}
 
 *Figure  1:  Rather  than  relying  on  human  labels,  the GIFT framework  discovers  affordances  from  goal-directed  interaction  with  a  set  of procedurally-generated tools.*
 
@@ -78,7 +78,7 @@ or a pre-defined manipulation strategy.
 
 ### Method overview
 
-![The training pipeline.]({{ 'gift-pipeline.svg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}){: width="120%"}
+![The training pipeline.]({{ 'gift-pipeline.svg' | prepend: '/assets/img/blog/gift-jul21/' | prepend: site.baseurl | prepend: site.url }}){: width="120%"}
 
 *Figure 2: The training pipeline. Our framework learns affordance models for hooking, reaching and hammering by interacting with a set of tools.
 All
@@ -142,7 +142,7 @@ Quantitatively GIFT beats baseline methods on all three tasks and qualitatively
 the choices of grasp and interaction points usually match task semantics and agree with
 the choices of a human oracle.
 
-![Quantitative results.]({{ 'gift-table.svg' | prepend: '/assets/img/' | prepend: site.baseurl | prepend: site.url }}){: width="70%"}
+![Quantitative results.]({{ 'gift-table.svg' | prepend: '/assets/img/blog/gift-jul21/' | prepend: site.baseurl | prepend: site.url }}){: width="70%"}
 
 *Table 1: GIFT outperforms baselines on all tasks and matches a human oracle on two of three tasks using novel tools. Reward is normalized with respect to the human oracle.*
 
