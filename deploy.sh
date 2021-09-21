@@ -7,7 +7,9 @@ bundle exec jekyll clean
 echo "--------build folder: _site cleaned------------"
 
 # clone master in _site
-git clone -b master https://github.com/animesh-garg/animesh-garg.github.io.git ./_site
+git clone -b master git@github.com:animesh-garg/animesh-garg.github.io.git ./_site
+# git clone -b master https://github.com/animesh-garg/animesh-garg.github.io.git ./_site
+#http clones are not working with github. 
 echo "--------Master cloned------------"
 
 # build into _site folder 
