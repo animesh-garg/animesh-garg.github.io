@@ -1047,7 +1047,6 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   description={Drop-DTW efficiently computes the optimal alignment between two variable-length sequences while automatically dropping the outlier elements from the matching.}
 }
 
-
 @inproceedings{zhang2022convergence ,
   title={{Convergence and Optimality of Policy Gradient Methods in Weakly Smooth Settings}}, 
   author={Matthew Shunshi Zhang and Murat Erdogdu and Animesh Garg},
@@ -1058,19 +1057,51 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   description={ Convergence analysis in RL relies on non-intuitive, impractical and often opaque conditions such as strict smoothness and bounded function approximation. In this work, we establish explicit convergence rates of policy gradient methods without relying on these conditions, instead extending the convergence regime to weakly smooth policy classes with L2 integrable gradient.}
 }
 
-
 @inproceedings{zhang2022marco,
   title={{Centralized Model and Exploration Policy for Multi-Agent RL}}, 
   author={Qizhen Zhang and Chris Lu and Animesh Garg and Jakob Foerster},
   booktitle={International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS)},
   year={2022},
-  month={May},
+  month={april},
   arXiv = {2107.06434},
   award={Oral Presentation},
   teaser={marco2021.jpg},
   description={Fully cooperative multi-agent settings (Dec-POMDPs) are fiendlishly hard. MARCO builds on the insight that using just a polynomial number of samples, it can learn a centralized model that generalizes across different policies.}
 }
 
+@inproceedings{bai2022pbrl,
+  title={{Pessimistic Bootstrapping for Uncertainty-Driven Offline Reinforcement Learning}}, 
+  author={Chenjia Bai and Lingxiao Wang and Zhuoran Yang and Zhi-Hong Deng and Animesh Garg and Peng Liu and Zhaoran Wang},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2022},
+  month={may},
+  url={https://openreview.net/forum?id=Y4cs1Z3HnqL},
+  description={Generalization beyond dataset in offline RL: Uncertainty quantification via the disagreement of bootstrapped Q-functions, and pessimistic updates by penalizing the value function based on the estimated uncertainty},
+  teaser={res-pbrl-iclr22.jpg}
+}
+
+@inproceedings{voelcker2022vagram,
+  title={{Value Gradient weighted Model-Based Reinforcement Learning}}, 
+  author={Claas A Voelcker and Victor Liao and Animesh Garg and Amir-massoud Farahmand},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2022},
+  month={may},
+  url={https://openreview.net/forum?id=4-D6CZkRXxI},
+  description={Value aware model learning to fix Objective Mismatch in Model-based RL. The gradient of the empirical value function as a measure of the sensitivity of the RL algorithm to model errors},
+  teaser={res-vagram-iclr22.jpg}
+}
+
+@inproceedings{xie2022shac,
+  title={{Accelerated Policy Learning with Parallel Differentiable Simulation}}, 
+  author={Jie Xu and Miles Macklin and Viktor Makoviychuk and Yashraj Narang and Wojciech Matusik and Animesh Garg and Fabio Ramos},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2022},
+  month={may},
+  pdf={https://openreview.net/forum?id=ZSKRQMvttc},
+  url={https://sites.google.com/view/shac},
+  description={A high-performance differentiable simulator and a new policy learning algorithm (SHAC) that can effectively leverage simulation gradients, even in the presence of non-smoothness},
+  teaser={res-shac-iclr22.jpg}
+}
 
 % ==========
 % Journal
@@ -1180,17 +1211,18 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
 }
 
 
-@article{2109.04869,
+@article{sun2022plate,
   title={{PlaTe: Visually-Grounded Planning with Transformers in Procedural Tasks}}, 
   author={Jiankai Sun and De-An Huang and Bo Lu and Yun-Hui Liu and Bolei Zhou and Animesh Garg},
   year={2022},
-  month={May},
+  month={june},
   journal={IEEE Robotics and Automation Letters (RA-L) and ICRA}, 
   arXiv = {2109.04869},
   url={https://www.pair.toronto.edu/plate-planner/},
   teaser={plate-21.jpg},
   description={Planning Transformer to learn structured and plannable state and action spaces directly from unstructured videos. The model learns both action-conditional video prediction and goal conditioned planning.}
 }
+
 
 % ==========
 % Thesis
