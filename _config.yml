@@ -130,7 +130,7 @@ scholar:
   group_order: ascending
   type_aliases: {inproceedings: article}
   type_names: {unpublished: Preprints,  article: Papers (Journals & Conferences), workshop: Peer-Reviewed Workshops, thesis: Theses, patent: Patents}
-  type_order: [unpublished,article,workshop,thesis,patent,misc]
+  type_order: [article,unpublished,workshop,thesis,patent,misc]
 
 
   source: /_bibliography/
