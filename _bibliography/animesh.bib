@@ -1076,7 +1076,7 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   year={2022},
   month={may},
   date={10},
-  url={https://openreview.net/forum?id=Y4cs1Z3HnqL},
+  arxiv={2202.11566},
   description={Generalization beyond dataset in offline RL: Uncertainty quantification via the disagreement of bootstrapped Q-functions, and pessimistic updates by penalizing the value function based on the estimated uncertainty},
   teaser={res-pbrl-iclr22.jpg}
 }
@@ -1106,16 +1106,32 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   teaser={res-shac-iclr22.jpg}
 }
 
+
 @inproceedings{sinha2022lfiw,
   title={Experience Replay with Likelihood-free Importance Weights},
   author={Samarth Sinha and Jiaming Song and Animesh Garg and Stefano Ermon},
   booktitle={Learning for Dynamics and Control (L4DC)},
   year={2022},
   month={jun},
-  date={23},
-  teaser={lfiw-l4dcr22.jpg},
+  date={15},
+  teaser={lfiw-l4dc22.jpg},
+  award={Oral},
   arXiv={2006.13169},
    description={A likelihood-free density ratio estimator to reweight experiences based on their likelihood under the stationary distribution of the current policy.}
+}
+
+@inproceedings{xie2021glide,
+  title={{GLiDE: Generalizable Quadrupedal Locomotion in Diverse Environments with a Centroidal Model}}, 
+  author={Zhaoming Xie and Xingye Da and Buck Babich and Animesh Garg and Michiel {van de Panne}},
+  booktitle={Workshop on Algorithmic Foundations of Robotics (WAFR)},
+  organization={Springer STAR},
+  month={jun},
+  year={2022},
+   date={22},
+  arXiv = {2104.09771},
+  url = {https://www.pair.toronto.edu/glide-quadruped/},
+  teaser={glide-arxiv21.gif},
+  description={Model-Free RL in centroidal model for desired body accelerations with subsequent computation of ground reaction forces using a robot model.}
 }
 
 @inproceedings{gorti2022xpool,
@@ -1124,9 +1140,11 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2022},
   month={jun},
-  date={24},
+  date={22},
+  arxiv={2203.15086},
   teaser={xpool-cvpr22.jpg},
-  url={https://xpool-t-v-retrieval.github.io/x-pool/},
+  url={https://layer6ai-labs.github.io/xpool/},
+  code={https://github.com/layer6ai-labs/xpool},
   description={Text to video retrieval with a scaled dot product attention for a text to attend to its most semantically similar frames.}
 }
 
@@ -1136,7 +1154,7 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2022},
   month={jun},
-  date={25},
+  date={23},
   arXiv = {2011.11201},
   url={https://cvpr-mac.github.io/MAC/},
   teaser={mac-arxiv21.gif},
@@ -1149,12 +1167,11 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2022},
   month={jun},
-  date={26},
+  date={24},
   url={https://neural-shape-mating.github.io/},
   teaser={nsm-cvpr22.jpg},
   description={Pairwise 3D geometric shape mating as general framework for part to part 3D pose matching for shape assembly.}
 }
-
 
 
 % ==========
@@ -1277,6 +1294,15 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   description={Planning Transformer to learn structured and plannable state and action spaces directly from unstructured videos. The model learns both action-conditional video prediction and goal conditioned planning.}
 }
 
+@article{bourdillon2022surgery,
+  Author = {Alexandra T. Bourdillon and Animesh Garg and Hanjay Wang and Y. Joseph Woo and Marco Pavone and Jack Boyd},
+  journal={Journal of Surgical Innovation}, 
+  Title = {{Integration of Reinforcement Learning in a Virtual Robotic Surgical Simulation}},
+  Year = {2022},
+  month={apr},
+  teaser={rl-surg-sim-journal.jpg}
+}
+
 
 % ==========
 % Thesis
@@ -1308,6 +1334,21 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
 % ===========
 %  Preprints
 % ===========
+
+
+@unpublished{2203.10263,
+  title={{DiSECt: A Differentiable Simulator for Parameter Inference and Control in Robotic Cutting}}, 
+  author={Eric Heiden and Miles Macklin and Yashraj Narang and Dieter Fox  and Animesh Garg and Fabio Ramos},
+  year={2022},
+  month={mar},   
+  arXiv = {2203.10263},
+  url = {https://diff-cutting-sim.github.io/},
+  video={https://youtu.be/JEMLGq7eRLc},
+  blog={https://developer.nvidia.com/blog/nvidia-research-disect-a-differentiable-simulation-engine-for-autonomous-robotic-cutting/},
+  code={https://github.com/NVlabs/DiSECt},
+  teaser={disect-rss21.gif},
+  description={Differenctiable Cutting made easy. Now on real robots!}
+}
 
 
 @unpublished{2111.01365 ,
@@ -1365,18 +1406,6 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   arXiv = {2109.10957},
   teaser={trifinger-report.jpg},
   description={A framework for democratizing multi-finger manipulation using a common hardware and software benchmark.}
-}
-
-
-@unpublished{xie2021glide,
-  title={{GLiDE: Generalizable Quadrupedal Locomotion in Diverse Environments with a Centroidal Model}}, 
-  author={Zhaoming Xie and Xingye Da and Buck Babich and Animesh Garg and Michiel {van de Panne}},
-  year={2021},
-  month={apr},
-  arXiv = {2104.09771},
-  url = {https://www.pair.toronto.edu/glide-quadruped/},
-  teaser={glide-arxiv21.gif},
-  description={Model-Free RL in centroidal model for desired body accelerations with subsequent computation of ground reaction forces using a robot model.}
 }
 
 
