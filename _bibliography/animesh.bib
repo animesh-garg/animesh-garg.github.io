@@ -1086,7 +1086,7 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   booktitle={International Conference on Learning Representations (ICLR)},
   year={2022},
   month={may},
-  date={10},
+  date={8},
   arxiv={2202.11566},
   description={Generalization beyond dataset in offline RL: Uncertainty quantification via the disagreement of bootstrapped Q-functions, and pessimistic updates by penalizing the value function based on the estimated uncertainty},
   teaser={res-pbrl-iclr22.jpg}
@@ -1098,7 +1098,7 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   booktitle={International Conference on Learning Representations (ICLR)},
   year={2022},
   month={may},
-  date={10},
+  date={9},
   url={https://openreview.net/forum?id=4-D6CZkRXxI},
   arxiv={2204.01464},
   description={Value aware model learning to fix Objective Mismatch in Model-based RL. The gradient of the empirical value function as a measure of the sensitivity of the RL algorithm to model errors},
@@ -1116,6 +1116,33 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   url={https://sites.google.com/view/shac},
   description={A high-performance differentiable simulator and a new policy learning algorithm (SHAC) that can effectively leverage simulation gradients, even in the presence of non-smoothness},
   teaser={res-shac-iclr22.jpg}
+}
+
+@inproceedings{sinha2022lfiw,
+  title={Experience Replay with Likelihood-free Importance Weights},
+  author={Samarth Sinha and Jiaming Song and Animesh Garg and Stefano Ermon},
+  booktitle={Learning for Dynamics and Control (L4DC)},
+  year={2022},
+  month={jun},
+  date={10},
+  teaser={lfiw-l4dc22.jpg},
+  award={Oral},
+  arXiv={2006.13169},
+  description={A likelihood-free density ratio estimator to reweight experiences based on their likelihood under the stationary distribution of the current policy.}
+}
+
+@inproceedings{xie2022glide,
+  title={{GLiDE: Generalizable Quadrupedal Locomotion in Diverse Environments with a Centroidal Model}}, 
+  author={Zhaoming Xie and Xingye Da and Buck Babich and Animesh Garg and Michiel {van de Panne}},
+  booktitle={Workshop on Algorithmic Foundations of Robotics (WAFR)},
+  organization={Springer STAR},
+  year={2022},
+  month={jun},
+  date={18},
+  arXiv = {2104.09771},
+  url = {https://www.pair.toronto.edu/glide-quadruped/},
+  teaser={glide-arxiv21.gif},
+  description={Model-Free RL in centroidal model for desired body accelerations with subsequent computation of ground reaction forces using a robot model.}
 }
 
 @inproceedings{gorti2022xpool,
@@ -1157,32 +1184,15 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   description={Pairwise 3D geometric shape mating as general framework for part to part 3D pose matching for shape assembly.}
 }
 
-@inproceedings{xie2021glide,
-  title={{GLiDE: Generalizable Quadrupedal Locomotion in Diverse Environments with a Centroidal Model}}, 
-  author={Zhaoming Xie and Xingye Da and Buck Babich and Animesh Garg and Michiel {van de Panne}},
-  booktitle={Workshop on Algorithmic Foundations of Robotics (WAFR)},
-  organization={Springer STAR},
+@inproceedings{weissenbacher2022icml,
+  title={{Koopman Q-learning: Offline Reinforcement Learning via Symmetries of Dynamics}}, 
+  author={Matthias Weissenbacher and Samarth Sinha and Animesh Garg and Yoshinobu Kawahara},
+  booktitle={International Conference on Machine Learning (ICML)},
   year={2022},
-  month={jun},
-  date={18},
-  arXiv = {2104.09771},
-  url = {https://www.pair.toronto.edu/glide-quadruped/},
-  teaser={glide-arxiv21.gif},
-  description={Model-Free RL in centroidal model for desired body accelerations with subsequent computation of ground reaction forces using a robot model.}
-}
-
-
-@inproceedings{sinha2022lfiw,
-  title={Experience Replay with Likelihood-free Importance Weights},
-  author={Samarth Sinha and Jiaming Song and Animesh Garg and Stefano Ermon},
-  booktitle={Learning for Dynamics and Control (L4DC)},
-  year={2022},
-  month={jun},
-  date={15},
-  teaser={lfiw-l4dc22.jpg},
-  award={Oral},
-  arXiv={2006.13169},
-  description={A likelihood-free density ratio estimator to reweight experiences based on their likelihood under the stationary distribution of the current policy.}
+  month={jul},
+  arXiv = {2111.01365},
+  teaser={koopman-rl-iclr22.jpg},
+  description={Koopman Forward (Conservative) Q-learning (KFC): a model-free RL algorithm which uses the symmetries in the dynamics of the environment to guide data augmentation in Offline RL.}
 }
 
 
@@ -1304,6 +1314,7 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   journal={IEEE Robotics and Automation Letters (RA-L) and ICRA}, 
   arXiv = {2109.04869},
   url={https://www.pair.toronto.edu/plate-planner/},
+  code={https://github.com/Jiankai-Sun/plate-pytorch},
   teaser={plate-21.jpg},
   description={Planning Transformer to learn structured and plannable state and action spaces directly from unstructured videos. The model learns both action-conditional video prediction and goal conditioned planning.}
 }
@@ -1362,17 +1373,6 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   code={https://github.com/NVlabs/DiSECt},
   teaser={disect-rss21.gif},
   description={Differenctiable Cutting made easy. Now on real robots!}
-}
-
-
-@unpublished{2111.01365 ,
-  title={{Koopman Q-learning: Offline Reinforcement Learning via Symmetries of Dynamics}}, 
-  author={Matthias Weissenbacher and Samarth Sinha and Animesh Garg and Yoshinobu Kawahara},
-  year={2021},
-  month={nov},
-  arXiv = {2111.01365},
-  teaser={koopman-rl-iclr22.jpg},
-  description={Koopman Forward (Conservative) Q-learning (KFC): a model-free RL algorithm which uses the symmetries in the dynamics of the environment to guide data augmentation in Offline RL.}
 }
 
 
