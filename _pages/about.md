@@ -42,7 +42,7 @@ Follow me: {% if site.twitter_username %}<a href="https://twitter.com/{{ site.tw
 
 --- 
 
-#### **Recent Talk**    
+#### **Recent Talks**    
 
 The following two talks cover the progression of research over the last 3 years in my group. 
 
@@ -54,8 +54,19 @@ MIT Deep Learning Seminar highlighting recent work (January 2020)
 {% include youtubePlayer.html id=page.youtubeId %}
 
 <br>
-Other Recent Talks
-- [Structured Inductive Bias for Imitation from Videos](https://youtu.be/4Z99LbKM1b8)  
+
+**Topical Workshop Talks**
+
+- [Robot Learning with Implicit Representations: Perception, Action, and Simulation](/assets/pdf/garg-implicit-reps-jun22.pdf)  
+RSS [Workshop on Implicit Representations for Robotic Manipulation](https://imrss2022.github.io/), (Jun 2022)
+
+- [Paving the Path to Robot Autonomy with Simulation](/assets/pdf/garg-simulation-rl-may2022.pdf)  
+ICRA [Workshop on Releasing Robots into the Wild](https://www.dynsyslab.org/releasing-robots-into-the-wild-workshop/), (May 2022) 
+
+- [Structure in Reinforcement Learning for Robotics](https://www.youtube.com/watch?v=5u2cGaxFdr4), [Slides PDF](/assets/pdf/garg-rl-priors-jul2022.pdf)  
+ICRA [Workshop on Behavior Priors in RL](https://sites.google.com/view/rlbp-icra2022/home), (May 2022) 
+
+- [Structured Inductive Bias for Imitation from Videos](https://youtu.be/4Z99LbKM1b8)   
 CVPR [Workshop on Learning from Instructional Videos](https://sites.google.com/view/wliv20/home), (Jun 2020).   
 
 - [Unsupervised Representations towards Counterfactual Predictions](/assets/pdf/garg-composition-vision-cvprw20.pdf)  
