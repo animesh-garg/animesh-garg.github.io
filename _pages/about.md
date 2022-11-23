@@ -10,8 +10,9 @@ profile:
  
 news: true
 social: true
-youtubeId: 8Kn4Gi8iSYQ
-youtubeId-2: giQyKhmBzhc
+youtubeId: 8Kn4Gi8iSYQ #mit talk
+youtubeId-2: giQyKhmBzhc #waterloo talk
+youtubeId-3: M8LAIiU7VPA #stanford talk
 ---
 
 I am an Assistant Professor of [Computer Science](https://web.cs.toronto.edu/) at [University of Toronto](https://www.utoronto.ca/) and a Faculty Member at the [Vector Institute](https://vectorinstitute.ai/). I direct the UofT [People, AI and Robotics (PAIR)](http://pairlab.github.io/) group.
@@ -20,8 +21,19 @@ I am also a Sr. Research Scientist at [Nvidia](https://www.nvidia.com/en-us/rese
 
 I earned M.S. in [Computer Science](http://www.eecs.berkeley.edu/Research/Areas/AI/) and Ph.D. in [Operations Research](http://ieor.berkeley.edu) from [UC, Berkeley](http://www.berkeley.edu). I worked with [Ken Goldberg](http://goldberg.berkeley.edu/) at [Berkeley AI Research (BAIR)](http://bair.berkeley.edu). I also worked closely with [Pieter Abbeel](http://www.cs.berkeley.edu/~pabbeel), [Alper Atamturk](http://www.ieor.berkeley.edu/~atamturk/) & [UCSF Radiation Oncology](http://radonc.ucsf.edu/). I was later a postdoc at [Stanford AI Lab](http://ai.stanford.edu/) with [Fei-Fei Li](http://svl.stanford.edu) and [Silvio Savarese](http://svl.stanford.edu/silvio/).
 
-My research vision is to build the **Algorithmic Foundations for Generalizable Autonomy**, that enables robots to acquire skills, at both cognitive & dexterous levels, and to seamlessly interact & collaborate with humans in novel environments. [My group](http://www.pair.toronto.edu) focuses on understanding structured inductive biases and causality on a quest for general-purpose embodied intelligence that learns from imprecise information and achieves flexibility & efficiency of human reasoning.
+My research vision is to build the **Algorithmic Foundations for Generalizable Autonomy**, that enables robots to acquire skills, at both cognitive & dexterous levels, and to seamlessly interact & collaborate with humans in novel environments. 
+[My group](http://www.pair.toronto.edu) focuses on understanding structured inductive biases and causality for decision making. In particular we are looking at multi-modal object-centric and spatiotemporal event representations, self-supervised pre-training for reinforcement learning & control, principle of efficient dexterous skill learning.
 
+<p style="background-color: #FFFACD">
+  I will be a 
+  <a href="https://research.gatech.edu/animesh-garg">Stephen Fleming Early Career Professor</a> in Computer Science at 
+  <a href="https://www.cc.gatech.edu/">Georgia Tech</a> in Fall 2023. 
+  I will be in <a href="https://www.ic.gatech.edu/person/faculty">Interactive Computing</a> affiliated with 
+  <a href="https://www.research.gatech.edu/robotics/faculty/core">Robotics</a> and 
+  <a href="https://ml.gatech.edu/people/faculty/phdprogramfaculty">Machine Learning</a> programs.
+</p>
+
+<!-- on a quest for general-purpose embodied intelligence that learns from imprecise information and achieves flexibility & efficiency of human reasoning. -->
 <!-- My current research focuses on machine learning algorithms for perception and control in robotics. I develop algorithmic methods to enable efficient robot learning for long-term sequential tasks through Generalizable Autonomy. The principal focus of my research is to understand representations and algorithms to enable the efficiency and generality of learning for interaction in Autonomymous agents. -->
 
 **Research Interests**: Robotics, Reinforcement Learning & Optimal Control, Computer Vision  
@@ -44,16 +56,21 @@ Follow me: {% if site.twitter_username %}<a href="https://twitter.com/{{ site.tw
 
 #### **Recent Talks**    
 
-The following two talks cover the progression of research over the last 3 years in my group. 
+The following talks cover the progression of research over in my group since 2019. 
 
-University of Waterloo Artificial Intelligence Institute (April 2021)  
-{% include youtubePlayer.html id=page.youtubeId-2 %}
+Stanford University Robotics Seminar (October 2022)  
+{% include youtubePlayer.html id=page.youtubeId-3 %}
 
 <br>
+
+<!-- University of Waterloo Artificial Intelligence Institute (April 2021)   -->
+
+
 MIT Deep Learning Seminar highlighting recent work (January 2020)  
 {% include youtubePlayer.html id=page.youtubeId %}
 
 <br>
+
 
 **Topical Workshop Talks**
 
