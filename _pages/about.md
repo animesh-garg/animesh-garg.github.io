@@ -54,6 +54,27 @@ Follow me: {% if site.twitter_username %}<a href="https://twitter.com/{{ site.tw
 
 --- 
 
+#### **Potential Applicants**   
+
+I am accepting new students at all levels at Georgia Tech. Thanks for your interest in my group.   
+Please apply to either [Computer Science](https://ic.gatech.edu/academics), [Robotics](https://research.gatech.edu/robotics/robotics-education-georgia-tech) or [Machine Learning])(https://ml.gatech.edu/phd) Graduate Programs.  
+However, kindly *do not contact me directly* with regard to Graduate Application Evaluations. I do not make admissions decisions. 
+Please see the [opportunities on lab website]({{  "/openings/" | prepend: site.groupurl  }}) and contact me accordingly.
+
+<!-- 
+UofT PhD and Postdocs: Please send me a brief [email](mailto:{{ site.email | encode_email }}) about collaboration or advising.  
+*Current* [UofT Undergraduate/Masters](https://forms.gle/BtFqLGV33kC5FXAu9).  
+*External* [Postdoc and Research Scientist](https://forms.gle/TWJr36iDucTmDWQX7).    
+*External* [Visiting Scholars](https://forms.gle/ouy1RR8mtC3GNXki7).  
+ -->
+ <!-- address: >
+    <p>555 your office number</p>
+    <p>123 your address street</p>
+    <p>Your City, State 12345</p>
+ -->
+
+--- 
+
 #### **Recent Talks**    
 
 The following talks cover the progression of research over in my group since 2019. 
@@ -88,23 +109,3 @@ CVPR [Workshop on Learning from Instructional Videos](https://sites.google.com/v
 
 - [Unsupervised Representations towards Counterfactual Predictions](/assets/pdf/garg-composition-vision-cvprw20.pdf)  
 CVPR [Workshop on Compositionality in Computer Vision](http://ai.stanford.edu/~jingweij/cicv/), (Jun 2020).      
-
---- 
-
-#### **Potential Applicants**   
-
-I am accepting new students at all levels. Thanks for your interest in my group.   
-However, kindly *do not contact me directly* with regard to Graduate Admissions.  
-Please see the [opportunities on lab website]({{  "/openings/" | prepend: site.groupurl  }}) and contact me accordingly.
-
-<!-- 
-UofT PhD and Postdocs: Please send me a brief [email](mailto:{{ site.email | encode_email }}) about collaboration or advising.  
-*Current* [UofT Undergraduate/Masters](https://forms.gle/BtFqLGV33kC5FXAu9).  
-*External* [Postdoc and Research Scientist](https://forms.gle/TWJr36iDucTmDWQX7).    
-*External* [Visiting Scholars](https://forms.gle/ouy1RR8mtC3GNXki7).  
- -->
- <!-- address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
- -->
