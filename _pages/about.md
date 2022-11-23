@@ -57,8 +57,8 @@ Follow me: {% if site.twitter_username %}<a href="https://twitter.com/{{ site.tw
 #### **Potential Applicants**   
 
 I am accepting new students at all levels at Georgia Tech. Thanks for your interest in my group.   
-Please apply to either [Computer Science](https://ic.gatech.edu/academics), [Robotics](https://research.gatech.edu/robotics/robotics-education-georgia-tech) or [Machine Learning])(https://ml.gatech.edu/phd) Graduate Programs.  
-However, kindly *do not contact me directly* with regard to Graduate Application Evaluations. I do not make admissions decisions. 
+Please apply to either [Computer Science](https://ic.gatech.edu/academics), [Robotics](https://research.gatech.edu/robotics/robotics-education-georgia-tech) or [Machine Learning](https://ml.gatech.edu/phd) Graduate Programs.  
+However, kindly *do not contact me directly* with regard to Graduate Application Evaluations. I do not make admissions decisions.   
 Please see the [opportunities on lab website]({{  "/openings/" | prepend: site.groupurl  }}) and contact me accordingly.
 
 <!-- 
