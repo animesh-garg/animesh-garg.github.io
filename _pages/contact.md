@@ -3,9 +3,15 @@ layout: page
 permalink: /contact/
 title: contact
 div_class: contact
-description: email me (preferred) - <a href="mailto:{{ site.email | encode_email }})">garg@cs.toronto.edu</a>
+description: 
 social: true
 ---
+
+### Email
+
+Best way to reach PAIR PI is over email:  
+- About Georgia Tech: [animesh.garg@gatech.edu](mailto:animesh.garg@gatech.edu)  
+- About UofT: [garg@cs.toronto.edu](mailto:garg@cs.toronto.edu)  
 
 ### Affiliations
 University of Toronto, [Department of Computer Science](https://web.cs.toronto.edu).  
@@ -30,9 +36,10 @@ Deerfield Hall, Office 3068
 3359 Mississauga Road, Mississauga, ON, L5L 1C6.
 
 
-### Office Hours
+<!-- ### Office Hours
 
 Fall (Sept-Dec 2020): Wed 530-630 EST, Online at Zoom
+ -->
 
 <!-- 
 **St. George Campus**
