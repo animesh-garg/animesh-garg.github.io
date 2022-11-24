@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 title: Animesh Garg Home
 name: Animesh Garg
-email: garg@cs.toronto.edu
+email: animesh.garg@gatech.edu
 description: > # this means to ignore newlines until "url:"
   Assistant Professor of Robotics and Machine Learning
 footer_text: #>
@@ -28,6 +28,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: animesh-garg # your GitHub user name
 twitter_username: animesh_garg # your Twitter handle
 linkedin_username: animeshgarg # your LinkedIn user name
+substack_username: animeshgarg #  your substack user name
 scholar_userid: zp8V7ZMAAAAJ # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: animesh_garg # your Medium username
