@@ -49,8 +49,11 @@ My research vision is to build the **Algorithmic Foundations for Generalizable A
 </div>
 
 Link to (reasonably recent) <a href="{{ '/assets/pdf/garg-cv.pdf' | prepend: site.baseurl | prepend: site.url }}">CV</a>.  
-Contact me: [garg@cs.toronto.edu](mailto:{{ site.email | encode_email }})  
-Follow me: {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}  {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %} 
+Follow me: {% if site.twitter_username %}<a href="https://twitter.com/{{ site.twitter_username }}" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>{% endif %}  {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>{% endif %} {% if site.substack_username %}<a href="https://{{ site.substack_username }}.substack.com" target="_blank" title="Substack"><i class="fab fa-newspaper"></i></a>{% endif %}  
+
+Contact me: 
+Georgia Tech: [animesh.garg@gatech.edu](mailto:animesh.garg@gatech.edu)  | UofT: [garg@cs.toronto.edu](mailto:garg@cs.toronto.edu)  
+
 
 --- 
 
