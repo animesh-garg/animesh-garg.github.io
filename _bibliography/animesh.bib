@@ -1261,6 +1261,18 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   description={Differentiable Contact Simulation enables more realistic denser contact multifinger grasping than grasp computation with analytical metrics.}
 }
 
+@inproceedings{nguyen2022infocnf,
+  Author = {Tan M. Nguyen and Animesh Garg and Richard G. Baraniuk and Anima Anandkumar},
+  Title = {InfoCNF: An Efficient Conditional Continuous Normalizing Flow with Adaptive Solvers},
+  booktitle={IEEE Asilomar Conference on Signals, Systems, and Computers},
+  Year = {2022},
+  month={Nov},
+  Day = {2},
+  arXiv = {1912.03978},
+  teaser = {infocnf-asilomar22.jpg},
+  description = {InfoCNF is an efficient conditional CNF that partitions the latent space into a class-specific supervised code and an unsupervised code that shared among all classes for efficient use of labeled information}
+}
+
 @inproceedings{murathy2022bom,
   title={{Bayesian Object Models for Robotic Interaction with Differentiable Probabilistic Programming}},
   author={Krishna Murthy Jatavallabhula and Miles Macklin and Dieter Fox and Animesh Garg and Fabio Ramos},
@@ -1296,7 +1308,9 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   booktitle={Advances in Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks},
   year={2022},
   month={nov},
+  day={30},
   arxiv={2210.11463},
+  award={Featured Paper Presentation},
   pdf = {https://openreview.net/forum?id=mJWt6pOcHNy},
   url={https://breaking-bad-dataset.github.io/},
   teaser={breaking-bad-neurips22.jpg},
@@ -1309,6 +1323,7 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   booktitle={Advances in Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks},
   year={2022},
   month={nov},
+  day={30},
   arXiv = {2206.08851},
   url={https://smpl-env.github.io/smpl-document/index.html},
   code={https://github.com/smpl-env/smpl},
@@ -1316,19 +1331,107 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   description={An easy-to-use library that includes five high-fidelity simulation environments for manufacturing processes and an extensive Offline and online RL Benchmark}
 }
 
-
 @inproceedings{pitis2022mocoda,
   title={{MoCoDA: Model-based Counterfactual Data Augmentation}}, 
   author={Silviu Pitis and Elliot Creager and Ajay Mandlekar and Animesh Garg},
   booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
   year={2022},
   month={nov},
+  day={30},
   arXiv = {2210.11287},
   teaser={mocoda-neurips22.jpg},
   description={MOCODA uses a locally factored model to create out-of-distribution data, and enable otherwise unsolvable tasks in offline RL.}
 }
 
+@inproceedings{zhou2023sea,
+  title={{Learning Achievement Structure for Structured Exploration in Domains with Sparse Reward}}, 
+  author={Zihan Zhou and Animesh Garg},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2023},
+  month={may},
+  day={4},  
+  url = {https://openreview.net/forum?id=NDWl9qcUpvy},
+  teaser={sea-iclr23.jpg},
+  description={Structured Exploration with Achievements (SEA), a multi-stage reinforcement learning algorithm that learns the environment structure with offline data and uses the learned structure to learn different skills and improve overall exploration with online environment interactions in a particular type of environment that has an internal achievement system.}
+}
 
+@inproceedings{wu2023slotformer,
+  title={{SlotFormer: Unsupervised Visual Dynamics Simulation with Object-Centric Models}}, 
+  author={Ziyi Wu and Nikita Dvornik and Klaus Greff and Thomas Kipf and Animesh Garg},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2023},
+  month={may},
+  day={4},   
+  arXiv = {2210.05861},
+  url = {https://slotformer.github.io/},
+  teaser={slotformer-iclr23.gif},
+  description={A Transformer-based autoregressive model operating on learned object-centric representations. Evalaute on video prediction, Visual Question Answering (VQA), and goal-conditioned planning.}  
+}
+
+@inproceedings{singh2023progprompt,
+  title={{ProgPrompt: Generating Situated Robot Task Plans using Large Language Models}}, 
+  author={Ishika Singh and Valts Blukis and Arsalan Mousavian and Ankit Goyal and Danfei Xu and Jonathan Tremblay and Dieter Fox and Jesse Thomason and Animesh Garg},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2023},
+  month={may},
+  day={30},
+  arXiv = {2209.11302},
+  url = {https://progprompt.github.io/},
+  teaser={progprompt-icra23.jpg},
+  description={We present a programmatic LLM prompt structure that enables plan generation functional across situated environments, robot capabilities, and tasks. Our key insight is to prompt the LLM with program-like specifications of the available actions and objects in an environment, as well as with example programs that can be executed.}
+}
+
+@inproceedings{nerf2nerf,
+  title={{nerf2nerf: Pairwise Registration of Neural Radiance Fields}}, 
+  author={ Lily Goli and Daniel Rebain and Sara Sabour and Animesh Garg and Andrea Tagliasacchi},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2023},
+  month={may},
+  day={30},
+  arXiv = {2211.01600},
+  url = {https://nerf2nerf.github.io/},
+  code={https://github.com/nerf2nerf/nerf2nerf},
+  teaser={slotformer-iclr23.gif},
+  description={We introduce a technique for pairwise registration of neural fields that extends classical optimization-based local registration (i.e. ICP) to operate on Neural Radiance Fields (NeRF) – neural 3D scene representations trained from collections of calibrated images.}
+}
+
+@inproceedings{wang2023actaim,
+  title={{Self-Supervised Learning of Action Affordances as Interaction Modes}}, 
+  author={Liquan Wang and Nikita Dvornik and Rafael Dubeau and Mayank Mittal and Animesh Garg},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2023},
+  month={may},
+  day={30},
+  url = {https://actaim.github.io/},
+  teaser={actaim-icra23.gif},
+  description={We learn interaction modes as priors of useful interactions with articulated objects. In contrast to the prior art, we only use perception data from sensors in both training ad testing.}
+}
+
+@inproceedings{turpin2023dexgrasp,
+  title={{DexGrasp-1M: Dexterous Multi-finger Grasp Generation Through Differentiable Simulation}}, 
+  author={Dylan Turpin and Tao Zhong and Shutong Zhang and Guanglei Zhu and Eric Heiden and Miles Macklin and Stavros Tsogkas and Sven Dickinson and Animesh Garg},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2023},
+  month={may},
+  day={30},
+  url = {https://dexgrasp.github.io/},
+  teaser={dexgrasp-icra23.jpg},
+  video={https://youtu.be/1tBuHEsAf3Q},
+  description={DexGrasp-1M: a large-scale dataset for multi-finger robotic grasping synthesized with FastGrasp’D, a novel diffferentiable grasping simulator. DexGrasp1M contains one million training examples for three (three, four and five-fingered) robotic hands, each with multimodal visual inputs (RGB+depth+segmentation, available in mono and stereo).}
+}
+
+@inproceedings{wang2023mvtrans,
+  title={{MVTrans: Multi-View Perception of Transparent Objects}}, 
+  author={Yi Ru Wang and Yuchi Zhao and Haoping XU and Sagi Eppel and Alan Aspuru-Guzik and Florian Shkurti and Animesh Garg},
+  booktitle={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2023},
+  month={may},
+  day={30},
+  url = {https://ac-rad.github.io/MVTrans/},
+  video={https://youtu.be/8Qdc_xWVp-k},
+  teaser={mvtrans-icra23.jpg},
+  description={MVTrans is an end-to-end multi-view architecture with multiple perception capabilities, including depth estimation, segmentation, and pose estimation. We also present a procedural photo-realistic large-scale transparent object detection dataset, Syn-TODD.}
+}
 
 % ==========
 % Journal
@@ -1460,7 +1563,7 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   teaser={rl-surg-sim-journal.jpg}
 }
 
-@article{2110.01954 ,
+@article{Lutter2022cfvi,
   title={{Continuous-Time Fitted Value Iteration for Robust Policies}}, 
   author={Michael Lutter and Boris Belousov and Shie Mannor and Dieter Fox and Animesh Garg and Jan Peters},
   journal={Transactions on Pattern Analysis and Machine Intelligence (T-PAMI)}, 
@@ -1472,15 +1575,32 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   description={Solving HJB differential equation and its extension the Hamilton-Jacobi-Isaacs equation yields a robust optimal policy that achieves the maximum reward on a give task. We propose continuous and robust fitted value iteration that leverage the non-linear control-affine dynamics and separable state & action reward in continuous control to derive the optimal policy and optimal adversary in closed form.}
 }
 
-@article{2110.01954 ,
+@article{bai2022monotonic,
   title={{Monotonic Quantile Network for Worst-Case Offline Reinforcement Learning}}, 
   author={Chenjia Bai and Ting Xiao and Zhoufan Zhu and Lingxiao Wang and Fan Zhou and Animesh Garg and Bin He and Peng Liu and Zhaoran Wang},
   journal={IEEE Transactions on Neural Networks and Learning Systems}, 
   year={2022},
   month={nov},
+  day={15},
   pdf = {https://doi.org/10.1109/TNNLS.2022.3217189},
   teaser={mqn-cqr.jpg},
   description={Learning a distributional value function in offline RL and optimizing a worst-case criterion of returns. We propose monotonic quantile network (MQN) with conservative quantile regression (CQR) for risk-averse policy learning.}
+}
+
+
+@article{2203.10263,
+  title={{DiSECt: A Differentiable Simulator for Parameter Inference and Control in Robotic Cutting}}, 
+  author={Eric Heiden and Miles Macklin and Yashraj Narang and Dieter Fox  and Animesh Garg and Fabio Ramos},
+  journal={Autonomous Robots (AURO)}, 
+  year={2023},
+  month={mar},   
+  arXiv = {2203.10263},
+  url = {https://diff-cutting-sim.github.io/},
+  video={https://youtu.be/JEMLGq7eRLc},
+  blog={https://developer.nvidia.com/blog/nvidia-research-disect-a-differentiable-simulation-engine-for-autonomous-robotic-cutting/},
+  code={https://github.com/NVlabs/DiSECt},
+  teaser={disect-rss21.gif},
+  description={Differenctiable Cutting made easier. Now on real robots!}
 }
 
 
@@ -1539,20 +1659,6 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   description={How can we design a similarly motivated auditing scheme for deep learning models? We propose a sequence of semantically aligned unit tests each to verify a predefined specification.}
 }
 
-@unpublished{2203.10263,
-  title={{DiSECt: A Differentiable Simulator for Parameter Inference and Control in Robotic Cutting}}, 
-  author={Eric Heiden and Miles Macklin and Yashraj Narang and Dieter Fox  and Animesh Garg and Fabio Ramos},
-  year={2022},
-  month={mar},   
-  arXiv = {2203.10263},
-  url = {https://diff-cutting-sim.github.io/},
-  video={https://youtu.be/JEMLGq7eRLc},
-  blog={https://developer.nvidia.com/blog/nvidia-research-disect-a-differentiable-simulation-engine-for-autonomous-robotic-cutting/},
-  code={https://github.com/NVlabs/DiSECt},
-  teaser={disect-rss21.gif},
-  description={Differenctiable Cutting made easier. Now on real robots!}
-}
-
 @unpublished{2210.03825,
   title={{See, Plan, Predict: Language-guided Cognitive Planning with Video Prediction}}, 
   author={Maria Attarian and Advaya Gupta and Ziyi Zhou and Wei Yu and Igor Gilitschenski and Animesh Garg},
@@ -1564,40 +1670,29 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   description={A new video prediction architecture using pre-trained transformers for language conditioned goal prediction and planning.}
 }
 
-@unpublished{2209.11302,
-  title={{ProgPrompt: Generating Situated Robot Task Plans using Large Language Models}}, 
-  author={Ishika Singh and Valts Blukis and Arsalan Mousavian and Ankit Goyal and Danfei Xu and Jonathan Tremblay and Dieter Fox and Jesse Thomason and Animesh Garg},
-  year={2022},
-  month={sept},   
-  arXiv = {2209.11302},
-  url = {https://progprompt.github.io/},
-  teaser={progprompt-icra23.jpg},
-  description={We present a programmatic LLM prompt structure that enables plan generation functional across situated environments, robot capabilities, and tasks. Our key insight is to prompt the LLM with program-like specifications of the available actions and objects in an environment, as well as with example programs that can be executed.}
+@unpublished{yoshikawa2022adaptive,
+    title={An Adaptive Robotics Framework for Chemistry Lab Automation},
+    author={Naruki Yoshikawa and Andrew Zou Li and Kourosh Darvish and Yuchi Zhao and Haoping Xu and Alan Aspuru-Guzik and Animesh Garg and Florian Shkurti},
+    year={2022},
+    mon={Dec},
+    arXiv={2212.09672},
+    url = {https://ac-rad.github.io/arc-icra2023/},
+    video={https://youtu.be/NjpZmaKQWls},
+    teaser={chemrobot-arxiv22.gif},
+    description={We propose a framework for robots to assist chemists by performing lab experiments autonomously. The solution allows a general-purpose robot to perform diverse chemistry experiments and efficiently make use of available lab tools. }
 }
 
-
-@unpublished{2210.05861,
-  title={{SlotFormer: Unsupervised Visual Dynamics Simulation with Object-Centric Models}}, 
-  author={Ziyi Wu and Nikita Dvornik and Klaus Greff and Thomas Kipf and Animesh Garg},
-  year={2022},
-  month={oct},   
-  arXiv = {2210.05861},
-  url = {https://slotformer.github.io/},
-  teaser={slotformer-iclr23.gif},
-  description={A Transformer-based autoregressive model operating on learned object-centric representations. Evalaute on video prediction, Visual Question Answering (VQA), and goal-conditioned planning.}
+@unpublished{mittal2023orbit,
+    title={ORBIT: A Unified Simulation Framework for Interactive Robot Learning Environments},
+    author={Mayank Mittal and Calvin Yu and Qinxi Yu and Jingzhou Liu and Nikita Rudin and David Hoeller and Jia Lin Yuan and Pooria Poorsarvi Tehrani and Ritvik Singh and Yunrong Guo and Hammad Mazhar and Ajay Mandlekar and Buck Babich and Gavriel State and Marco Hutter and Animesh Garg},
+    year={2023},
+    mon={Jan},
+    arXiv={2301.04195},
+    url = {https://isaac-orbit.github.io/},
+    code={https://github.com/NVIDIA-Omniverse/orbit},
+    teaser={orbit-ral23.gif},
+    description={Orbit is a unified and modular framework for robotics and robot learning. Supports different types of physics, robot types and sensors. Supports differen Robot Learning workflows: RL, imitation, and motion planning. }
 }
-
-@unpublished{2211.01600,
-  title={{nerf2nerf: Pairwise Registration of Neural Radiance Fields}}, 
-  author={ Lily Goli and Daniel Rebain and Sara Sabour and Animesh Garg and Andrea Tagliasacchi},
-  year={2022},
-  month={oct},   
-  arXiv = {2211.01600},
-  url = {https://nerf2nerf.github.io/},
-  teaser={slotformer-iclr23.gif},
-  description={We introduce a technique for pairwise registration of neural fields that extends classical optimization-based local registration (i.e. ICP) to operate on Neural Radiance Fields (NeRF) – neural 3D scene representations trained from collections of calibrated images.}
-}
-
 
 
 % =============
@@ -1627,14 +1722,6 @@ month={sept},
 arXiv = {1909.02749},
 }
 
-@techreport{1912.03978,
-  Author = {Tan M. Nguyen and Animesh Garg and Richard G. Baraniuk and Anima Anandkumar},
-  Title = {InfoCNF: An Efficient Conditional Continuous Normalizing Flow with Adaptive Solvers},
-  Year = {2019},
-  month={dec},
-  arXiv = {1912.03978},
-}
-
 @techreport{2009.08577,
   Author = {Tim Barfoot and Jessica Burgner-Kahrs and Eric Diller and Animesh Garg and Andrew Goldenberg and Jonathan Kelly and Xinyu Liu and Hani E. Naguib and Goldie Nejat and Angela P. Schoellig and Florian Shkurti and Hallie Siegel and Yu Sun and Steven Waslander},
   Title = {{Making Sense of the Robotized Pandemic Response: A Comparison of Global and Canadian Robot Deployments and Success Factors}},
@@ -1642,5 +1729,13 @@ arXiv = {1909.02749},
   month={sep},
   arXiv = {2009.08577},
   blog={https://robotics.utoronto.ca/covid-19-white-paper/}
+}
+
+@techreport{islam2022offline,
+    title={Offline Policy Optimization in RL with Variance Regularizaton},
+    author={Riashat Islam and Samarth Sinha and Homanga Bharadhwaj and Samin Yeasar Arnob and Zhuoran Yang and Animesh Garg and Zhaoran Wang and Lihong Li and Doina Precup},
+    year={2022},
+    month={Dec},
+    arxiv={2212.14405}
 }
 
