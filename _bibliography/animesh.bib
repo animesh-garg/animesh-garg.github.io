@@ -201,6 +201,15 @@ degree (for thesis type)
 }
 
 
+@workshop{islam2022offline,
+      title={Offline Policy Optimization in RL with Variance Regularizaton}, 
+      author={Riashat Islam and Samarth Sinha and Homanga Bharadhwaj and Samin Yeasar Arnob and Zhuoran Yang and Animesh Garg and Zhaoran Wang and Lihong Li and Doina Precup},
+      year={2020},
+      arXiv={2212.14405},
+      booktitle={Workshop on Offline Reinforcement Learning at NeurIPS}
+}
+
+
 % ==========
 % Conferences
 % ==========
@@ -1427,6 +1436,7 @@ abstract = {DTMF (Dual Tone Multi Frequency) is a system of signal tones used fo
   year={2023},
   month={may},
   day={30},
+  arXiv={2302.11683},
   url = {https://ac-rad.github.io/MVTrans/},
   video={https://youtu.be/8Qdc_xWVp-k},
   teaser={mvtrans-icra23.jpg},
@@ -1442,9 +1452,6 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   journal={IEEE Transactions on Automation Science and Engineering (T-ASE)},
   title={Robot-Guided Open-Loop Insertion of Skew-Line Needle Arrangements for High Dose Rate Brachytherapy},
   year={2013},
-  ign-volume={10},
-  ign-number={4},
-  ign-pages={948-956},
   abstract={We present a study in human-centered automation that has potential to reduce patient side effects from high dose rate brachytherapy (HDR-BT). To efficiently deliver radiation to the prostate while minimizing trauma to sensitive structures such as the penile bulb, we modified the Acubot-RND 7-axis robot to guide insertion of diamond-tip needles into desired skew-line geometric arrangements. We extend and integrate two algorithms: Needle Planning with Integer Programming (NPIP) and Inverse Planning with Integer Programming (IPIP) to compute skew-line needle and dose plans. We performed three physical experiments with anatomically correct phantom models to study performance: two with the robot and one control experiment with an expert human physician (coauthor Hsu) without the robot. All were able to achieve needle arrangements that meet the RTOG-0321 clinical dose objectives with zero trauma to the penile bulb. We analyze systematic and random errors in needle placement; total RMS error for the robot system operating without feedback ranged from 2.6 to 4.3 mm, which is comparable to the RMS error of 2.7 mm obtained in an earlier study for PPI-BT treatment using a robot with 3D ultrasound feedback.},
   pdf={https://doi.org/10.1109/TASE.2013.2276940},
   month={Oct},
@@ -1463,9 +1470,6 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   author = {Krishnan*, Sanjay and Garg*, Animesh and Patil, Sachin and Lea, Colin and Hager, Gregory and Abbeel, Pieter and Goldberg (* equal contribution), Ken},
   title ={{Transition State Clustering: Unsupervised surgical trajectory segmentation for robot learning}},
   journal = {International Journal of Robotics Research (IJRR)},
-  ign-volume = {36},
-  ign-number = {13-14},
-  ign-pages = {1595-1618},
   year = {2017},
   month={dec},
   pdf = {https://dl.acm.org/doi/abs/10.1177/0278364917743319},
@@ -1603,6 +1607,19 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
   description={Differenctiable Cutting made easier. Now on real robots!}
 }
 
+@article{mittal2023orbit,
+    title={ORBIT: A Unified Simulation Framework for Interactive Robot Learning Environments},
+    author={Mayank Mittal and Calvin Yu and Qinxi Yu and Jingzhou Liu and Nikita Rudin and David Hoeller and Jia Lin Yuan and Pooria Poorsarvi Tehrani and Ritvik Singh and Yunrong Guo and Hammad Mazhar and Ajay Mandlekar and Buck Babich and Gavriel State and Marco Hutter and Animesh Garg},
+    year={2023},
+    journal={IEEE Robotics and Automation Letters (RA-L) and ICRA}, 
+    mon={apr},
+    arXiv={2301.04195},
+    url = {https://isaac-orbit.github.io/},
+    code={https://github.com/NVIDIA-Omniverse/orbit},
+    teaser={orbit-ral23.gif},
+    description={Orbit is a unified and modular framework for robotics and robot learning. Supports different types of physics, robot types and sensors. Supports differen Robot Learning workflows: RL, imitation, and motion planning. }
+}
+
 
 % ==========
 % Thesis
@@ -1636,63 +1653,38 @@ author={Garg, Animesh and Siauw, Timmy and Berenson, Dmitry and Cunha, J Adam M 
 % ===========
 
 
-@unpublished{2007.00177,
-  Author = {Homanga Bharadhwaj and Dylan Turpin and Animesh Garg and Ashton Anderson},
-  Title = {{De-anonymization of authors through arXiv submissions during double-blind review}},
-  Year = {2020},
-  month={jul},
-  arXiv = {2007.00177},
-  blog={https://homangab.github.io/ri-blog/2017/06/21/an-overview-of-deep-learning.html},
-  description={Doubt-blind reviewing process may tilt the scales in favor of eminent authors who de-anonymize through concurrent arxiv release.}
-}
-
-
-@unpublished{2109.12456,
-  title={{Auditing AI models for Verified Deployment under Semantic Specifications}}, 
-  author={Homanga Bharadhwaj and De-An Huang and Chaowei Xiao and Animashree Anandkumar and Animesh Garg},
-  year={2021},
-  month={sept},
-  arXiv = {2109.12456},
-  url={https://sites.google.com/view/audit-ai/},
-  blog={https://developer.nvidia.com/blog/nvidia-research-auditing-ai-models-for-verified-deployment-under-semantic-specifications/},
-  teaser={audit-ai-banner.png},
-  description={How can we design a similarly motivated auditing scheme for deep learning models? We propose a sequence of semantically aligned unit tests each to verify a predefined specification.}
-}
-
-@unpublished{2210.03825,
-  title={{See, Plan, Predict: Language-guided Cognitive Planning with Video Prediction}}, 
-  author={Maria Attarian and Advaya Gupta and Ziyi Zhou and Wei Yu and Igor Gilitschenski and Animesh Garg},
-  year={2022},
-  month={apr},   
-  arXiv = {2203.10263},
-  url = {https://see-pp.github.io/},
-  teaser={see-pp-2022.jpg},
-  description={A new video prediction architecture using pre-trained transformers for language conditioned goal prediction and planning.}
-}
-
 @unpublished{yoshikawa2022adaptive,
     title={An Adaptive Robotics Framework for Chemistry Lab Automation},
     author={Naruki Yoshikawa and Andrew Zou Li and Kourosh Darvish and Yuchi Zhao and Haoping Xu and Alan Aspuru-Guzik and Animesh Garg and Florian Shkurti},
     year={2022},
-    mon={Dec},
+    mon={dec},
     arXiv={2212.09672},
-    url = {https://ac-rad.github.io/arc-icra2023/},
+    url = {https://ac-rad.github.io/robot-chemist-tamp/},
     video={https://youtu.be/NjpZmaKQWls},
     teaser={chemrobot-arxiv22.gif},
     description={We propose a framework for robots to assist chemists by performing lab experiments autonomously. The solution allows a general-purpose robot to perform diverse chemistry experiments and efficiently make use of available lab tools. }
 }
 
-@unpublished{mittal2023orbit,
-    title={ORBIT: A Unified Simulation Framework for Interactive Robot Learning Environments},
-    author={Mayank Mittal and Calvin Yu and Qinxi Yu and Jingzhou Liu and Nikita Rudin and David Hoeller and Jia Lin Yuan and Pooria Poorsarvi Tehrani and Ritvik Singh and Yunrong Guo and Hammad Mazhar and Ajay Mandlekar and Buck Babich and Gavriel State and Marco Hutter and Animesh Garg},
-    year={2023},
-    mon={Jan},
-    arXiv={2301.04195},
-    url = {https://isaac-orbit.github.io/},
-    code={https://github.com/NVIDIA-Omniverse/orbit},
-    teaser={orbit-ral23.gif},
-    description={Orbit is a unified and modular framework for robotics and robot learning. Supports different types of physics, robot types and sensors. Supports differen Robot Learning workflows: RL, imitation, and motion planning. }
+@unpublished{skreta2023errors,
+      title={Errors are Useful Prompts: Instruction Guided Task Programming with Verifier-Assisted Iterative Prompting}, 
+      author={Marta Skreta and Naruki Yoshikawa and Sebastian Arellano-Rubach and Zhi Ji and Lasse Bjørn Kristensen and Kourosh Darvish and Alán Aspuru-Guzik and Florian Shkurti and Animesh Garg},
+      year={2023},
+      mon={mar},
+      arXiv={2303.14100},
+      url = {https://ac-rad.github.io/clairify/},
+      video={https://youtu.be/-87yrXytluw},
+      teaser={clairify-iros23.gif},
+      description={CLAIRify is a novel approach that combines automatic iterative prompting in LLMs with program verification to ensure programs written in domain-specific languages are syntactically valid and incorporate environment constraints.}
 }
+
+
+@unpublished{devaguptapu2023deltanetworks,
+      title={{$\Delta$-Networks for Efficient Model Patching}}, 
+      author={Chaitanya Devaguptapu and Samarth Sinha and K J Joseph and Vineeth N Balasubramanian and Animesh Garg},
+      year={2023},
+      arXiv={2303.14772}
+}
+
 
 
 % =============
@@ -1722,6 +1714,18 @@ month={sept},
 arXiv = {1909.02749},
 }
 
+
+@techreport{2007.00177,
+  Author = {Homanga Bharadhwaj and Dylan Turpin and Animesh Garg and Ashton Anderson},
+  Title = {{De-anonymization of authors through arXiv submissions during double-blind review}},
+  Year = {2020},
+  month={jul},
+  arXiv = {2007.00177},
+  blog={https://homangab.github.io/ri-blog/2017/06/21/an-overview-of-deep-learning.html},
+  description={Doubt-blind reviewing process may tilt the scales in favor of eminent authors who de-anonymize through concurrent arxiv release.}
+}
+
+
 @techreport{2009.08577,
   Author = {Tim Barfoot and Jessica Burgner-Kahrs and Eric Diller and Animesh Garg and Andrew Goldenberg and Jonathan Kelly and Xinyu Liu and Hani E. Naguib and Goldie Nejat and Angela P. Schoellig and Florian Shkurti and Hallie Siegel and Yu Sun and Steven Waslander},
   Title = {{Making Sense of the Robotized Pandemic Response: A Comparison of Global and Canadian Robot Deployments and Success Factors}},
@@ -1731,11 +1735,29 @@ arXiv = {1909.02749},
   blog={https://robotics.utoronto.ca/covid-19-white-paper/}
 }
 
-@techreport{islam2022offline,
-    title={Offline Policy Optimization in RL with Variance Regularizaton},
-    author={Riashat Islam and Samarth Sinha and Homanga Bharadhwaj and Samin Yeasar Arnob and Zhuoran Yang and Animesh Garg and Zhaoran Wang and Lihong Li and Doina Precup},
-    year={2022},
-    month={Dec},
-    arxiv={2212.14405}
+@techreport{2109.12456,
+  title={{Auditing AI models for Verified Deployment under Semantic Specifications}}, 
+  author={Homanga Bharadhwaj and De-An Huang and Chaowei Xiao and Animashree Anandkumar and Animesh Garg},
+  year={2021},
+  month={sept},
+  arXiv = {2109.12456},
+  url={https://sites.google.com/view/audit-ai/},
+  blog={https://developer.nvidia.com/blog/nvidia-research-auditing-ai-models-for-verified-deployment-under-semantic-specifications/},
+  teaser={audit-ai-banner.png},
+  description={How can we design a similarly motivated auditing scheme for deep learning models? We propose a sequence of semantically aligned unit tests each to verify a predefined specification.}
 }
+
+
+@techreport{2210.03825,
+  title={{See, Plan, Predict: Language-guided Cognitive Planning with Video Prediction}}, 
+  author={Maria Attarian and Advaya Gupta and Ziyi Zhou and Wei Yu and Igor Gilitschenski and Animesh Garg},
+  year={2022},
+  month={spr},   
+  arXiv = {2210.03825},
+  url = {https://see-pp.github.io/},
+  teaser={see-pp-2022.jpg},
+  description={A new video prediction architecture using pre-trained transformers for language conditioned goal prediction and planning.}
+}
+
+
 
