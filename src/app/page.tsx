@@ -52,7 +52,7 @@ export default function Home() {
               // Most of this is redundant... but in case it needs to be unique.
               switch (sectionName) {
                 case Section.News:
-                  const newsListToShow = 2;                  
+                  const newsListToShow = 5;                  
                   return (                    
                     newsData.length > 0 && (
                       <section key={sectionName}>
