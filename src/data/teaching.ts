@@ -41,7 +41,7 @@ export const teachingData: Teaching[] = [
     offering: "Sp20",
   },
   {
-    number: "CSC 2621 Toronto",
+    number: "CSC 475",
     title: "Introduction to Reinforcement Learning (UG) ",
     offering: "Sp21, F21",
   }
