@@ -1,7 +1,7 @@
 export interface News {
   date: string;
   title: string;
-  description: string;
+  description?: string;
   link?: string; 
 }
 
