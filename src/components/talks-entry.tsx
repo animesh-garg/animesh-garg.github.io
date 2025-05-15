@@ -10,7 +10,7 @@ import React, { useState } from "react";
 export function TalksEntry({ talks }: { talks: Talks }) {
 
   let imgSrc = (talks.imageUrl) ? talks.imageUrl :'assets/video-thumbnail-default.jpg'; // Default image
-  let provider: string | undefined = undefined;
+  // let provider: string | undefined = undefined;
 
   // Check if the video URL is a YouTube link
   if (talks.videoUrl && talks.videoUrl.includes("youtube")) {
@@ -19,7 +19,7 @@ export function TalksEntry({ talks }: { talks: Talks }) {
       /(?:youtube\.com\/.*v=|youtu\.be\/)([^&?/]+)/,
     );
     const vidID = match ? match[1] : "";
-    provider = "youtube";
+    // provider = "youtube";
     imgSrc = vidID
       ? `https://img.youtube.com/vi/${vidID}/mqdefault.jpg`
       : "assets/video-thumbnail-default.jpg";
@@ -29,7 +29,7 @@ export function TalksEntry({ talks }: { talks: Talks }) {
     // Extract Vimeo video ID from the URL
     const match = talks.videoUrl.match(/(?:vimeo\.com\/)(\d+)/);
     const vidID = match ? match[1] : "";
-    provider = "vimeo";
+    // provider = "vimeo";
     imgSrc = vidID
       ? `https://vumbnail.com/${vidID}.jpg`
       : "assets/video-thumbnail-default.jpg";

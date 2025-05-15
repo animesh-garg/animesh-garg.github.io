@@ -19,6 +19,8 @@ import { talksData } from "@/data/talks";
 import { sectionOrder, Section } from "@/data/section-order";
 
 export default function Home() {
+  const [showMore, setShowMore] = useState(false); //state for show more button in news
+  
   return (
     <div className="min-h-screen bg-[#FFFCF8]">
       {/* Don't have a great call on whether max-w-screen-xl is better */}
@@ -50,8 +52,7 @@ export default function Home() {
               // Most of this is redundant... but in case it needs to be unique.
               switch (sectionName) {
                 case Section.News:
-                  const newsListToShow = 5;
-                  const [showMore, setShowMore] = useState(false);
+                  const newsListToShow = 2;                  
                   return (                    
                     newsData.length > 0 && (
                       <section key={sectionName}>
