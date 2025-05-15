@@ -34,9 +34,9 @@ export const aboutMe: AboutMe = {
     <i>Check out <a href="https://www.pair.toronto.edu/">PAIR Group</a> for more on current reseearch projects, members and how to join.</i>
     `,
   email: "animesh.garg@gatech.edu",
-  imageUrl:
-    "/assets/animesh-sept19-sq.jpg",
-    // "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  imageUrl:    
+    "/assets/animesh-garg-profile-white-nov23.png",
+    // "/assets/animesh-profile-nov23.jpg",
   googleScholarUrl: "https://scholar.google.com/citations?user=zp8V7ZMAAAAJ",
   githubUsername: "animesh-garg",
   linkedinUsername: "animeshgarg",
