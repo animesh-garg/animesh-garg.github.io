@@ -41,7 +41,7 @@ export default function Home() {
             {aboutMe.description && (
               <section>
                 <p
-                  className="font-serif text-sm leading-relaxed text-zinc-700 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600"
+                  className="font-serif text-base leading-relaxed text-zinc-700 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600"
                   dangerouslySetInnerHTML={{ __html: aboutMe.description }}
                 />
               </section>
@@ -56,7 +56,7 @@ export default function Home() {
                   return (                    
                     newsData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-l mb-8 tracking-wide uppercase">
+                        <h2 className="font-serif text-xl mb-8 tracking-wide uppercase">
                           News
                         </h2>
                         <div className="space-y-4">
@@ -84,7 +84,7 @@ export default function Home() {
                   return (
                     educationData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-md mb-8 tracking-wide uppercase">
+                        <h2 className="font-serif text-xl mb-8 tracking-wide uppercase">
                           Education
                         </h2>
                         <div className="space-y-4">
@@ -99,7 +99,7 @@ export default function Home() {
                   return (
                     publicationData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-l mb-8 tracking-wide uppercase">
+                        <h2 className="font-serif text-xl mb-8 tracking-wide uppercase">
                           Publications
                         </h2>
                         <div className="space-y-4">
@@ -119,7 +119,7 @@ export default function Home() {
                   return (
                     experienceData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-md mb-8 tracking-wide uppercase">
+                        <h2 className="font-serif text-xl mb-8 tracking-wide uppercase">
                           Experience
                         </h2>
                         <div className="space-y-4">
@@ -137,7 +137,7 @@ export default function Home() {
                   return (
                     portfolioData.length > 0 && (
                       <section key={sectionName}>
-                        <h2 className="font-serif text-md mb-8 tracking-wide uppercase">
+                        <h2 className="font-serif text-xl mb-8 tracking-wide uppercase">
                           Portfolio
                         </h2>
                         <div className="space-y-4">
@@ -152,7 +152,7 @@ export default function Home() {
                     return (
                       teachingData.length > 0 && (
                         <section key={sectionName}>
-                          <h2 className="font-serif text-md mb-8 tracking-wide uppercase">
+                          <h2 className="font-serif text-xl mb-8 tracking-wide uppercase">
                             Teaching
                           </h2>
                           <div className="space-y-4">
@@ -167,7 +167,7 @@ export default function Home() {
                       return (
                         talksData.length > 0 && (
                           <section key={sectionName}>
-                            <h2 className="font-serif text-md mb-8 tracking-wide uppercase">
+                            <h2 className="font-serif text-xl mb-8 tracking-wide uppercase">
                               Recent Talks
                             </h2>
                             <div className="space-y-4">

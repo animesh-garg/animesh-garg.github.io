@@ -3,7 +3,7 @@ import { Teaching } from "@/data/teaching";
 export function TeachingEntry({ teaching }: { teaching: Teaching }) {
   return (
   <div className="grid grid-cols-4 gap-x-2 ">
-      <span className="text-xs text-zinc-500 mt-1">{teaching.number}</span>
+      <span className="text-sm text-zinc-500 mt-1">{teaching.number}</span>
       <div className="col-span-3 flex flex-col">
       <h3 className="text-base font-serif">
         {teaching.link ? (

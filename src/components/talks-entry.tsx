@@ -67,7 +67,7 @@ export function TalksEntry({ talks }: { talks: Talks }) {
         </div>  
       )}
       <div className="flex flex-col flex-1">
-        <h3 className="font-serif text-md mb-2">
+        <h3 className="font-serif text-base mb-2">
           {talks.videoUrl ? (
             <a
               href={talks.videoUrl} target="_blank"
@@ -92,7 +92,7 @@ export function TalksEntry({ talks }: { talks: Talks }) {
           {talks.slidesUrl && (
             <a
               href={talks.slidesUrl} target="_blank"
-              className="group inline-flex items-center gap-2 text-xs text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
+              className="group inline-flex items-center gap-2 text-sm text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
             >
               <ArrowUpRight
                 size={12}
