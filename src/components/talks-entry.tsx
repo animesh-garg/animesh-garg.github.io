@@ -43,7 +43,7 @@ export function TalksEntry({ talks }: { talks: Talks }) {
 
   return (
     <div className="flex flex-col sm:flex-row gap-6">
-      {talks.imageUrl && (
+      {!talks.imageUrl && (
         <div className="w-1/4 min-w-[160px] relative">
           <a
               href={talks.videoUrl} target="_blank"

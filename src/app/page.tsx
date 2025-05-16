@@ -19,8 +19,9 @@ import { talksData } from "@/data/talks";
 import { sectionOrder, Section } from "@/data/section-order";
 
 export default function Home() {
-  const [showMore, setShowMore] = useState(false); //state for show more button in news
-  
+  const [showMoreNews, setShowMoreNews] = useState(false); //state for show more button in news
+  const [showMoreTalks, setShowMoreTalks] = useState(false); //state for show more button in news
+
   return (
     <div className="min-h-screen bg-[#FFFCF8]">
       {/* Don't have a great call on whether max-w-screen-xl is better */}
@@ -52,7 +53,7 @@ export default function Home() {
               // Most of this is redundant... but in case it needs to be unique.
               switch (sectionName) {
                 case Section.News:
-                  const newsListToShow = 5;                  
+                  const newsListToShow = 5; // Number of news items to show initially          
                   return (                    
                     newsData.length > 0 && (
                       <section key={sectionName}>
@@ -60,7 +61,7 @@ export default function Home() {
                           News
                         </h2>
                         <div className="space-y-4">
-                          {(showMore
+                          {(showMoreNews
                             ? newsData
                             : newsData.slice(0, newsListToShow)
                           ).map((news, index) => (
@@ -71,9 +72,9 @@ export default function Home() {
                           {newsData.length > newsListToShow && (
                             <button
                               className="text-sm text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
-                              onClick={() => setShowMore(!showMore)}
+                              onClick={() => setShowMoreNews(!showMoreNews)}
                             >
-                              {showMore ? "Show Less" : "Show More"}
+                              {showMoreNews ? "Show Less" : "Show More"}
                             </button>
                           )}
                         </div>                        
@@ -164,6 +165,7 @@ export default function Home() {
                       )
                     );
                     case Section.Talks:
+                      const talksListToShow = 3; // Number of talks items to show initially          
                       return (
                         talksData.length > 0 && (
                           <section key={sectionName}>
@@ -171,14 +173,29 @@ export default function Home() {
                               Recent Talks
                             </h2>
                             <div className="space-y-4">
-                              {talksData.map((talks, index) => (
+                              {/* {talksData.map((talks, index) => (
                                 <TalksEntry key={index} talks={talks} />
+                              ))} */}
+                              {(showMoreTalks
+                                ? talksData
+                                : talksData.slice(0, talksListToShow)
+                              ).map((talks, index) => (
+                                <div key={index}>
+                                  <TalksEntry talks={talks} />
+                                </div>
                               ))}
+                              {talksData.length > talksListToShow && (
+                                <button
+                                  className="text-sm text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
+                                  onClick={() => setShowMoreTalks(!showMoreTalks)}
+                                >
+                                  {showMoreTalks ? "Show Less" : "Show More"}
+                                </button>
+                              )}
                             </div>
                           </section>
                         )
-                      );
-  
+                      );                    
                 default:
                   return null;
               }

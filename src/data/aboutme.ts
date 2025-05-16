@@ -24,7 +24,7 @@ export interface AboutMe {
 export const aboutMe: AboutMe = {
   name: "Animesh Garg",
   title: "AI Researcher",
-  institution: "Georgia Institute of Technology",
+  institution: "Georgia Tech",
   // Note that links work in the description
   description: `
     I am a <a href=https://research.gatech.edu/animesh-garg>Stephen Fleming Early Career Professor</a> in Computer Science at Georgia Tech. I am in the <a href=https://www.ic.gatech.edu/person/faculty><i>School of Interactive Computing</i></a> affiliated with <a href=https://www.research.gatech.edu/robotics/faculty/core><i>Robotics</i></a> and <a href=https://ml.gatech.edu/people/faculty/phdprogramfaculty><i>Machine Learning</i></a> programs. I also hold courtesy appointments at University of Toronto and Vector Institute. I have previously held research leadership positions at Nvidia and Apptronik. <br><br>
