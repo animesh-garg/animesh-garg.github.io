@@ -15,6 +15,11 @@ export const talksData: Talks[] = [
     videoUrl: "https://www.youtube.com/watch?v=Pu1i0VK5F6I",
   },
   {
+    title: "Towards Generalizable Autonomy",
+    date: "June 2024, NURO Seminar Series",
+    videoUrl: "https://www.youtube.com/watch?v=i81TjWOSv7E",
+  },
+  {
     title: "Building Blocks of Embodied AI",
     date: "Oct 2022 Stanford Robotics Seminar",
     videoUrl: "https://www.youtube.com/watch?v=M8LAIiU7VPA",
