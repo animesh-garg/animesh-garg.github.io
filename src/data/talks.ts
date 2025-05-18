@@ -16,7 +16,7 @@ export const talksData: Talks[] = [
   },
   {
     title: "Towards Generalizable Autonomy",
-    date: "June 2024, NURO Seminar Series",
+    date: "Mar 2023, NURO Seminar Series",
     videoUrl: "https://www.youtube.com/watch?v=i81TjWOSv7E",
   },
   {
