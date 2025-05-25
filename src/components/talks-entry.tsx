@@ -37,8 +37,8 @@ export function TalksEntry({ talks }: { talks: Talks }) {
       : "assets/video-thumbnail-default.jpg";
   }
 
-  let imglink = talks.videoUrl ? talks.videoUrl : (talks.slidesUrl ? talks.slidesUrl : "");
-
+  // assign image link to the video link, otherwise assign slides link
+  const imglink = talks.videoUrl ? talks.videoUrl : (talks.slidesUrl ? talks.slidesUrl : "");
 
   const [isOpen, setIsOpen] = useState(false);
   const handleImageClick = () => {
