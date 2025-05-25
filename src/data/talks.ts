@@ -10,6 +10,12 @@ export interface Talks {
 export const talksData: Talks[] = [
   // Example entry
   {
+    title: "Data will Solve Robotics?",
+    date: "May 2025, ICRA Keynote Debate",
+    imageUrl: "/assets/pdfs/garg-icra-keynote-debate-may2025.jpg",
+    slidesUrl: "/assets/pdfs/garg-icra-keynote-debate-may2025.pdf",
+  },
+  {
     title: "Priors as Abstractions for Autonomy",
     date: "June 2024, CVPR CORR Workshop",
     videoUrl: "https://www.youtube.com/watch?v=Pu1i0VK5F6I",
