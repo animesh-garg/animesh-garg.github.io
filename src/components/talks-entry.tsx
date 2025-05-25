@@ -9,11 +9,13 @@ import React, { useState } from "react";
 
 export function TalksEntry({ talks }: { talks: Talks }) {
 
-  let imgSrc = (talks.imageUrl) ? talks.imageUrl :'assets/video-thumbnail-default.jpg'; // Default image
-  // let provider: string | undefined = undefined;
-
+  let imgSrc = "";
+   // Default image
+  if (talks.imageUrl) {
+    imgSrc = talks.imageUrl; 
+  }
   // Check if the video URL is a YouTube link
-  if (talks.videoUrl && talks.videoUrl.includes("youtube")) {
+  else if (talks.videoUrl && talks.videoUrl.includes("youtube")) {
     // Extract YouTube video ID from the URL
     const match = talks.videoUrl.match(
       /(?:youtube\.com\/.*v=|youtu\.be\/)([^&?/]+)/,
@@ -35,6 +37,9 @@ export function TalksEntry({ talks }: { talks: Talks }) {
       : "assets/video-thumbnail-default.jpg";
   }
 
+  let imglink = talks.videoUrl ? talks.videoUrl : (talks.slidesUrl ? talks.slidesUrl : "");
+
+
   const [isOpen, setIsOpen] = useState(false);
   const handleImageClick = () => {
     // Handle image click event
@@ -43,10 +48,10 @@ export function TalksEntry({ talks }: { talks: Talks }) {
 
   return (
     <div className="flex flex-col sm:flex-row gap-6">
-      {!talks.imageUrl && (
+      {(
         <div className="w-1/4 min-w-[160px] relative">
           <a
-              href={talks.videoUrl} target="_blank"
+              href={imglink} target="_blank"
               className="group inline-flex items-center gap-2 hover:text-zinc-600 transition-colors duration-300"
             >
           <Image
