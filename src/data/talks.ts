@@ -16,6 +16,13 @@ export const talksData: Talks[] = [
     slidesUrl: "/assets/pdfs/garg-icra-keynote-debate-may2025.pdf",
   },
   {
+    title: "Representations for Embodied FMs",
+    date: "Apr 2025, ICLR Robot Learning Workshop",
+    videoUrl: "https://iclr.cc/virtual/2025/workshop/23997#wse-detail-10000228",
+    imageUrl: "/assets/pdfs/garg-robot-learning-wksp-iclr-apr25.jpg",
+    slidesUrl: "/assets/pdfs/garg-robot-learning-wksp-iclr-apr25.pdf",
+  },
+  {
     title: "Priors as Abstractions for Autonomy",
     date: "June 2024, CVPR CORR Workshop",
     videoUrl: "https://www.youtube.com/watch?v=Pu1i0VK5F6I",
@@ -29,7 +36,6 @@ export const talksData: Talks[] = [
     title: "Building Blocks of Embodied AI",
     date: "Oct 2022 Stanford Robotics Seminar",
     videoUrl: "https://www.youtube.com/watch?v=M8LAIiU7VPA",
-    // slidesUrl: "https://www.youtube.com/watch?v=M8LAIiU7VPA",
   },
   {
     title: "Generalizable Autonomy for Robot Manipulation",
