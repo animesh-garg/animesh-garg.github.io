@@ -20,6 +20,14 @@ export const newsData: News[] = [
     `
   },
   {
+    date: "May 2025",
+    title: "3 Paper accepted at ICRA 2025",
+    description: `
+    Our work <a href=https://orbit-surgical.github.io/sufia-bc/>Sufia-BC</a>, <a href=https://rocoda.github.io/>RoCODA</a>, <a href=https://plan-with-climb.github.io/>CLIMB</a> on will be at ICRA 2025.
+    `,
+    link: "https://2025.ieee-icra.org/program/",    
+  },
+  {
     date: "April 2025",
     title: "Program Chair at ICLR 2025",
     link: "https://iclr.cc/",
@@ -30,20 +38,11 @@ export const newsData: News[] = [
     link: "https://iclr.cc/virtual/2025/workshop/23997#wse-detail-10000228",    
   },
   {
-    date: "Jan 2025",
+    date: "April 2025",
     title: "2 Paper accepted at ICLR 2025",
     description: `
     Our work <a href=https://arxiv.org/abs/2407.02466v3/>PWM</a> and  <a href=https://openreview.net/forum?id=zAyS5aRKV8/>EgoSim</a> on will be at ICLR 2025.
     `,
-    link: "https://2025.ieee-icra.org/program/",   
     link: "https://iclr.cc/virtual/2025/workshop/23997#wse-detail-10000228",    
-  },
-  {
-    date: "Jan 2025",
-    title: "3 Paper accepted at ICRA 2025",
-    description: `
-    Our work <a href=https://orbit-surgical.github.io/sufia-bc/>Sufia-BC</a>, <a href=https://rocoda.github.io/>RoCODA</a>, <a href=https://plan-with-climb.github.io/>CLIMB</a> on will be at ICRA 2025.
-    `,
-    link: "https://2025.ieee-icra.org/program/",    
   }
 ];
