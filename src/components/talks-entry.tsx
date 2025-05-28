@@ -4,11 +4,10 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { Talks } from "@/data/talks";
 import React, { useState } from "react";
-// import VideoModal from "@/components/videoPlayer";
-// import ModalVideo from "react-modal-video";
+// import VenoBox from "venobox";  
 
 export function TalksEntry({ talks }: { talks: Talks }) {
-
+  
   let imgSrc = "";
    // Default image
   if (talks.imageUrl) {
@@ -40,12 +39,10 @@ export function TalksEntry({ talks }: { talks: Talks }) {
   // assign image link to the video link, otherwise assign slides link
   const imglink = talks.videoUrl ? talks.videoUrl : (talks.slidesUrl ? talks.slidesUrl : "");
 
-  const [isOpen, setIsOpen] = useState(false);
-  const handleImageClick = () => {
-    // Handle image click event
-    setIsOpen(!isOpen);
-  };
-
+  //handle toggling of FsLightbox
+  // const [toggler, setToggler] = useState(false); // For FsLightbox toggling
+  // const lightboxSrc = talks.videoUrl ? talks.videoUrl : talks.imageUrl; 
+  
   return (
     <div className="flex flex-col sm:flex-row gap-6">
       {(
@@ -60,15 +57,9 @@ export function TalksEntry({ talks }: { talks: Talks }) {
             width={160}
             height={200}
             className="rounded-lg"
-            onClick={handleImageClick}
+            //onClick={() => setToggler(!toggler)}
           />
           </a>
-          {/* <ModalVideo
-            isOpen={isOpen}
-            close={() => setIsOpen(false)}
-            videoID={talks.videoUrl}
-            chanel={provider}
-          /> */}
         </div>  
       )}
       <div className="flex flex-col flex-1">
