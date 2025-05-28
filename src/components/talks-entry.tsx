@@ -3,7 +3,8 @@
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { Talks } from "@/data/talks";
-import React, { useState } from "react";
+import React from "react";
+// import React, { useState } from "react";
 // import VenoBox from "venobox";  
 
 export function TalksEntry({ talks }: { talks: Talks }) {
@@ -40,7 +41,7 @@ export function TalksEntry({ talks }: { talks: Talks }) {
   const imglink = talks.videoUrl ? talks.videoUrl : (talks.slidesUrl ? talks.slidesUrl : "");
 
   //handle toggling of FsLightbox
-  // const [toggler, setToggler] = useState(false); // For FsLightbox toggling
+  // const [toggler, setToggler] = useState(false); // For ilghtbox toggling
   // const lightboxSrc = talks.videoUrl ? talks.videoUrl : talks.imageUrl; 
   
   return (
@@ -57,7 +58,6 @@ export function TalksEntry({ talks }: { talks: Talks }) {
             width={160}
             height={200}
             className="rounded-lg"
-            //onClick={() => setToggler(!toggler)}
           />
           </a>
         </div>  

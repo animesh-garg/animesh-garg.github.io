@@ -40,9 +40,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="stylesheet" href="venobox/venobox.min.css" type="text/css" media="screen" />
-      </head>
       
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${notoSerif.variable} ${ptSerif.variable} antialiased`}
@@ -73,7 +70,6 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
-        <script type="text/javascript" src="venobox/venobox.min.js"></script>
       </body>
     </html>
   );
