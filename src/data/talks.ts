@@ -12,6 +12,7 @@ export const talksData: Talks[] = [
   {
     title: "Data will Solve Robotics?",
     date: "May 2025, ICRA Keynote Debate",
+    videoUrl: "https://youtu.be/PfvctjoMPk8?si=UWme-89_Za054aeA&t=196",
     imageUrl: "/assets/pdfs/garg-icra-keynote-debate-may2025.jpg",
     slidesUrl: "/assets/pdfs/garg-icra-keynote-debate-may2025.pdf",
   },
