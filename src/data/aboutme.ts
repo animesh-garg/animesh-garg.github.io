@@ -31,7 +31,7 @@ export const aboutMe: AboutMe = {
     My research vision is to build the <i>Algorithmic Foundations for Generalizable Autonomy</i>, that enables robots to acquire skills, at both cognitive & dexterous levels, and to seamlessly interact & collaborate with humans in novel environments. My group focuses on understanding <i>structured inductive biases</i> and <i>causality for decision making</i>. In particular we are looking at <i>multi-modal object-centric and spatiotemporal event representations</i>, <i>self-supervised pre-training for reinforcement learning & control</i>, <i>principle of efficient dexterous skill learning</i>.<br><br>
     <b>Research Interests:</b> Foundation Models, Reinforcement Learning, Robotics, 3D Vision.<br>
     <b>Current Applications:</b> Self-Driving Labs, Surgical Robotics, Personal Robotics.<br><br>
-    <i>Check out <a href="https://www.pair.toronto.edu/">PAIR Group</a> for info on reseearch projects and how to join.</i>
+    <i>Check out <a href="https://pairlab.github.io/"><b>PAIR Group</b></a> for info on our research and how to join us.</i>
     `,
   email: "animesh.garg@gatech.edu",
   imageUrl:    
