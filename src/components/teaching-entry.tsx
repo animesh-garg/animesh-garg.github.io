@@ -1,4 +1,5 @@
 import { Teaching } from "@/data/teaching";
+import { ArrowUpRight } from "lucide-react";
 
 export function TeachingEntry({ teaching }: { teaching: Teaching }) {
   return (
@@ -14,6 +15,10 @@ export function TeachingEntry({ teaching }: { teaching: Teaching }) {
             className="group inline-flex items-center gap-2 hover:text-zinc-600 transition-colors duration-300"
           >
             {teaching.title}
+            <ArrowUpRight
+              size={16}
+              className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300 text-zinc-500"
+            />          
           </a>
           ) : (
           teaching.title

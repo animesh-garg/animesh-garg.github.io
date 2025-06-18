@@ -72,7 +72,7 @@ export function TalksEntry({ talks }: { talks: Talks }) {
               {talks.title}
               <ArrowUpRight
                 size={16}
-                className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
+                className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300 text-zinc-500"
               />
             </a>
           ) : (
@@ -92,7 +92,7 @@ export function TalksEntry({ talks }: { talks: Talks }) {
             >
               <ArrowUpRight
                 size={12}
-                className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
+                className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300 text-zinc-500"
               />
               <span className="tracking-wider uppercase">Slides</span>
             </a>
