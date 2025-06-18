@@ -149,53 +149,53 @@ export default function Home() {
                       </section>
                     )
                   );
-                  case Section.Teaching:
+                case Section.Teaching:
+                  return (
+                    teachingData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-xl mb-8 tracking-wide uppercase">
+                          Teaching
+                        </h2>
+                        <div className="space-y-4">
+                          {teachingData.map((teaching, index) => (
+                            <TeachingEntry key={index} teaching={teaching} />
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                case Section.Talks:
+                    const talksListToShow = 3; // Number of talks items to show initially          
                     return (
-                      teachingData.length > 0 && (
+                      talksData.length > 0 && (
                         <section key={sectionName}>
                           <h2 className="font-serif text-xl mb-8 tracking-wide uppercase">
-                            Teaching
+                            Recent Talks
                           </h2>
                           <div className="space-y-4">
-                            {teachingData.map((teaching, index) => (
-                              <TeachingEntry key={index} teaching={teaching} />
+                            {/* {talksData.map((talks, index) => (
+                              <TalksEntry key={index} talks={talks} />
+                            ))} */}
+                            {(showMoreTalks
+                              ? talksData
+                              : talksData.slice(0, talksListToShow)
+                            ).map((talks, index) => (
+                              <div key={index}>
+                                <TalksEntry talks={talks} />
+                              </div>
                             ))}
+                            {talksData.length > talksListToShow && (
+                              <button
+                                className="text-sm text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
+                                onClick={() => setShowMoreTalks(!showMoreTalks)}
+                              >
+                                {showMoreTalks ? "Show Less" : "Show More"}
+                              </button>
+                            )}
                           </div>
                         </section>
                       )
-                    );
-                    case Section.Talks:
-                      const talksListToShow = 3; // Number of talks items to show initially          
-                      return (
-                        talksData.length > 0 && (
-                          <section key={sectionName}>
-                            <h2 className="font-serif text-xl mb-8 tracking-wide uppercase">
-                              Recent Talks
-                            </h2>
-                            <div className="space-y-4">
-                              {/* {talksData.map((talks, index) => (
-                                <TalksEntry key={index} talks={talks} />
-                              ))} */}
-                              {(showMoreTalks
-                                ? talksData
-                                : talksData.slice(0, talksListToShow)
-                              ).map((talks, index) => (
-                                <div key={index}>
-                                  <TalksEntry talks={talks} />
-                                </div>
-                              ))}
-                              {talksData.length > talksListToShow && (
-                                <button
-                                  className="text-sm text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
-                                  onClick={() => setShowMoreTalks(!showMoreTalks)}
-                                >
-                                  {showMoreTalks ? "Show Less" : "Show More"}
-                                </button>
-                              )}
-                            </div>
-                          </section>
-                        )
-                      );                    
+                    );                    
                 default:
                   return null;
               }
