@@ -118,7 +118,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
             <>
               <br />
               <a
-                href={`https://${aboutMe.labPage}`}
+                href={`${aboutMe.labPage}`}
                 className="inline-flex items-center gap-2 text-sm text-zinc-600 hover:text-zinc-900 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -133,7 +133,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
             <>
               <br />
               <a
-                href={`https://twitter.com/${aboutMe.twitterUsername}`}
+                href={`https://x.com/${aboutMe.twitterUsername}`}
                 className="inline-flex items-center gap-2 text-sm text-zinc-600 hover:text-zinc-900 transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"

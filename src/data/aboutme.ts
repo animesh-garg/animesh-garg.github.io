@@ -43,7 +43,7 @@ export const aboutMe: AboutMe = {
   blogUrl: "https://roboticks.substack.com/",
   cvUrl: "/assets/garg-cv-0425.pdf",
   institutionUrl: "https://www.gatech.edu",
-  labPage: "https://www.pair.toronto.edu",
+  labPage: "https://pairlab.github.io",
   addressOffice: "CODA S1145, Atlanta, GA",
   address: `
   CODA Building S1145,  <br> 
