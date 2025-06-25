@@ -40,7 +40,7 @@ export const aboutMe: AboutMe = {
   githubUsername: "animesh-garg",
   linkedinUsername: "animeshgarg",
   twitterUsername: "animesh_garg",
-  blogUrl: "https://roboticks.substack.com/",
+  blogUrl: "https://praxiscurrents.substack.com/",
   cvUrl: "/assets/garg-cv-0425.pdf",
   institutionUrl: "https://www.gatech.edu",
   labPage: "https://pairlab.github.io",
