@@ -11,7 +11,7 @@ export const teachingData: Teaching[] = [
   {
     number: "CS 3600",
     title: "Introduction to AI (UG)",
-    offering: "Sp25",
+    offering: "Sp25, Sp26",
     // description: "Large GT class on intro to ai",
     link: "",
   },
