@@ -10,11 +10,29 @@ export interface Talks {
 export const talksData: Talks[] = [
   // Example entry
   {
+    title: "The Hard Part Is Not Training Robots. It Is Making Them Generalize?",
+    date: "Jan 2026, Building Deep Tech Podcast",
+    videoUrl: "https://www.youtube.com/watch?v=-XeZnCZ3QlI&themeRefresh=1",
+    imageUrl: "/assets/pdfs/garg-building-deep-tech.jan26-pod.jpg",
+  },
+  {
+    title: "Generalizable Embodied AI with Agentic Frameworks",
+    date: "Jul 2025, RSS/ICML Workshops",
+    videoUrl: "https://youtu.be/9yPANZu5P34?si=ee190SXRSad8Cupm",
+    imageUrl: "/assets/pdfs/garg-planning-rss25-wksp.jpg",
+  },
+  {
     title: "Data will Solve Robotics?",
     date: "May 2025, ICRA Keynote Debate",
     videoUrl: "https://youtu.be/PfvctjoMPk8?si=UWme-89_Za054aeA&t=196",
     imageUrl: "/assets/pdfs/garg-icra-keynote-debate-may2025.jpg",
     slidesUrl: "/assets/pdfs/garg-icra-keynote-debate-may2025.pdf",
+  },
+   {
+    title: "Surgical Autonomy in the era of Generative AI",
+    date: "May 2025, ICRA Workshop on Surgical Robotics ",
+    videoUrl: "https://www.youtube.com/watch?v=ipWgQ_imks8",
+    imageUrl: "/assets/pdfs/garg-surgical-icra25-wksp.jpg",
   },
   {
     title: "Representations for Embodied FMs",
